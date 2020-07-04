@@ -1,0 +1,44 @@
+title: Brandon Chan
+description: Programmer and Media Designer
+baseurl: "/brandonchan/"
+url: "BrandevCode.github.io"
+repository: BrandevCode/BrandonChanWebsite
+paginate: 28
+
+banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
+favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
+title_font: "/assets/fonts/ufonts.com_opineheavy-regular.ttf" # site's left side logo
+
+# MatJek specific configurations
+user: 
+  name: "Brandon Chan"
+  email: "brandonchan@hotmail.com"
+  website: "brandonchan.ca"
+  avatar: "/assets/res/user.png"
+  github: "brandevcode"
+google_tracking_id: ""
+google_site_verification: ""
+disqus_shortname: brandonchan
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
+  future: true

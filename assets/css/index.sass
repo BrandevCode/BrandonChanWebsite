@@ -1,0 +1,50 @@
+---
+---
+
+@import 'list'
+@import 'palette'
+
+main
+  div
+    .row
+      margin-top: 20px
+
+  ul
+    &:not(.browser-default)
+      &.pagination
+        padding-left: 0
+
+        li
+          &.disabled.pagination li.active
+            a
+              i
+                color: $light-gray
+          &.active
+            background: $raisin-black
+          a
+            &:hover              
+              text-decoration: none
+
+#post-title
+  margin-bottom: 2px
+  font-weight: bold
+
+#post-date
+  margin-bottom: 8px
+  font-size: 14px
+
+  i
+    font-size: 11.5px
+    margin-right: 10px
+
+#post-content
+  margin-top: 5px
+
+
+.h2-title
+  color: $white
+  font-size: 1.7rem
+  background-color: $raisin-black
+  padding: 10px
+  border: 2px solid $black-olive
+  border-radius: 8px
