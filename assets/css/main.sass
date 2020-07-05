@@ -1,0 +1,324 @@
+---
+---
+
+// _sass/
+@import 'palette'
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed')
+
+// Overall
+@font-face
+  font-family: "OpineHeavy"
+  src: url({{ site.description }}) format('truetype')
+
+.circle
+  width: 68% !important
+  height: 68% !important
+
+//overflow: overlay sets scrollbar over the content
+body
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+  font-family: 'Roboto Condensed', sans-serif
+  color: #eee
+  overflow: overlay
+  overflow-x: hidden
+  max-width: 100%
+
+.highlighter-rouge pre
+  tab-size: 4
+
+a:hover
+  text-decoration: underline
+
+a:active
+  text-decoration: underline
+
+main
+  flex: 1 0 auto
+
+.container
+  background-color: $spanish-gray
+  width: 100%
+  padding-top: 1px
+  padding-bottom: 2px
+
+// Header
+// .background backup -webkit-linear-gradient(90deg, #3AA17E 10%, #00537E 90%), linear-gradient(90deg, #3AA17E 10%, #00537E 90%)
+header
+  a:hover
+    text-decoration: none
+
+  .background
+    background: $raisin-black
+
+nav 
+  .page-title
+    position: absolute
+    text-align: center
+    float: none
+    font-size: 28px
+    font-weight: bold
+    height: 50px
+    line-height: 50px
+    top: 0
+  
+nav
+  .nav-wrapper
+    text-align: center
+    background-color: $raisin-black
+    //padding-right: -16 !important
+
+//nav ul li
+//  padding: 0 4px 0 0
+
+.navbar-fixed.top-nav
+  height: 50px
+
+.side-nav
+  background-color: $spanish-gray-accent-1
+  overflow: overlay
+
+.side-nav li>a
+  padding: 0 16px
+
+.side-nav li>a>i
+  margin: 0 20px 0 0 
+
+.side-nav .collapsible-body, .side-nav.fixed .collapsible-body
+  background-color: $spanish-gray
+
+.side-nav .collapsible-body li a, .side-nav.fixed .collapsible-body li a
+  color: $white !important
+
+a.waves-effect
+  color: $white !important
+
+#nav-bar
+  .las
+    color: $white
+
+#nav-bar
+  color: $white !important
+
+// Footer
+footer.page-footer
+  margin-top: 10px
+  background: $raisin-black
+
+  .row
+    margin-bottom: 0px
+
+  p
+    margin-top: 5px
+
+// Misc
+blockquote
+  border-left-color: $cg-red
+
+main
+  ul
+    &:not(.browser-default)
+      padding-left: 40px
+
+      li
+        list-style-type: disc
+
+@media only screen and (max-width: 992px)
+  header,
+  main,
+  footer
+    padding-left: 0
+
+@media only screen and (max-width: 600px)
+  nav
+    .page-title
+      font-size: 20px
+
+
+@media only screen and (max-width: 992px)    
+  main
+    .typing-effect-container p
+      font-size: 5.5vw
+      overflow: x
+      word-break: break-all
+      word-wrap: break-word
+      display: block
+      white-space: nowrap
+      margin-left: -100%
+      margin-right: -100%
+
+//overflow-y to stop navbar shifting with scrollbar
+html
+  background-color: $spanish-gray-accent-1
+  overflow-x: hidden
+
+.mat-label
+  color: $white
+
+.mat-div:after
+  background-color: $white
+
+.mat-div:before
+  background-color: $white
+
+.parallax-container 
+  height: 500px
+
+nav
+  height: 50px
+  line-height: 50px
+
+#nav-mobile .las, nav .button-collapse
+  height: 50px !important
+  line-height: 50px !important
+  margin: 0px
+
+#nav-mobile .las
+  display: block
+
+//Typing Effect
+
+.typing-effect-container
+  height: 100vh
+  display: flex
+  justify-content: center
+
+.typing-effect-container p
+  text-align: center
+  font-size: 3.5rem
+  padding: 10rem
+  font-weight: bold
+  letter-spacing: 0.1rem
+  overflow: hidden
+
+.typing-effect-container p span.typed-text
+  font-weight: normal
+  color: $cg-red
+
+.typing-effect-container p span.cursor
+  display: inline-block
+  background-color: $cg-red
+  margin-left: 0.1rem
+  width: 3px
+  animation: blink 1s infinite
+
+.typing-effect-container p span.cursor.typing 
+  animation: none
+
+.landing-title-text
+  padding-left: 0.5rem
+  background-color: $raisin-black-transparent
+
+@keyframes blink
+  0%  
+    background-color: $cg-red
+  49% 
+    background-color: $cg-red
+  50% 
+    background-color: transparent
+  99% 
+    background-color: transparent
+  100% 
+    background-color: $cg-red
+
+//Slide animation
+
+.slide-top 
+  animation: slide-top 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
+.slide-top-delayed
+  animation: slide-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
+@keyframes slide-top 
+  0% 
+    transform: translateY(100px)
+    opacity: 0
+  100% 
+    transform: translateY(0)
+    opacity: 1
+
+//Rotate animation
+
+i.las.la-caret-down
+    font-size: 18px
+
+.rotate
+  -moz-transition: all .15s linear
+  -webkit-transition: all .15s linear
+  transition: all .15s linear
+
+.rotate.down
+  -moz-transform: rotate(360deg)
+  -webkit-transform: rotate(360deg)
+  transform: rotate(360deg)
+
+
+//Sidenav hover animation
+
+.side-nav 
+  a:hover
+    background-color: $raisin-black !important
+
+.side-nav li.active
+  background-color: $raisin-black !important
+
+//Search box
+
+.input-field input[type=search]
+  padding-left: 0
+  width: 100%
+  background-color: $spanish-gray
+  color: $white
+
+.input-field input[type=search].placeholder
+  background-color: $spanish-gray
+  color: $white
+
+.input-field input[type=search]:focus
+  border-bottom: 1px solid $cg-red-accent-2 !important
+  box-shadow: 0 1px 0 0 $cg-red-accent-2 !important
+  background-color: $spanish-gray
+  color: $white
+
+.input-field input[type=search].valid 
+  border-bottom: 1px solid $cg-red-accent-2 !important
+  box-shadow: 0 1px 0 0 $cg-red-accent-2 !important
+  background-color: $spanish-gray
+  color: $white
+
+.input-field input[type=search].invalid 
+  border-bottom: 1px solid $cg-red-accent-2 !important
+  box-shadow: 0 1px 0 0 $cg-red-accent-2 !important
+  background-color: $spanish-gray
+
+.input-field .prefix.active 
+  color: $white
+
+//To fix background color in search box
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus
+  -webkit-box-shadow: 0 0 0 30px $spanish-gray inset !important
+
+//Custom Scrollbar
+
+::-webkit-scrollbar
+    width: 16px
+    z-index: 1000
+    background-color: $black-olive
+
+::-webkit-scrollbar-thumb
+    background-clip: padding-box
+    border-radius: 16px
+    border: 4px solid transparent
+    background-color: rgba(0, 0, 0, 0.6)
+    cursor: pointer
+    -webkit-transition: background-color 0.1s ease
+    transition: background-color 0.1s ease

@@ -1,0 +1,57 @@
+---
+layout: default
+css: ["page.css"]
+---
+
+<header>
+	{% if page.toc %}
+		{% include header-wTOC.html %}
+	{% else %}
+		{% include header-wtTOC.html %}
+	{% endif %}
+</header>
+<main>
+
+    <div class="parallax-container">
+
+		<div class="typing-effect-container slide-top">
+				<p>
+					<span class="landing-title-text">
+						<!--<span style="color: rgb(201, 35, 35)">var </span>Brandon = <span class="typed-text"></span><span class="cursor">&nbsp;</span>;-->
+						<span style="color: rgb(201, 35, 35)"></span>Brandon is a <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+					</span>
+				</p>
+		</div>
+
+		<div class="parallax"><img src="images/background/04.jpg"></div>
+
+	</div>
+		
+	<div class="container">
+	  <div id="page-info">
+		  <h2>{{page.title}}</h2>
+		</div>
+		<div class="row">
+			{{ content }}
+			{% if site.disqus_shortname and page.comment %}
+			  {% include disqus.html %}
+			{% endif %}
+		</div>
+	</div>
+
+
+
+	<!--
+    <div class="parallax-container">
+		<div class="parallax"><img src="images/background/01.jpg"></div>
+	</div>		
+
+    <div class="parallax-container">
+		<div class="parallax"><img src="images/background/02.jpg"></div>
+	</div>
+
+    <div class="parallax-container">
+		<div class="parallax"><img src="images/background/03.jpg"></div>
+	</div>
+	-->
+</main>

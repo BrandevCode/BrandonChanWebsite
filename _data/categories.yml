@@ -1,0 +1,18 @@
+- slug: employers
+  name: For Employers
+  image: images/background/employers.jpg
+- slug: code
+  name: Programming
+  image: images/background/programming.jpg
+- slug: artwork
+  name: Artwork
+  image: images/background/artwork.jpg
+- slug: video
+  name: Video Editing
+  image: images/background/video.gif
+- slug: cooking
+  name: Cooking
+  image: http://placekitten.com/400/250
+- slug: books
+  name: Books
+  image: http://placekitten.com/300/300
