@@ -14,7 +14,7 @@ $(document).ready(function(){
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Programmer", "Designer", "Video Editor", "Gamer", "Guitarist", "Snowboarder"];
+const textArray = ["Programmer", "Web Developer", "QA Engineer", "BI Analyst", "Video Editor", "Guitarist", "Snowboarder"];
 const typingDelay = 135;
 const erasingDelay = 120;
 const newTextDelay = 2250; // Delay between current and next text
@@ -74,7 +74,7 @@ $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();
   var pageBottom = pageTop + $(window).height();
   var tags = $(".fadein");
-
+  
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
 

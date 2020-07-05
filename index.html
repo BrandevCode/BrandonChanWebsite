@@ -82,13 +82,14 @@ css: ["index.css"]
             {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
             {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
             
-              <div class="col s3 fadein">
+            <!-- might want to change to "fadein" in the future-->
+              <div class="col s3 slide-top-delayed-2">
                 <div class="card cat-card z-depth-5">
                   <div class="card-image waves-effect waves-block">
                     <a href="{{ site.baseurl }}/categories#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">		
                     <img src="{{ catego.image }}">
-                    </a>
                     <span class="card-title">{{ catego.name }}</span>
+                    </a>
                   </div>
                 </div>
               </div>
