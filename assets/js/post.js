@@ -9,3 +9,22 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.scrollspy').scrollSpy();
 });
+
+$(document).ready(function(){
+
+  $('.slider').slider({ 
+      full_width: true,
+      height : 800, // default - height : 400
+      interval: 8000 // default - interval: 6000
+  });
+
+});
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
+
+$('.carousel.carousel-slider').carousel({
+  fullWidth: true
+});
+      
