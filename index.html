@@ -8,20 +8,16 @@ css: ["index.css"]
   <div class="slide-top-delayed">
     <h2 class="h2-title z-depth-4">Latest Posts</h2>
     <div class="thi-columns z-depth-5">
-      <ul class="tag-post">
       {% for post in paginator.posts %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-          <li>
+        <a class="post-title button paper-raise" href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }} <small class="post-date">{{post.date | date: "%d/%m/%Y"}}</small>
-          </li>
         </a>
       {% endfor %}
-      </ul>
     </div>
   </div>
 
   <div class="col s12 center-align">
-    <ul class="pagination">
+    <ul class="pagination slide-top-delayed">
       <li class="{% unless paginator.previous_page %}disabled{% else %}waves-effect{% endunless %}">
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
@@ -87,8 +83,8 @@ css: ["index.css"]
                 <div class="card cat-card z-depth-5">
                   <div class="card-image waves-effect waves-block">
                     <a href="{{ site.baseurl }}/categories#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">		
-                    <img src="{{ catego.image }}">
                     <span class="card-title">{{ catego.name }}</span>
+                    <img src="../{{ catego.image }}">
                     </a>
                   </div>
                 </div>
@@ -108,7 +104,7 @@ css: ["index.css"]
 <div class="row">
   <div class="tag-div fadein">
     <h2 class="h2-title z-depth-5">Tags</h2>
-    <div class="tag-list thi-columns z-depth-5">
+    <div class="tag-list thi-single-column z-depth-5">
       {% for tag in site.tags %}
         {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
         {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}

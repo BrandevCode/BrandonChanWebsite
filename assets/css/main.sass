@@ -91,12 +91,11 @@ nav
 .side-nav .collapsible-body li a, .side-nav.fixed .collapsible-body li a
   color: $white !important
 
+#nav-bar > ul > li > a > i.las.la-lg::before
+  font-size: 24px
+
 a.waves-effect
   color: $white !important
-
-#nav-bar
-  .las
-    color: $white
 
 #nav-bar
   color: $white !important
@@ -119,7 +118,7 @@ blockquote
 main
   ul
     &:not(.browser-default)
-      padding-left: 40px
+      //padding-left: 40px
 
       li
         list-style-type: disc
@@ -176,6 +175,32 @@ nav
 
 #nav-mobile .las
   display: block
+  font-size: 18px !important
+  //padding-left: 2.5px
+
+#nav-mobile a:hover
+  box-shadow: 0 3px 0 0 $cg-red-accent-1
+
+#nav-mobile .las::before
+  background: $cg-red
+  border-radius: 50%
+  padding: 6px
+
+#nav-mobile
+  margin: auto
+  font-size: 21px
+
+#nav-mobile a i span
+  padding-right: 3.5px
+
+#nav-mobile li
+  margin: 0px
+
+.circle-icon::before
+  background: $cg-red-accent-1
+  border-radius: 50%
+  padding: 4px
+  color: $white
 
 //Typing Effect
 
@@ -245,6 +270,7 @@ nav
 
 i.las.la-caret-down
     font-size: 18px
+    color: $white
 
 .rotate
   -moz-transition: all .15s linear

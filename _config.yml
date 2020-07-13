@@ -20,7 +20,7 @@ user:
   github: "brandevcode"
 google_tracking_id: ""
 google_site_verification: ""
-disqus_shortname: brandonchan
+disqus_shortname: brandonchan.ca
 
 # Build settings
 markdown: kramdown

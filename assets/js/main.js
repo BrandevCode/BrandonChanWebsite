@@ -14,7 +14,7 @@ $(document).ready(function(){
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Programmer", "Web Developer", "QA Engineer", "BI Analyst", "Video Editor", "Guitarist", "Snowboarder"];
+const textArray = ["Programmer", "Web Developer", "QA Engineer", "BI Developer", "Video Editor", "Guitarist", "Snowboarder"];
 const typingDelay = 135;
 const erasingDelay = 120;
 const newTextDelay = 2250; // Delay between current and next text

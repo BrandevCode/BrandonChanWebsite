@@ -118,8 +118,31 @@ hr{
   }
 }
 
+//Don't know what this is for
 #post-title{
 	font-weight: 500!important;
+}
+
+.post-title{
+  display: block;
+  color: $cg-red-accent-1;
+  line-height: 30px;
+  white-space: nowrap;
+  font-size: 1.1em;
+  border-radius: 9px;
+}
+
+@media only screen and (max-width: 662px)
+{
+  .post-title{
+    background: $spanish-gray;
+    border-radius: 6px;
+    border: thin solid $raisin-black;
+  }
+}
+
+.post-title:hover{
+  color: $cg-red;
 }
 
 p ~ ul, p ~ ol{
@@ -127,9 +150,9 @@ p ~ ul, p ~ ol{
 }
 
 nav ul a{
-  line-height: 80px;
+  //line-height: 80px;
   font-size: 1.2rem;
-  padding: 0 1.5vmin;
+  padding: 0 1vmin;
 }
 
 // table
@@ -157,12 +180,21 @@ table, th, td{
   -webkit-columns: 350px 2; /* Chrome, Safari, Opera */
   -moz-columns: 350px 2; /* Firefox */
   columns: 350px 2;
-  ul{
-    margin-top: 0;
-    }
   background-color: $spanish-gray-accent-1;
   border-radius: 5px;
   margin: 8px;
+  padding: 5px;
+
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
+}
+
+.thi-single-column{
+  background-color: $spanish-gray-accent-1;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 5px;
 }
 
 .cat-tag{

@@ -8,16 +8,26 @@
           </a>
           </li>
           <li>
-            <a class="page-title font-title show-on-large" href="{{site.baseurl}}/">{{ site.title }}</a>
+          <a class="page-title font-title show-on-large" href="{{site.baseurl}}/">{{ site.title }}</a>
           </li>
         </ul>
         <ul id="nav-mobile" class="right">
-          <li><a href="{{ site.baseurl }}/categories"><i class="las la-book la-lg"></i>
+          <li><a href="{{ site.baseurl }}/categories">
+            <i class="las la-book la-lg"><span class="left font-nav-title hide-on-med-and-down">Blog</span></i>
           </a>
           </li>
           <!--<li><a href="{{ site.baseurl }}/tags"><i class="material-icons">loyalty</i></a></li>-->
-          <li><a href="{{ site.baseurl }}/about"><i class="las la-info-circle la-lg"></i></a></li>
-          <li><a href="{{ site.baseurl }}/contact"><i class="las la-address-card la-lg"></i></a></li>
+          <li><a href="{{ site.baseurl }}/about">
+              <!--<i class="las la-info-circle la-lg"></i> -->
+              <i class="las la-info-circle la-lg"><span class="left font-nav-title hide-on-med-and-down">About</span></i>
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}/contact">
+              <!--<i class="las la-address-card la-lg"></i> -->
+              <i class="las la-address-card la-lg"><span class="left font-nav-title hide-on-med-and-down">Contact</span></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

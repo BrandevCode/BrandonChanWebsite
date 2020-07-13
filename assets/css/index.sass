@@ -12,16 +12,18 @@ main
   ul
     &:not(.browser-default)
       &.pagination
-        padding-left: 0
-
         li
-          &.disabled.pagination li.active
+          &.disabled
             a
               i
-                color: $light-gray
+                visibility: hidden
+
           &.active
             background: $raisin-black
+            color: $spanish-gray
           a
+            color: $light-gray
+
             &:hover              
               text-decoration: none
 

@@ -28,13 +28,13 @@ main
 //Card Hover Zoom
 
 .card
-  margin-right: 20px
   overflow: visible
   background-color: $raisin-black
   display: flex
   justify-content: center
   align-items: center
   overflow: hidden
+  border: 2px solid $cg-red
 
 .card.cat-card
   overflow: hidden
@@ -43,13 +43,14 @@ main
   transform: scale(1)
   transition: 0.35s
   filter: grayscale(50%)
+  border-radius: 16px !important
 
 .card-image
-  position: asbolute
-  height: 190px
-  width: 280px
-  left: 0
-  top: 0
+  position: absolute
+  max-height: 240px
+  max-width: 360px
+  width: auto
+  height: auto
   vertical-align: middle
 
 //.card-image
@@ -62,15 +63,10 @@ main
   transform: scale(1.1) 
   filter: grayscale(0%)
 
+.card.cat-card:hover .card-title
+  transform: scale(1.15)
+
 @media only screen and (max-width: 662px)
-  .card
-    width: 20vw
-    height: 15vw
-    margin-right: 2vw
-  .card-image
-    width: 20vw
-    height: 15vw
-    margin-right: 2vw
   .card-title
     //font-size: 2vw !important
     font-size: 0 !important
@@ -78,12 +74,18 @@ main
 .card-title
   position: asbolute
   z-index: 100
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+  //text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
   text-align: center
-  //display: block
-  //background-color: $raisin-black-transparent
-  //width: 280px
-  //height: 3.5vw
+  transition: 0.35s
+  //background: $raisin-black-transparent
+  -webkit-text-stroke: 0.5px black
+  //-webkit-font-smoothing: antialiased
+  //box-shadow: 15px 15px 28px $raisin-black
+
+svg
+  stroke-width: 8px
+  paint-order: stroke
+  stroke: black
 
 //Highlight animation
 
@@ -114,3 +116,43 @@ main
   margin: 20px 8px 0px 8px
   border: 2px solid $black-olive
   border-radius: 8px
+
+//3d paper effect
+.button
+  position: relative
+  display: block
+  margin-left: 6px
+  padding-left: 8px
+  -webkit-column-break-inside: avoid /* Chrome, Safari, Opera */
+  page-break-inside: avoid /* Firefox */
+  break-inside: avoid /* IE 10+ */
+
+  transform-style: flat
+  transition: all 250ms ease-out
+  overflow: none
+  
+  &:before,
+  &:after
+    content: ""
+    position: absolute
+    z-index: -2
+    transition: all 250ms ease-out
+
+/* Raised effect – pushes up on hover */
+.paper-raise
+  &:before
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    transform: scale(1,0.5)
+
+  &:hover
+    //border: 1px solid $spanish-gray
+    z-index: 50
+
+    &:before
+      background: $black-olive-accent-1
+      border-radius: 6px
+      transform: scaleY(0.8)
+      box-shadow: 0 8px 6px -6px black
