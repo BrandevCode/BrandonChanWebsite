@@ -12,14 +12,52 @@ css: ["page.css"]
 </header>
 <main>
 	<div class="container">
-	  <div id="page-info">
-		  <h2 class="h2-title z-depth-5">{{page.title}}</h2>
+		<div id="page-info">
+			<h2 class="h2-title z-depth-5">{{page.title}}</h2>
 		</div>
 		<div class="row thi-post">
 			{{ content }}
 			{% if site.disqus_shortname and page.comment %}
-			  {% include disqus.html %}
+			{% include disqus.html %}
 			{% endif %}
 		</div>
 	</div>
 </main>
+<style>
+	.container:before{
+		background-image: url({{page.background}});
+		content: "";
+		position: fixed;
+		top: -5%;
+		left: -5%;
+		right: 0;
+		bottom: 0;
+		z-index: -1;		
+		display: flex;
+		background-size:cover;
+		width: 110%;
+		height: 110%;	
+		-webkit-filter: blur(1px);
+		-moz-filter: blur(1px);
+		-o-filter: blur(1px);
+		-ms-filter: blur(1px);
+		filter: blur(1px);
+	}
+
+	.container{
+		overflow: auto;
+		position: relative;
+	}
+
+	body > * {
+      flex-shrink: 0;
+    }
+
+	html,body 
+	{
+		display:flex;
+		height:100%;
+		flex-direction:column;
+	}
+
+</style>

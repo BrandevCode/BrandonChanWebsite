@@ -3,6 +3,7 @@ layout: page
 title: Contact Brandon
 css: ["contact.css", "post.css"]
 comment: 1
+background: ../images/background/02.jpg
 ---
 
 Feel free to contact me at [{{site.user.email}}](mailto:{{site.user.email}}).
