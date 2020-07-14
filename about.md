@@ -36,7 +36,7 @@ js: ["morphext.min.js", "about.js"]
                 After graduating college and I attempted to find a job. I found many jobs had a prerequisite to have previous work experience in their field. In order to get this, I went to SFU to get into their co-op program. As I was still uncertain which field I would want to get into, I chose the IAT program as it grabbed my interests in both arts and technology.
             </p>
             <p>
-                IAT gave me the opportunity to work with many different types of projects. These include projects like a <a href="https://youtu.be/iYeaIBA6gFU">toy hack</a> where I worked with arduinos and electronic sensors, a <a href="https://www.youtube.com/watch?v=62m6Cx3G8QE">mobile game</a> using android studio and <a href="https://libgdx.badlogicgames.com/">libGDX</a>, and a <a href="https://www.youtube.com/watch?v=941JfJo0rbg">kinetic typography video</a> where I learned to use Adobe After Effects.
+                IAT gave me the opportunity to work with many different types of projects. These include projects like a <a href="https://youtu.be/iYeaIBA6gFU" target="_blank">toy hack</a> where I worked with arduinos and electronic sensors, a <a href="https://www.youtube.com/watch?v=62m6Cx3G8QE" target="_blank">mobile game</a> using android studio and <a href="https://libgdx.badlogicgames.com/">libGDX</a>, and a <a href="https://www.youtube.com/watch?v=941JfJo0rbg" target="_blank">kinetic typography video</a> where I learned to use Adobe After Effects.
             </p>
             </li>
             <li class="event" data-date="2016-2018">
