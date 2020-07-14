@@ -40,7 +40,7 @@ js: ["morphext.min.js", "about.js"]
             </p>
             </li>
             <li class="event" data-date="2016-2018">
-            <h3>Quality Ensurance Engineer | Powerex     </h3>
+            <h3>Quality Assurance Engineer | Powerex     </h3>
             <p>
                 Following my two terms at SFU I was hired as a QA Engineer co-op at Powerex who is a company that works with electricity trading and is a subsidiary of BCHydro. I was responsible for conducting regression tests and creating automated tests using Ranorex and Powershell. I worked closely with the developers to investigate bugs and brainstorm solutions. This was also my first experience with the agile development process.
             </p>
