@@ -19,16 +19,12 @@ css: ["page.css"]
 	    <div class="tag-sec" id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">
 				<h1 class="cat-tag">{{ tag[0] }}</h1>
 				<div class="thi-columns z-depth-4">
-						<ul class="tag-post">
-							{% for post in tag[1] %}
-							<a class="post-title" href="{{site.baseurl}}{{post.url}}">
-								<li>
-									{{post.title}}
-									<small class="post-date">{{post.date | date_to_string}}</small>
-								</li>
-							</a>
-							{% endfor %}
-						</ul>
+					{% for post in tag[1] %}
+					<a class="post-title button paper-raise" href="{{site.baseurl}}{{post.url}}">
+						{{post.title}}
+						<small class="post-date">{{post.date | date_to_string}}</small>
+					</a>
+					{% endfor %}
 				</div>
 			</div>
     {% endfor %}
