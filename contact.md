@@ -30,10 +30,3 @@ background: ../images/background/02.jpg
 </div>
 
 You can also follow me on these social platforms [<i class="lab la-instagram"></i>](https://www.instagram.com/brandonchan10/) [<i class="lab la-youtube"></i>](https://www.youtube.com/channel/UCTFyK4YzP6d2kOb0N-6ehiQ)
-
-
-<style>
-    button{
-        color: black !important
-    }
-</style>
