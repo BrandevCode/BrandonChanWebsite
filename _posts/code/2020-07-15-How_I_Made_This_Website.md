@@ -66,3 +66,21 @@ Deciding on the look for the website was difficult. I first researched on differ
 <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>: Tool to deploy changes to github pages.
 
 <a href="https://nanochess.org/chess4.html" target="_blank">Toledo Javascript Chess Game</a>: Where I got the chess game code from.
+
+<style>
+@media (max-width: 768px) 
+{
+    iframe {
+    -moz-transform: scale(0.8, 0.8); 
+    -webkit-transform: scale(0.8, 0.8); 
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    }
+} 
+</style>

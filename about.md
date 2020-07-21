@@ -17,10 +17,10 @@ js: ["morphext.min.js", "about.js"]
         <img src="../images/page/01.jpg" class="profile z-depth-5"/>
         <h1 class="header font-title">Who am I?</h1>
         <p>
-        Hey there! My name is Brandon Chan and I am a programmer, web developer, guitarist, snowboarder and many other things. I enjoy following the video game scene (favourites being Dark Souls and Smash Bros) and playing board games (favourite being anything deception based).
+        Hey there! My name is Brandon Chan and I am a programmer, web developer, guitarist, snowboarder and various other things. I enjoy following the video game scene like new console/game releases, being active by working out or hiking and playing board games.
         </p>
         <p>
-        I usually get anxious around people I don't know and even around certain friends I can get quiet. I am hoping that this website helps me open up more so I can express my opinions and contribute to converstations.
+        I often feel like I keep quiet in converstations too often. I am hoping that this website helps me open up more so I can express my views and opinions.
         </p>
         <h1 class="header font-title">Experience</h1>
         <div class="z-depth-5">

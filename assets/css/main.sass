@@ -338,6 +338,14 @@ select:-webkit-autofill:focus
 
 //Custom Scrollbar
 
+@media only screen and (max-width: 600px)
+  ::-webkit-scrollbar
+      width: 0px
+
+  ::-webkit-scrollbar-thumb
+      border-radius: 0px
+      border: 0px solid transparent
+
 ::-webkit-scrollbar
     width: 16px
     z-index: 1000
