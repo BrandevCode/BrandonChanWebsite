@@ -33,7 +33,7 @@ After deciding to use Jekyll, I found a website called <a href="http://jekyllthe
 
 <div class="col s12 l6" markdown="1">
 
-<img src="images/posts/notetheme.png" class="profile z-depth-5"/>
+<img src="images/posts/notetheme.jpg" class="profile z-depth-5"/>
 
 <p class="post-more-info" markdown="1">
 Since my website initially looked like this, I enjoy looking back to compare and see how much I was able to change.
