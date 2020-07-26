@@ -9,7 +9,7 @@ css: ["index.css"]
     <h2 class="h2-title z-depth-4">Latest Posts</h2>
     <div class="thi-columns z-depth-5">
       {% for post in paginator.posts %}
-        <a class="post-title button paper-raise" href="{{ site.baseurl }}{{ post.url }}">
+        <a class="post-title paper-raise" href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }} <small class="post-date">{{post.date | date: "%d/%m/%Y"}}</small>
         </a>
       {% endfor %}
@@ -121,7 +121,7 @@ css: ["index.css"]
 						<h1 class="cat-tag z-depth-5" class="text-cap">{{ catego.name }}</h1>
 						<div class="thi-columns z-depth-4">
 								{% for post in cat[1] %}
-								<a class="post-title button paper-raise" href="{{site.baseurl}}{{post.url}}">
+								<a class="post-title paper-raise" href="{{site.baseurl}}{{post.url}}">
 										{{post.title}}
 										<small class="post-date">{{post.date | date_to_string}}</small>
 								</a>

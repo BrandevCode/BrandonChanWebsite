@@ -1,5 +1,5 @@
 var $overlay = $('<div id="overlay"></div>');
-var $image = $("<img>");
+var $image = $('<img class="overlay-img">');
 
 //An image to overlay
 $overlay.append($image);
@@ -10,6 +10,7 @@ $("body").append($overlay);
   //click the image and a scaled version of the full size image will appear
   $("#photo-gallery a").click( function(event) {
     event.preventDefault();
+
     var imageLocation = $(this).attr("href");
 
     //update overlay with the image linked in the link

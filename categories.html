@@ -57,7 +57,7 @@ background: ../images/background/01.jpg
 						<h1 class="cat-tag z-depth-5" class="text-cap">{{ catego.name }}</h1>
 						<div class="thi-columns z-depth-4">
 								{% for post in cat[1] %}
-								<a class="post-title button paper-raise" href="{{site.baseurl}}{{post.url}}">
+								<a class="post-title paper-raise" href="{{site.baseurl}}{{post.url}}">
 										{{post.title}}
 										<small class="post-date">{{post.date | date_to_string}}</small>
 								</a>

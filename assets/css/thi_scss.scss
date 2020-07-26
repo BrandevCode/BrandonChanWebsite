@@ -128,19 +128,21 @@ hr{
 }
 
 .post-title{
+  padding-left: 20px;
   display: block;
   color: $cg-red;
   line-height: 30px;
   white-space: nowrap;
   font-size: 1.1em;
-  border-radius: 9px;
+  box-shadow: 5px 10px;
+  //border-radius: 9px;
 }
 
 @media only screen and (max-width: 662px)
 {
   .post-title{
     background: $spanish-gray;
-    border-radius: 6px;
+    //border-radius: 6px;
     border: thin solid $raisin-black;
   }
 }
