@@ -141,6 +141,8 @@ hr{
 @media only screen and (max-width: 662px)
 {
   .post-title{
+    white-space: normal !important;
+    padding-left: 10px;
     background: $spanish-gray;
     //border-radius: 6px;
     border: thin solid $raisin-black;

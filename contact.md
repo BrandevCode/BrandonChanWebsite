@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Brandon
+title: Contact
 css: ["contact.css", "post.css"]
 comment: 1
 background: ../images/background/02.jpg

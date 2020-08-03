@@ -12,22 +12,45 @@
           </li>
         </ul>
         <ul id="nav-mobile" class="right">
-          <li><a href="{{ site.baseurl }}/categories">
+          <!-- Better solution here but too laz: https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar-->
+          {% if page.title == "Blog Topics" %}
+          <li><a href="{{ site.baseurl }}/blog" class="active">
             <i class="las la-book la-lg"><span class="left font-nav-title hide-on-med-and-down">Blog</span></i>
           </a>
           </li>
-          <!--<li><a href="{{ site.baseurl }}/tags"><i class="material-icons">loyalty</i></a></li>-->
-          <li><a href="{{ site.baseurl }}/about">
-              <!--<i class="las la-info-circle la-lg"></i> -->
+          {% else %}
+          <li><a href="{{ site.baseurl }}/blog">
+            <i class="las la-book la-lg"><span class="left font-nav-title hide-on-med-and-down">Blog</span></i>
+          </a>
+          </li>
+          {% endif %}
+
+          {% if page.title == "About" %}
+          <li><a href="{{ site.baseurl }}/about" class="active">
               <i class="las la-info-circle la-lg"><span class="left font-nav-title hide-on-med-and-down">About</span></i>
             </a>
           </li>
+          {% else %}
+          <li><a href="{{ site.baseurl }}/about">
+            <i class="las la-info-circle la-lg"><span class="left font-nav-title hide-on-med-and-down">About</span></i>
+          </a>
+          </li>
+          {% endif %}
+
+          {% if page.title == "Contact" %}          
           <li>
-            <a href="{{ site.baseurl }}/contact">
-              <!--<i class="las la-address-card la-lg"></i> -->
+            <a href="{{ site.baseurl }}/contact" class="active">
               <i class="las la-address-card la-lg"><span class="left font-nav-title hide-on-med-and-down">Contact</span></i>
             </a>
           </li>
+          {% else %}
+          <li>
+            <a href="{{ site.baseurl }}/contact">
+              <i class="las la-address-card la-lg"><span class="left font-nav-title hide-on-med-and-down">Contact</span></i>
+            </a>
+          </li>
+          {% endif %}
+
         </ul>
       </div>
     </div>
