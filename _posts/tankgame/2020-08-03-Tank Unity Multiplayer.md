@@ -1,5 +1,5 @@
 ---
-title: Learn Unity - Multiplayer Tank Game Project
+title: Unity Project - Multiplayer Tank Game
 categories: code
 tags: [Unity, Game]
 maths: 1
