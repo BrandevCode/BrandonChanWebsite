@@ -10,7 +10,7 @@ date: 2020-07-15
 
 {% include tip.html content="Keep in mind, this post will not be teaching you how to make a website but will help describe the process and resources I used to make mine." %}
  
-## Website Generator
+## Jekylling for the first time
 
 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> is a blog-aware static site generator that has been become popular in the recent years. After being adopted by GitHub and their easy to use website hosting platform <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, I decided to use this as the main tool for this website. This has been immensely useful as I am able to customize all of the components for the HTML, CSS and Javascript rather than being reliant on a third party service.
 

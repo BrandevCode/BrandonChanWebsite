@@ -55,12 +55,12 @@ li >.thi-tip, li>.thi-warning{
 
 .post-more-info{
   float: right;
-  border: 3px dotted $asparagus;
+  border: 3.5px dashed $asparagus;
   margin: 10px 0 10px 15px;
   padding: 10px;
   border-radius: 10px;
   color: $black-olive;
-  background-color: $light-gray; 
+  background-color: $white; 
   font-size: 14px;
   @media only screen and (max-width: 699px){
     margin: 0 0 15px 0;
