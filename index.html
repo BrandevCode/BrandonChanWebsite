@@ -141,8 +141,26 @@ css: ["index.css"]
       {% for tag in site.tags %}
         {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
         {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
-        <a class="tag-chip" href="{{ site.baseurl }}/tags#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{tag[0]}}</div></a>
+        <a class="tag-chip" href="{{ site.baseurl }}/#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{tag[0]}}</div></a>
       {% endfor %}
     </div>
   </div>
+</div>
+
+<div class="tag-index">
+  {% for tag in site.tags %}
+    {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
+    {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
+    <div class="tag-sec" id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">
+      <h1 class="cat-tag">{{ tag[0] }}</h1>
+      <div class="thi-columns z-depth-4">
+        {% for post in tag[1] %}
+        <a class="post-title button paper-raise" href="{{site.baseurl}}{{post.url}}">
+          {{post.title}}
+          <small class="post-date">{{post.date | date_to_string}}</small>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
 </div>
