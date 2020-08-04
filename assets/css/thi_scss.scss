@@ -128,6 +128,7 @@ hr{
 }
 
 .post-title{
+  background-color: $spanish-gray-accent-1;
   padding-left: 20px;
   display: block;
   color: $cg-red;
@@ -142,7 +143,6 @@ hr{
 {
   .post-title{
     white-space: normal !important;
-    background: $spanish-gray;
     //border-radius: 6px;
     border: thin solid $raisin-black;
   }
@@ -150,6 +150,7 @@ hr{
 
 .post-title:hover{
   color: $cg-red;
+  background-color: $spanish-gray;
 }
 
 p ~ ul, p ~ ol{
@@ -187,7 +188,7 @@ table, th, td{
   -webkit-columns: 350px 2; /* Chrome, Safari, Opera */
   -moz-columns: 350px 2; /* Firefox */
   columns: 350px 2;
-  background-color: $spanish-gray-accent-1;
+  background-color: $spanish-gray;
   border-radius: 5px;
   margin: 8px;
   padding: 5px;
