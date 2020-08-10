@@ -30,16 +30,20 @@ h4{
     h2{
         counter-reset: h3counter;
         font-size: 1.6rem;
+        padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         border-bottom: 1.5px solid $white;
         color: $white;
+        background: $raisin-black;
         margin-top: 3rem;
         overflow: hidden;
         &:first-of-type{
             margin-top: 1rem!important;
         }
         &:before {
-            content: counter(h2counter) ".\0000a0";
+            text-align: center;
+            margin: 10px;
+            content: counter(h2counter) "\0000a0";
             counter-increment: h2counter;
         }
         &~ h3:first-of-type, &+ h3{
@@ -49,7 +53,9 @@ h4{
     h3{
         counter-reset: h4counter;
         font-size: 1.3rem;
-        color: $cg-red-accent-1;
+        padding-left:5px;
+        color: $light-gray;
+        background-color: $cg-red-accent-3;
         margin-top: 2.2rem;
     }
     h2 + .thi-more + h3{
@@ -58,7 +64,7 @@ h4{
 
     // numering
     h3:before {
-        content: counter(h2counter) "." counter(h3counter) ".\0000a0";
+        //content: counter(h2counter) "." counter(h3counter) ".\0000a0";
         counter-increment: h3counter;
     }
     h2.nocount:before {

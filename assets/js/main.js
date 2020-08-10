@@ -83,3 +83,19 @@ $(document).on("scroll", function() {
     } 
   }
 });
+
+//play gif on home screen
+for (let i = 1; i < document.querySelectorAll('.card-image').length+1; i++) {
+
+  $('#gif-hover' + i).hide();
+
+  $('#hover'  + i).on("mouseover", function() {
+    $('#gif-hover'  + i).show();
+    $('#pic-hover'  + i).hide();
+  });
+
+  $('#hover' + i).on("mouseout", function() {
+    $('#gif-hover' + i).hide();
+    $('#pic-hover'+ i).show();
+  });
+}

@@ -1,18 +1,16 @@
-- slug: employers
-  name: For Employers
-  image: images/background/employers.jpg
 - slug: code
   name: Programming
   image: images/background/programming.jpg
+  gifimage: images/background/programming.jpg
 - slug: artwork
   name: Artwork
   image: images/background/artwork.jpg
+  gifimage: images/background/artwork.jpg
 - slug: video
   name: Video Editing
-  image: images/background/video.gif
-- slug: cooking
-  name: Cooking
-  image: http://placekitten.com/400/250
-- slug: books
-  name: Books
-  image: http://placekitten.com/300/300
+  image: images/background/video.jpg
+  gifimage: images/background/video.gif
+- slug: life offline
+  name: Life Offline
+  image: images/background/lifeoffline.jpg
+  gifimage: images/background/lifeoffline.gif

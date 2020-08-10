@@ -85,10 +85,11 @@ css: ["index.css"]
             <!-- might want to change to "fadein" in the future-->
               <div class="col s3 slide-top-delayed-2">
                 <div class="card cat-card z-depth-5">
-                  <div class="card-image waves-effect waves-block">
+                  <div class="card-image waves-effect waves-block" id="hover{{ forloop.index }}">
                     <a href="{{ site.baseurl }}/#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">		
                     <span class="card-title"><div class="card-div">{{ catego.name }}</div></span>
-                    <img src="../{{ catego.image }}">
+                    <img src="../{{ catego.image }}" id="pic-hover{{ forloop.index }}">
+                    <img src="../{{ catego.gifimage }}" id="gif-hover{{ forloop.index }}">
                     </a>
                   </div>
                 </div>
