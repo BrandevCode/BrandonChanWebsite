@@ -11,7 +11,7 @@
   {% endif %}
 
   <title>
-    {% if page.title %}
+    {% if page.title and page.title != "index" %}
       {{ page.title | escape }} | {{ site.title }}
     {% else %}
       {{ site.title | escape }} | Just Who Do You Think I Am!
@@ -44,6 +44,7 @@
   {% endif %}
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}{{ site.favicon }}">
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}{{ site.favicon }}">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">

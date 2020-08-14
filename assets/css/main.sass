@@ -370,3 +370,63 @@ select:-webkit-autofill:focus
     cursor: pointer
     -webkit-transition: background-color 0.1s ease
     transition: background-color 0.1s ease
+
+
+//Header notification
+.notification_container
+  background-color: $cg-red
+  margin: 0 auto
+  max-width: 1280px
+  width: 90%
+
+.notifications 
+  background: $cg-red
+  height: 50px
+  overflow: hidden
+  position: relative
+  transition: all .35s ease-in
+
+.notifications p 
+  color: #fff
+  text-align: center
+  //padding: 8px 0 0 0
+  margin: 0
+
+.toggle 
+  display: block
+  //position: absolute
+  color: #fff
+  cursor: pointer
+  width: 25px
+  height: 25px
+  float: right
+  top: 10px
+  right: 50px
+  z-index: 1
+
+#toggle 
+  display: none
+
+#toggle:checked ~ .notifications 
+  margin-top: -50px
+  transition: all .35s ease-in
+
+#toggle:checked ~ .toggle
+  margin-top: -50px
+
+[type="checkbox"]+label
+  //position: absolute !important
+  padding-left: 0px !important
+
+[type="checkbox"]+label:before
+  content: none
+
+nav i
+  line-height: 50px !important
+  height: 50px
+
+@media only screen and (max-width: 600px)
+  .notifications p
+    font-size: 3.5vw
+
+//end header notification

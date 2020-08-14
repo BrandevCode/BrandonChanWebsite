@@ -99,3 +99,38 @@ for (let i = 1; i < document.querySelectorAll('.card-image').length+1; i++) {
     $('#pic-hover'+ i).show();
   });
 }
+
+
+//on header notification load
+document.getElementById('checkbox-container').style.display = 'inline';
+
+var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {},
+    $checkboxes = $("#checkbox-container :checkbox");
+
+$checkboxes.on("change", function(){
+    $checkboxes.each(function(){
+        console.log(this.id);
+        console.log(this.checked);
+      checkboxValues[this.id] = this.checked;
+    });
+    
+    console.log(checkboxValues);
+
+    localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
+
+    console.log(checkboxValues);
+});
+
+// On page load
+$.each(checkboxValues, function(key, value) {
+    console.log(key);
+    console.log(value);
+
+  //document.getElementById('toggle').checked = true;
+  $("#" + key).prop('checked', value);
+});
+
+
+$('#toggle').click(function (e) {
+    e.stopPropagation();
+});
