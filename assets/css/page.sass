@@ -45,6 +45,8 @@ main
   transition: 0.35s
   filter: grayscale(50%)
   border-radius: 16px !important
+  -webkit-clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%)
+  clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%)
 
 .card-image
   position: absolute
@@ -87,7 +89,10 @@ main
 .card-div
   background: $raisin-black-transparent
   //border-radius: 100px
-  padding: 5px
+  padding: 2.5px
+  border: 1px solid $cg-red
+  -webkit-clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%)
+  clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%)
 
 svg
   stroke-width: 8px
