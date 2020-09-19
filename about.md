@@ -12,7 +12,7 @@ js: ["morphext.min.js", "about.js"]
     <div class="col s12 m12 l12">
         <h1 class="header font-title">Hello World!</h1>
         <p>
-        test For the last 7 years since I've been in computer science, I have been inspired by so many intelligent people who create amazing projects and share them to the world. The main purpose of this website is to give back and share my projects to the world in the hopes that I can inspire someone out there. Keep in mind, I am no expert and I only wish to give you the tools and motivation that will hopefully benefit your life in some way.
+        For the last 7 years since I've been in computer science, I have been inspired by so many intelligent people who create amazing projects and share them to the world. The main purpose of this website is to give back and share my projects to the world in the hopes that I can inspire someone out there. Keep in mind, I am no expert and I only wish to give you the tools and motivation that will hopefully benefit your life in some way.
         </p>
         <img src="../images/page/01.jpg" class="profile z-depth-5"/>
         <h1 class="header font-title">Who am I?</h1>
