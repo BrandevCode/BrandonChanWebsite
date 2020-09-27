@@ -5,7 +5,7 @@ tags: [Art, Animation]
 ---
 
 ## Project Goal
-The main reason I wanted to make this animation was to show others that I can animate. I have many animation projects, but never one that I completed. The other reason is that I did not have anything to put for the "Programming" thumbnail on the homepage. You can check it out there now.
+The main reason I wanted to make this animation was to show others that I can animate. I have many animation projects, but never one that I completed so I was very determined to finish this one. Another reason is to give people a peak into what my work life is like. Usually looks like this (maybe minus it being night time). The last reason is that I did not have anything to put for the "Programming" thumbnail on this websites homepage. You can check it out there now!
 
 ## Reference Video
 It has been a while since I have drawn anything. So to speed up the process, I filmed myself in order to get the angle and key poses for my movements.
