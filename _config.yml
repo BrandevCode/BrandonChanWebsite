@@ -1,5 +1,5 @@
 title: Brandon Chan
-description: Personal Site
+description: Just Who Do You Think I Am!
 #baseurl: "/BrandonChanWebsite/"
 #url: "https://brandevcode.github.io/"
 baseurl: ""
@@ -14,7 +14,7 @@ title_font: "/assets/fonts/ufonts.com_opineheavy-regular.ttf" # site's left side
 # MatJek specific configurations
 user: 
   name: "Brandon Chan"
-  email: "brandonchan@hotmail.com"
+  #email: "brandonchan@hotmail.com"
   #website: "brandonchan.ca"
   avatar: "/assets/res/user.png"
   github: "brandevcode"
