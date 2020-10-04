@@ -3,7 +3,7 @@ description: Personal Site
 #baseurl: "/BrandonChanWebsite/"
 #url: "https://brandevcode.github.io/"
 baseurl: ""
-url: "brandonchan.ca"
+#url: "brandonchan.ca"
 repository: BrandevCode/BrandonChanWebsite
 paginate: 28
 
@@ -15,7 +15,7 @@ title_font: "/assets/fonts/ufonts.com_opineheavy-regular.ttf" # site's left side
 user: 
   name: "Brandon Chan"
   email: "brandonchan@hotmail.com"
-  website: "brandonchan.ca"
+  #website: "brandonchan.ca"
   avatar: "/assets/res/user.png"
   github: "brandevcode"
 google_tracking_id: "UA-172634139-1"
