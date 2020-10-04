@@ -29,4 +29,6 @@ background: ../images/background/02.jpg
     </div>
 </div>
 
-You can also follow me on these social platforms [<i class="lab la-instagram"></i>](https://www.instagram.com/brandonchan10/) [<i class="lab la-youtube"></i>](https://www.youtube.com/channel/UCTFyK4YzP6d2kOb0N-6ehiQ)
+<center>
+You can also follow me on these social platforms: <a href="https://www.instagram.com/brandonchan10/" target="_blank"><i class="lab la-instagram"></i></a> <a href="https://www.youtube.com/channel/UCTFyK4YzP6d2kOb0N-6ehiQ" target="_blank"><i class="lab la-youtube"></i></a>
+</center>

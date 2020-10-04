@@ -7,7 +7,7 @@ background: ../images/background/01.jpg
 
 <div class="col s12 cat-div">
 <div class="cat-list">
-	{% for cat in site.categories %}
+	{% for cat in site.categories reversed %}
 		{% assign forIndex = forloop.index | modulo: 4 %}
 		{% if forIndex == 0 %}
 			<div class="row">

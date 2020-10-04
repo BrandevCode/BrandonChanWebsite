@@ -3,7 +3,6 @@ layout: default
 css: ["page.css"]
 js: ["landing-page.js"]
 ---
-
 <header>
 	{% if page.toc %}
 		{% include header-wTOC.html %}
@@ -18,7 +17,7 @@ js: ["landing-page.js"]
 		<div class="typing-effect-container slide-top">
 				<p>
 					<span class="landing-title-text">
-						<span style="color: rgb(201, 35, 35)"></span>Brandon is a <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+						<span style="color: rgb(201, 35, 35)"></span>Brandon : <span class="typed-text"></span><span class="cursor">&nbsp;</span>
 					</span>
 				</p>
 		</div>
@@ -26,9 +25,9 @@ js: ["landing-page.js"]
 		<div class="parallax"><img src="../images/background/04.jpg"></div>
 
 	</div>
-		
+
 	<div class="container">
-		<div class="row">
+		<div class="row" id="bg">
 			{{ content }}
 			{% if site.disqus_shortname and page.comment %}
 			  {% include disqus.html %}

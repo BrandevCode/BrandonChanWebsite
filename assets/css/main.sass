@@ -146,10 +146,13 @@ main
       white-space: nowrap
       margin-left: -100%
       margin-right: -100%
+  .container
+    background-color: $raisin-black-transparent
 
 //overflow-y to stop navbar shifting with scrollbar
 html
-  background-color: $spanish-gray-accent-1
+  //background-color: $spanish-gray-accent-1
+  background: radial-gradient(ellipse at center, $black-olive 20%, darken($black-olive, 50%) 100%)
   overflow-x: hidden
 
 .mat-label
@@ -430,3 +433,20 @@ nav i
     font-size: 3.5vw
 
 //end header notification
+
+
+#page
+  display: none
+
+#loading 
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 100
+  width: 100vw
+  height: 100vh
+  //background-color: $black-olive
+  background-image: url("https://i.stack.imgur.com/MnyxU.gif")
+  background-repeat: no-repeat
+  background-position: center

@@ -1,5 +1,5 @@
 ---
-title: Interactive Arts and Technology - First Year Assignments
+title: SFU Interactive Arts and Technology - First Year Assignments
 categories: video
 tags: [SFU, IAT]
 toc: 1

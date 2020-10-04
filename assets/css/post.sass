@@ -44,7 +44,7 @@ main
       width: 40%
 
       li
-        list-style-type: none
+        list-style-type: circle
 
   span
     font-size: 14px
@@ -81,6 +81,9 @@ main
     h2
       text-align: center
 
+  .container
+    background-color: $raisin-black-transparent
+
 .thi-post
   margin: 0 0.7rem 0 0.7rem !important
   a:hover
@@ -98,7 +101,7 @@ html
   background-color: $raisin-black
 
 .left-align
-  list-style-type: none !important
+  list-style-type: circle !important
 
 .table-of-contents a.active
   border-left: 2px solid $cg-red
@@ -111,15 +114,21 @@ html
 
 .inline_img_right
   float: right
-  Height: 100% 
-  Width: 680px 
   //Display: inline-block 
   margin: 7px 5px 5px 13px
 
 .inline_img_left
   float: left
-  Height: 100% 
-  Width: 680px 
   //Display: inline-block 
   margin: 7px 5px 5px 13px
   padding-right: 10px
+
+//triangulate
+svg
+  position: fixed
+  height: 100%
+  width: 100%
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: -2

@@ -1,5 +1,5 @@
 ---
-title: How I Made This Website
+title: Web Development - How This Website Was Made
 categories: [code]
 tags: [Website, Design, Javascript, HTML]
 maths: 1
