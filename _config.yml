@@ -7,7 +7,7 @@ description: Just who do you think I am
 repository: BrandevCode/BrandonChanWebsite
 paginate: 28
 
-banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
+banner: "/assets/res/banner.jpg" # site banner (load when someone share your page url)
 favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
 title_font: "/assets/fonts/ufonts.com_opineheavy-regular.ttf" # site's left side logo
 
