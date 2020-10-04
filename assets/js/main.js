@@ -26,7 +26,7 @@ function setVisible(selector, visible) {
 
 
 //SVG triangulation
-var refreshDuration = 2500;
+var refreshDuration = 5000;
 var refreshTimeout;
 var numPointsX;
 var numPointsY;
@@ -46,7 +46,7 @@ function onLoad()
       document.querySelector('#bg').appendChild(svg);
       //document.querySelector('html').style.backgroundImage = svg;
 
-      var unitSize = (window.innerWidth+window.innerHeight)/50;
+      var unitSize = (window.innerWidth+window.innerHeight)/10;
       numPointsX = Math.ceil(window.innerWidth/unitSize)+1;
       numPointsY = Math.ceil(window.innerHeight/unitSize)+1;
       unitWidth = Math.ceil(window.innerWidth/(numPointsX-1));
