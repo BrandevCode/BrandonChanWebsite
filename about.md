@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About | Brandon Chan
 background: ../images/background/03.jpg
 css: ["about.css", "animate.css", "morphext.css"]
 js: ["morphext.min.js", "about.js"]

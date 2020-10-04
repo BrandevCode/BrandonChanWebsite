@@ -1,8 +1,8 @@
 title: Brandon Chan
-description: Just Who Do You Think I Am
+description: Just who do you think I am
 #baseurl: "/BrandonChanWebsite/"
 #url: "https://brandevcode.github.io/"
-baseurl: ""
+#baseurl: ""
 #url: "brandonchan.ca"
 repository: BrandevCode/BrandonChanWebsite
 paginate: 28

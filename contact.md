@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Contact | Brandon Chan
 css: ["contact.css"]
 comment: 1
 background: ../images/background/02.jpg
