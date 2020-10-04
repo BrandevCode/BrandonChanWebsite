@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-css: ["contact.css", "post.css"]
+css: ["contact.css"]
 comment: 1
 background: ../images/background/02.jpg
 ---
