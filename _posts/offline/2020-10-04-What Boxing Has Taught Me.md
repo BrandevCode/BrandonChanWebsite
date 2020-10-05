@@ -10,7 +10,7 @@ I strongly advocate using <a href="https://www.mindtools.com/pages/article/newCT
 
 I never went to the boxing gym because someone was forcing me. I went there and I was well aware that I was going to be exhausted and in pain. There were days when I wanted to give up. I did on occasion. That did not mean that I gave up though. I would make up for it by working twice as hard the next day because I knew that the satisfaction was not immediate. I had to look past the current struggle towards my end goal. A lot of boxing is about repetition like doing 100 jabs in a row or skipping rope 1000 times. It can be difficult and seem pointless at times, but at the end of it all, it was worth it. I now have a clearer voice in my head telling me to "keep going no matter what".
 
-<img src="../images/posts/boxing/Practice.gif" width="40%"/>
+<img class="lazy" data-src="../images/posts/boxing/Practice.gif" width="40%"/>
 
 ## Have Confidence In Yourself
 
@@ -22,19 +22,19 @@ Here is a video on Muhammad Ali and how he shows over-the-top confidence:
 
 I know this isn't a boxing video, but I think this is a perfect display of why we need confidence.
 
-<img src="../images/posts/boxing/Confidence.gif" width="40%" />
+<img class="lazy" data-src="../images/posts/boxing/Confidence.gif" width="40%" />
 
 ## Create Habits That Will Improve Your Life
 
 A lot of boxing is about the reaction. Having your body automatically respond to a situation so your mind can focus on strategizing. Good habits are something I want to have more in my life. There are simple concepts to grasp when creating good habits. Practice and repetition. After practicing my footwork and 1-2 punches many many times, I am creating the muscle memory to do them with ease and without thinking. Often after a while of repetitive practice, it felt like doing the same motion was not helping. At these points, it is important to change it up. I started to vary the timing on my 1-2 punches, do a different combination of them and add feints in-between. The next time I attempt to create a good habit and find that I am unable to be motivated to practice or keep with the repetition, I'll remember my time during boxing and how rewarding it felt to succeed.   
 
-<img src="../images/posts/boxing/Health.gif" width="80%" />
+<img class="lazy" data-src="../images/posts/boxing/Health.gif" width="80%" />
 
 ## Have A Competitive Attitude
 
 In my boxing gym, it was easy to see others and see how they practiced. I would imagine what I would do against them when I shadowboxed and try to find a way to exploit their weak spots while trying not to expose mine. The competition allowed me to visualize my strengths and weaknesses more clearly. It also kept me motivated to fix those weaknesses and reflect on why I had them. My strive to win against them also lead to more creative thinking and willingness to try new things to get an advantage over them. My mind was full of thoughts about strategy. What if I practice my footwork to be faster than them or what if I do more feints to get in range because my reach is short? Competition kept me motivated and helped my improve my skills. 
 
-<img src="../images/posts/boxing/Competitive.gif" width="80%" />
+<img class="lazy" data-src="../images/posts/boxing/Competitive.gif" width="80%" />
 
 ## Have A Strong Appearance And Inspire Others
 
