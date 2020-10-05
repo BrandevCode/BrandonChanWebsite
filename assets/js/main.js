@@ -38,7 +38,8 @@ function onLoad()
 {
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svg.setAttribute('width',window.innerWidth);
-    svg.setAttribute('height',document.documentElement.scrollHeight);
+    svg.setAttribute('width',window.innerHeight);
+    //svg.setAttribute('height',document.documentElement.scrollHeight);
 
     var selection = document.querySelector('#bg') !== null;
     if (selection) {
