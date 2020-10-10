@@ -10,19 +10,19 @@ js: ["morphext.min.js", "about.js"]
   <section id="timeline" class="timeline-outer">
     <div class="row">
     <div class="col s12 m12 l12">
-        <h1 class="header font-title">Hello World!</h1>
+        <h1 class="header font-nav-title">Hello World!</h1>
         <p>
         Ever since I've been in computer science, I have been inspired by so many intelligent people who create amazing projects and share them to the world. The main purpose of this website is to give back and share my projects to the world in the hopes that I can inspire someone out there. Keep in mind, I am no expert and I only wish to give you the tools and motivation that will hopefully benefit your life in some way.
         </p>
         <img src="../images/page/01.jpg" class="profile z-depth-5"/>
-        <h1 class="header font-title">Who am I?</h1>
+        <h1 class="header font-nav-title">Who am I?</h1>
         <p>
         Hey there! My name is Brandon Chan and I am a programmer, web developer, guitarist, snowboarder and various other things. I enjoy following the video game scene like new console/game releases, being active by working out or hiking, and playing board games.
         </p>
         <p>
         I often feel like I keep quiet in converstations too often. I am hoping that this website helps me open up more so I can express my views and opinions.
         </p>
-        <h1 class="header font-title">Experience</h1>
+        <h1 class="header font-nav-title">Experience</h1>
         <div class="z-depth-5">
         <ul class="timeline">
             <li class="event" data-date="2019-Present">

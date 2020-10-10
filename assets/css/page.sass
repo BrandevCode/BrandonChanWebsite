@@ -56,6 +56,10 @@ main
   height: auto
   vertical-align: middle
 
+.card-image
+  img
+    opacity: 0.6
+
 //.card-image
 //  transition: 0.25s
 //  height: 210px
@@ -65,6 +69,9 @@ main
 .card.cat-card:hover
   transform: scale(1.1) 
   filter: grayscale(0%)
+  
+  img
+    opacity: 1
 
 .card.cat-card:hover .card-title
   transform: scale(1.15)
@@ -129,12 +136,14 @@ svg
 
 .h2-title
   color: $white
-  font-size: 1.7rem
-  background-color: $raisin-black
+  font-size: 1.8rem
+  background-color: $spanish-gray-accent-1-transparent
   padding: 10px
   margin: 20px 8px 0px 8px
-  border: 2px solid $black-olive
+  border: 2px solid $light-gray-accent-1
   border-radius: 8px
+  font-family: 'Maven Pro', sans-serif
+  padding-bottom: 13.5px //this is added because of the maven pro font
 
 //3d paper effect
 

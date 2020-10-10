@@ -38,7 +38,7 @@ main
   flex: 1 0 auto
 
 .container
-  background-color: $spanish-gray
+  background-color: $spanish-gray-transparent
   width: 100%
   padding-top: 1px
   padding-bottom: 2px
@@ -148,11 +148,12 @@ main
       margin-right: -100%
   .container
     background-color: $raisin-black-transparent
+  html
+    background: radial-gradient(ellipse at center, $spanish-gray 20%, darken($spanish-gray-accent-1, 50%) 100%) !important
 
 //overflow-y to stop navbar shifting with scrollbar
 html
-  //background-color: $spanish-gray-accent-1
-  background: radial-gradient(ellipse at center, $black-olive 20%, darken($black-olive, 50%) 100%)
+  background: radial-gradient(ellipse at center, $light-gray-accent-1 20%, darken($black-olive, 50%) 100%)
   overflow-x: hidden
 
 .mat-label
@@ -195,6 +196,7 @@ nav
 @media only screen and (min-width: 992px)
   #nav-mobile .active
     box-shadow: 0 3px 0 0 $cg-red-accent-1
+
 
 #nav-mobile .las::before
   background: $cg-red
@@ -349,8 +351,10 @@ textarea:-webkit-autofill:hover,
 textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
-select:-webkit-autofill:focus
+select:-webkit-autofill:focus,
+input:-internal-autofill-selected
   -webkit-box-shadow: 0 0 0 30px $spanish-gray inset !important
+  color: $white
 
 //Custom Scrollbar
 

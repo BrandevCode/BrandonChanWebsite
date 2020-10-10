@@ -1,5 +1,5 @@
 ---
-title: Web Development - How This Website Was Made
+title: How I Made Website This Website
 categories: [code]
 tags: [Website, Design, Javascript, HTML]
 maths: 1
@@ -36,7 +36,7 @@ After deciding to use Jekyll, I found a website called <a href="http://jekyllthe
 <img src="images/posts/notetheme.jpg" class="profile z-depth-5"/>
 
 <p class="post-more-info" markdown="1">
-Since my website initially looked like this, I enjoy looking back to compare and see how much I was able to change.
+Since my website initially looked like this, I enjoy looking back seeing how much I was able to change.
 </p>
 
 </div>

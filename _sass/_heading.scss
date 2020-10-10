@@ -43,7 +43,8 @@ h4{
         &:before {
             text-align: center;
             margin: 10px;
-            content: counter(h2counter) "\0000a0";
+            //content: counter(h2counter) "\0000a0";
+            content: counter(h2counter) ".";
             counter-increment: h2counter;
         }
         &~ h3:first-of-type, &+ h3{

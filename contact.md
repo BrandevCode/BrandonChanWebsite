@@ -7,7 +7,7 @@ background: ../images/background/02.jpg
 ---
 
 <div class="row">
-    <div class="col s12 m12 l12">
+    <div class="col s12 m12 l12" style="padding: 2vw">
     Feel free to contact me using the form below.
         <form
         action="https://formspree.io/mzbjkgqq"

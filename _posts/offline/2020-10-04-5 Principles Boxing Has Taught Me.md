@@ -1,16 +1,16 @@
 ---
-title: What Boxing Has Taught Me
+title: 5 Principles Boxing Has Taught Me
 categories: [life offline]
 tags: [Blog, Boxing]
 ---
 
-I strongly advocate using <a href="https://www.mindtools.com/pages/article/newCT_93.htm" target="_blank">metaphorical thinking</a>. This is the act of comparing different problems and finding their similar concepts to link them to a real solution. At first glance, boxing is just a violent sport about knocking the opponent out, has actually taught me many important ideologies that aided me in also knocking out problems in other aspects of my life.
+Boxing, which is usually seen as a violent sport about knocking the opponent out, has actually taught me many important ideologies that have aided me in also getting through problems in other aspects of my life. I strongly advocate looking into <a href="https://www.mindtools.com/pages/article/newCT_93.htm" target="_blank">metaphorical thinking</a>. This is the act of comparing different problems and finding their similar concepts to link them to a real solution. Obviously, I am not telling you to solve problems by punching them in the face. Boxing is about much more than punches.
 
 ## How To Be Self Disciplined
 
 I never went to the boxing gym because someone was forcing me. I went there and I was well aware that I was going to be exhausted and in pain. There were days when I wanted to give up. I did on occasion. That did not mean that I gave up though. I would make up for it by working twice as hard the next day because I knew that the satisfaction was not immediate. I had to look past the current struggle towards my end goal. A lot of boxing is about repetition like doing 100 jabs in a row or skipping rope 1000 times. It can be difficult and seem pointless at times, but at the end of it all, it was worth it. I now have a clearer voice in my head telling me to "keep going no matter what".
 
-<img class="lazy" data-src="../images/posts/boxing/Practice.gif" width="40%"/>
+<img src="../images/posts/boxing/Practice.gif" width="40%"/>
 
 ## Have Confidence In Yourself
 
