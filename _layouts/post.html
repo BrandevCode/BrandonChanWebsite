@@ -12,6 +12,9 @@ js: ["post.js"]
   {% endif %}
 </header>
 <main>
+	<div id="loading"></div>	
+	<div id="page">
+
   <div class="container" id="bg">
     <div id="post-info">
       <h3>{{page.title}}</h3>
@@ -52,4 +55,5 @@ js: ["post.js"]
       {% include disqus.html %}
     {% endif %}
   </div>
+</div>	  
 </main>

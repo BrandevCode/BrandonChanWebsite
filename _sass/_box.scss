@@ -11,6 +11,8 @@
   display: table;
   width: 100%;
   margin: 1rem 0;
+  font-size: 17px;
+  line-height: 160%;
 }
 
 // warning
@@ -39,7 +41,7 @@ li >.thi-tip, li>.thi-warning{
 	margin: 2rem 0;
   overflow: auto;
   .box-title{
-    background-color: $butterfly-blue;
+    background-color: $black-olive-accent-1;
     color: $black-olive;
     padding: 8px 15px;
     border-radius: 5px 5px 0 0;
@@ -61,7 +63,7 @@ li >.thi-tip, li>.thi-warning{
   border-radius: 10px;
   color: $white;
   background-color: $black-olive; 
-  font-size: 14px;
+  font-size: 18px;
   @media only screen and (max-width: 699px){
     margin: 0 0 15px 0;
     float: initial;

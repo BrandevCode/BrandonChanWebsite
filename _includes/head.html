@@ -20,10 +20,14 @@
   {% endif %}
 
   <!-- page's cover -->
-  {% if page.bigimg %}
-    <meta property="og:image" content="{{site.url}}{{site.baseurl}}{{ page.bigimg }}" />
+  {% if page.onlineimg %}
+    <meta property="og:image" content="{{ page.onlineimg }}" />
     <meta property="og:image:width" content="1234">
     <meta property="og:image:height" content="592">
+  {% elsif page.img %}
+    <meta property="og:image" content="{{site.url}}{{site.baseurl}}{{ page.img }}" />
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592"> 
   {% else %}
     <meta property="og:image" content="{{site.url}}{{site.baseurl}}/images/defaultCoverPost.jpg" />
     <meta property="og:image:type" content="image/jpeg">

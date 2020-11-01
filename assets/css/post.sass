@@ -96,6 +96,13 @@ main
 
 html
   background-color: $spanish-gray-accent-1
+  font-size: 19px
+
+@media (max-width: 768px) 
+  html
+    font-size: 18px
+  .thi-post
+    margin: 0 1rem 0 1rem !important    
 
 .top-nav
   background-color: $raisin-black
@@ -132,3 +139,91 @@ svg
   right: 0
   bottom: 0
   z-index: -2
+
+
+// link.html
+
+.link-preview
+  font-size: 18px
+  width: auto
+  border: 1px red solid
+  border-radius: 7px
+  background-color: $spanish-gray-transparent
+  color: white
+  display: flex
+  flex-direction: row
+  transition: 0.20s
+  text-decoration: none
+  text-overflow: ellipsis
+  overflow: hidden
+  margin: 2rem 0
+  margin-left: auto
+  margin-right: auto
+  filter: grayscale(50%)
+
+.link-preview:hover
+  background-color: $cg-red-accent-3
+  transform: scale(1.01)
+  filter: grayscale(0%)
+
+.link-image
+  flex: 0 0 auto
+  max-width: 400px
+  max-height: 200px
+  border-radius: 7px
+  overflow: hidden
+  padding: 10px
+  width: auto
+  height: calc(80px + 4vw)
+
+.body
+  display: flex
+  flex-direction: column
+  //overflow: hidden
+  text-overflow: ellipsis
+  flex: 1 1 auto
+
+.link-preview-1
+  padding: 10px
+  font-size: calc(17px + 0.5vw)
+  line-height: 120% 
+
+.link-preview-2
+  color: $light-gray-accent-1
+  padding: 10px
+ 
+.link-preview-3
+  max-width: 100%
+  padding: 10px
+  //overflow: hidden
+  white-space: wrap
+  color: $light-gray
+  line-height: 120%
+
+@media only screen and (max-width: 992px)
+  .link-preview
+    max-height: 100px
+
+  .link-preview-1
+    font-size: 15px
+    padding: 5px
+    //display: block
+    //max-width: 300px
+
+  .link-preview-2
+    display: none
+
+  .link-preview-3
+    font-size: 12px
+    max-height: 50px
+    color: $light-gray-accent-1
+    height: auto
+    text-overflow: ellipsis
+    overflow: hidden
+    //display: none
+
+  .link-image
+    //display: none
+    //max-width: 400px
+    //max-height: 200px
+    //padding: 4px

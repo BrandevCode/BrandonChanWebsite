@@ -2,6 +2,7 @@
 title: Animation Project - Night Coding
 categories: [artwork]
 tags: [Art, Animation]
+comment: 1
 ---
 
 ## Project Goal
@@ -10,7 +11,7 @@ The main reason I wanted to make this animation was to show others that I can an
 ## Reference Video
 It has been a while since I have drawn anything. So to speed up the process, I filmed myself in order to get the angle and key poses for my movements.
 
-<img src="../images/posts/nightcoding/nightcodingvid.gif" width="70%"/>
+<img class="lazy" data-src="../images/posts/nightcoding/nightcodingvid.gif" width="70%" style="filter: brightness(2.5) contrast(0.8);"/>
 
 ## Sketch
 This is where I sketched the poses for the animation based on the video above. You'll notice that I only drew the "key" poses which are the parts where the animation begins/ends so I can later add more in-between frames if needed.

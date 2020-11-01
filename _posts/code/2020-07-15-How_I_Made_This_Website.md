@@ -5,6 +5,7 @@ tags: [Website, Design, Javascript, HTML]
 maths: 1
 toc: 1
 snippet: 1
+comment: 1
 date: 2020-07-15
 ---
 
@@ -17,11 +18,11 @@ date: 2020-07-15
 As an example, I can put a chess game in the middle of my post easily. Try it out! 
 
 <div class="row" align="center">
-<iframe src="../images/posts/chess/toledo_javascript_chess2.html" width="400" height="410" scrolling="no" frameborder="no" id="chess"></iframe>
+<iframe id='chess' src="../images/posts/chess/toledo_javascript_chess2.html" width="400" height="410" scrolling="no" frameborder="no" id="chess"></iframe>
 </div>
 <div class="row" align="center">
 If you want to play with black's pieces, click this
-<input type="button" value="button" onclick="with(document.getElementById('chess').contentWindow)setTimeout('X(0,0,0,21,u,2),X(0,0,0,21,u,1),W()',250);">
+<input type="button" value="button" onclick="with(document.getElementById('chess').contentWindow)setTimeout('X(0,0,0,21,u,2),X(0,0,0,21,u,1),W()',250);" style="color: darkgray">
 to force a move, you will need to click every time after you do a move.
 </div>
 
@@ -70,7 +71,7 @@ Deciding on the look for the website was difficult. I first researched on differ
 <style>
 @media (max-width: 768px) 
 {
-    iframe {
+    #chess {
     -moz-transform: scale(0.8, 0.8); 
     -webkit-transform: scale(0.8, 0.8); 
     -o-transform: scale(0.8, 0.8);

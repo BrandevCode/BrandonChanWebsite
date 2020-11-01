@@ -11,6 +11,11 @@ html{
 	font-size: 200%;
 }
 
+@font-face {
+	font-family: 'OpineHeavy';
+	src: URL('/assets/fonts/ufonts.com_opineheavy-regular.ttf') format('truetype');
+}
+
 .font-brand-title{
 	font-family: "OpineHeavy";
 }

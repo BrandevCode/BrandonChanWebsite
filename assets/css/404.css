@@ -4,6 +4,21 @@
 }
 
 
+#mousedownmark{
+    opacity: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    background:#666;
+    text-align: center;
+}
+#mousedownmark.hold{
+    animation:animhold 0.5s;
+    -webkit-animation:animhold 0.5s;
+    animation-fill-mode: forwards;
+}
+
 #mousemark{
     opacity: 0;
     position: absolute;
@@ -39,5 +54,24 @@
     }
     100%{
         opacity: 0;
+    }
+}
+
+@keyframes animhold{
+    100%{
+        width: 200px;
+        height: 200px;
+        margin-top: -100px;
+        margin-left: -100px;
+        opacity: 0.3;
+    }
+}
+@-webkit-keyframes animhold{
+    100%{
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        margin-left: -25px;
+        opacity: 0.8;
     }
 }

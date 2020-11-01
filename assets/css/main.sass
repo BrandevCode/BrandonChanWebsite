@@ -149,7 +149,7 @@ main
   .container
     background-color: $raisin-black-transparent
   html
-    background: radial-gradient(ellipse at center, $spanish-gray 20%, darken($spanish-gray-accent-1, 50%) 100%) !important
+    background: $black-olive-accent-2 !important
 
 //overflow-y to stop navbar shifting with scrollbar
 html
@@ -170,9 +170,10 @@ html
 
 @media only screen and (max-width: 600px)
   .parallax-container .parallax
-    position: inherit
+    //position: inherit
   .parallax-container 
     height: 250px
+    display: none
   .typing-effect-container p
     padding: 5rem !important
 
@@ -252,6 +253,7 @@ nav
 .landing-title-text
   padding-left: 0.5rem
   background-color: $raisin-black-transparent
+  //font-family: "Helvetica"
 
 @keyframes blink
   0%  
@@ -306,6 +308,7 @@ i.las.la-caret-down
 .side-nav 
   a:hover
     background-color: $raisin-black !important
+  font-size: 18px !important
 
 .side-nav li.active
   background-color: $raisin-black !important
@@ -456,3 +459,12 @@ nav i
   background-image: url("https://i.stack.imgur.com/MnyxU.gif")
   background-repeat: no-repeat
   background-position: center
+
+.logo_header
+  max-width: 42px
+  max-height: 42px
+  margin: 5px
+  color: $asparagus
+  border: 1px solid
+  border-radius: 4px
+  background: $asparagus-accent-3

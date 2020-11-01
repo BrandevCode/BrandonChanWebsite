@@ -212,6 +212,7 @@ table, th, td{
   border: 2px solid $black-olive;
   border-radius: 8px;
   font-family: 'Maven Pro', sans-serif;
+  padding-bottom: 12px; //this is added because of the maven pro font
 }
 
 .search-sidebar{

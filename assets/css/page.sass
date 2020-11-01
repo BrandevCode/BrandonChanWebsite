@@ -164,8 +164,9 @@ svg
 .paper-raise
   //display: inline-block
   //position: relative
+  left: 0
   transition-duration: .3s
-  transition-property: transform box-shadow
+  transition-property: left top box-shadow
 
   @include hideTapHighlightColor()
   @include hardwareAccel()
@@ -186,8 +187,9 @@ svg
     transition-property: left
 	
   &:hover 
+    position: relative
     border-color: transparent
-    transform: translateX(4px)
+    left: 4px
     box-shadow: 2px 2px 2px black
 
   &:hover:before 

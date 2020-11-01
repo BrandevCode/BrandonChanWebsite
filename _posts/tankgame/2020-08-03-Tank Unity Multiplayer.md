@@ -4,6 +4,7 @@ categories: code
 tags: [Unity, Game]
 maths: 1
 comment: 1
+img: /images/share/unityeditor.jpg
 ---
 
 ## Unity Has Some Great Tutorials

@@ -1,11 +1,11 @@
 ---
-title: SFU | IAT - First Year Projects
+title: SIAT - First Year Projects
 categories: video
 tags: [SFU, IAT]
-toc: 1
 maths: 1
 comment: 1
 datacamp: 1
+onlineimg: http://i3.ytimg.com/vi/941JfJo0rbg/maxresdefault.jpg
 ---
 
 {% include tip.html content="Descriptions included in this post may not be 100% accurate. It's been a while since I took these courses so I may have forgotten some things." %}

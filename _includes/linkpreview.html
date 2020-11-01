@@ -1,0 +1,87 @@
+<!-- Not Useful Facebook Junk -->
+<!-- This works but can only be called 200 times an hour -->
+<!-- Also has facebook token exposed -->
+
+<a class="link-preview" href="http://{{ include.content }}" target="_blank">
+<div class="body" id="title-{{ include.content | replace: '.', '' | replace: '/', '' }}"></div>
+<div id="image-{{ include.content | replace: '.', '' | replace: '/', ''  }}"></div>
+</a>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+var graphDefine = "http://graph.facebook.com/v8.0/?scrape=true&id=https%3A%2F%2F"
+
+var graphLookupSite = "{{ include.content }}"
+
+//put facebook token here
+var graphAccessToken = "&access_token="
+
+var fullGraph = graphDefine.concat(graphLookupSite).concat(graphAccessToken)
+
+
+$.post(fullGraph, 
+function(data)
+{
+    var img ="";
+
+    $('.link-preview #title-{{ include.content | replace: ".", "" | replace: "/", "" }}').html(`
+    <div class="link-preview-1">`+data.title+`</div>
+    <div class="link-preview-2">{{include.content}}</div>
+    <div class="link-preview-3">`+data.description+`</div>
+    `);
+
+    $('.link-preview #image-{{ include.content | replace: ".", "" | replace: "/", "" }}').html(`
+    <img src="`+data.image[0].url+`">
+    `);
+})
+
+</script>
+
+<style>
+.link-preview {
+  width: 800px;
+  /* overflow: hidden; */
+  border: 1px red solid;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  transition: 0.35s;
+  text-decoration: none;
+}
+
+.link-preview:hover {
+  transform: scale(1.01);
+}
+
+img {
+  flex: 0 0 auto;
+  max-width: 400px;
+  max-height: 200px;
+  border-radius: 7px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1 1 auto;
+}
+
+.link-preview-1 {
+  padding: 10px;
+}
+.link-preview-2 {
+  padding: 10px;
+}
+.link-preview-3 {
+  max-width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  white-space: wrap;
+  color: white;
+}
+</style>

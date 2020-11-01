@@ -11,19 +11,7 @@ css: ["page.css"]
 	{% endif %}
 </header>
 <main> 
-	<div class="container">
-		{% if page.title %}
-		<div id="page-info">
-			<h2 class="h2-title z-depth-5">{{page.title | replace: "- Brandon Chan", ""}}</h2>
-		</div>
-		{% endif %}
-		<div class="row thi-post">
-			{{ content }}
-			{% if site.disqus_shortname and page.comment %}
-				{% include disqus.html %}
-			{% endif %}
-		</div>
-	</div>
+	{{ content }}
 </main>
 <style>
 	.container:before{
