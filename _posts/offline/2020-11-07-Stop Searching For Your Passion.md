@@ -90,11 +90,11 @@ Here are some steps you can try.
 ### I Don't Want Others To View Me Differently
 As long as your passion doesn't break the law, I think you should still pursue it. Do you value your passion or your social life more?
 
-Here is someone else in a similar situation: <a href="https://www.reddit.com/r/offmychest/comments/4jnbi9/im_so_sick_of_being_ashamed_of_my_job/">www.reddit.com/r/offmychest/comments/4jnbi9/im_so_sick_of_being_ashamed_of_my_job/</a>
+Here is someone else in a similar situation: <a href="https://www.reddit.com/r/offmychest/comments/4jnbi9/im_so_sick_of_being_ashamed_of_my_job/" target="_blank">www.reddit.com/r/offmychest/comments/4jnbi9/im_so_sick_of_being_ashamed_of_my_job/</a>
 
 
 ### I Don't Like Working With People
-Unfortunately people are everywhere. A possible solution is to try flipping this on its head and learn to enjoy working with people (Just try). You can read some good advice in the top comment here: <a href="https://www.reddit.com/r/careerguidance/comments/jppccl/good_careers_for_someone_who_hates_people/">https://www.reddit.com/r/careerguidance/comments/jppccl/good_careers_for_someone_who_hates_people/</a>
+Unfortunately people are everywhere. A possible solution is to try flipping this on its head and learn to enjoy working with people (Just try). You can read some good advice in the top comment here: <a href="https://www.reddit.com/r/careerguidance/comments/jppccl/good_careers_for_someone_who_hates_people/" target="_blank">https://www.reddit.com/r/careerguidance/comments/jppccl/good_careers_for_someone_who_hates_people/</a>
 
 Otherwise you can try looking for a career that doesn't involve working with a lot of people (such as a nighttime security guard), but that it something you'll have to brainstorm for.
 
@@ -119,8 +119,8 @@ photoWidth="50%"
 
 It is easier than ever to get started on a new passion on the interwebs. Get yourself familiar with the people in your field with the links I've provided below. You can usually search up "life as a (insert interest here)" in google/youtube to find others in that field if you want to see others experience as well.
 
-* <a href="https://www.skillshare.com/">SkillShare</a>
-* <a href="https://www.linkedin.com/learning/me">Linkedin Learning</a>
-* <a href="www.udemy.com">UDemy</a>
-* <a href="https://www.meetup.com/">Meetup</a>
-* <a href="https://www.eventbrite.ca/d/online/job-fair/">EventBrite - Job Fair</a>
+* <a href="https://www.skillshare.com/" target="_blank">SkillShare</a>
+* <a href="https://www.linkedin.com/learning/me" target="_blank">Linkedin Learning</a>
+* <a href="www.udemy.com" target="_blank">UDemy</a>
+* <a href="https://www.meetup.com/" target="_blank">Meetup</a>
+* <a href="https://www.eventbrite.ca/d/online/job-fair/" target="_blank">EventBrite - Job Fair</a>
