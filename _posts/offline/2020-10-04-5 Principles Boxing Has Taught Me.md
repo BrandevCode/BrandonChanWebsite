@@ -3,9 +3,10 @@ title: 5 Principles Boxing Has Taught Me
 categories: [life offline]
 tags: [Blog, Boxing]
 comment: 1
+img: https://i0.wp.com/theordinarysingaporean.com/wp-content/uploads/2020/03/hajime-no-ippo-soundtrack.jpg
 ---
 
-Boxing, which many see as a violent sport about knocking the opponent out, has taught me many important ideologies that have aided me in also getting through difficulties in other aspects of my life. I strongly advocate looking into <a href="https://www.mindtools.com/pages/article/newCT_93.htm" target="_blank">metaphorical thinking</a>. It is the act of comparing different problems and finding their similar concepts to link them to a real solution. I am not telling you to solve problems by punching them in the face. Boxing is about much more than punches.
+Boxing, which many see as a violent sport about knocking the opponent out, has taught me many important ideologies that have aided me in also getting through difficulties in other aspects of my life. I didn't join boxing in order to solve problems by punching them in the face. Boxing is about much more than punches.
 
 ## How To Be Self Disciplined
 

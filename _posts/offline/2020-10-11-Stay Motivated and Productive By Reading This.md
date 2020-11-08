@@ -1,18 +1,26 @@
 ---
 title: Resources I Use To Stay Motivated And Productive
 categories: [life offline]
-tags: [Blog, Motivational]
+tags: [Blog, Motivational, Productivity]
+css: [photo.css]
+js: [photo.js]
 comment: 1
-img: /images/posts/movtivation/4 Rules for Life.png
+img: /images/posts/motivation/4 Rules for Life.png
 ---
 
 {% include tip.html content="This post contains many helpful tips that I use on a daily basis to stay motivated and productive. If I ever feel like procrastinating I usually refer to these resources to get back on track. I'm hoping this helps you too!" %}
 
-<img class="lazy" data-src="../images/posts/movtivation/4 Rules for Life.png" width="70%"/>
+## Four Simple Rules
+
+{% 
+include photo-overlay.html 
+photoPath="/images/posts/motivation/4 Rules for Life.png"
+photoWidth="70%"
+%}
 
 <div class="thi-box" markdown="1">
 <div class="box-title" markdown="1">
-**4 Rules for Life**
+**Summary**
 </div>
 <div class="box-content" markdown="1">
 1. **No more zero days** [something, anything, is better than nothing]
@@ -22,7 +30,7 @@ img: /images/posts/movtivation/4 Rules for Life.png
 </div>
 </div>
 
-I found this while going through **/r/getdisciplined** and it was a very inspirational read. In the post there is a person who is asking for help on what to do in their life when they are feeling useless. The commenter by the username ryans01 tells him not to give up an follow those 4 rules. These rules are very simple to understand but can be hard to execute.  
+If you ever feel like you are at the lowest point in your life where nothing is going your way, have a read of the link below. I believe the reason why these rules are so effective is because they are simple to understand and change your habits gradually. Almost everyday I remind myself about the non-zero rule. A little everyday can add up, just think of it as a small investment that will lead to a bigger reward.
 
 {% 
 include link.html 
@@ -32,8 +40,11 @@ description="I'm not sure if this is a rant or a cry for help. Probably both. I 
 imageURL="https://www.redditstatic.com/new-icon.png" 
 %}
 
-## Must Watch Videos
+## Self Improvement Is NOT The Answer To Everything
 
+
+<div class="thi-box" markdown="1">
+<div class="box-content" markdown="1">
 {% 
 include link.html 
 url="youtu.be/DEz7oJy37lI" 
@@ -42,14 +53,13 @@ description="This video is about self improvement, self development, self help, 
 imageURL="https://i.ytimg.com/vi/DEz7oJy37lI/maxresdefault.jpg" 
 %}
 
+Self improvement will not solve all of your problems. The smartest people in the world don't go out of their way to look for self improvement videos and books to keep themselves motivated. They are **obsessed** over what they do. It is also not enough to do the research on what you love. You need to take the first step and get the experience. 
+</div>
+</div>
+
+
 <div class="thi-box" markdown="1">
-<div class="box-title" markdown="1">
-**Summary**
-</div>
 <div class="box-content" markdown="1">
-Self improvement will not solve all of your problems. The smartest people in the world are not the ones who use self improvement videos and books to keep themselves motivated. They are **obsessed** over what they do. It is also not enough to do the research on what you love. You need to take the first step and get the experience. 
-</div>
-</div>
 
 {% 
 include link.html 
@@ -59,18 +69,15 @@ description="Psychology professor Jordan B. Peterson provides practical advice o
 imageURL="https://i.ytimg.com/vi/PE0u7-SX2hs/maxresdefault.jpg" 
 %}
 
-<div class="thi-box" markdown="1">
-<div class="box-title" markdown="1">
-**Summary**
-</div>
-<div class="box-content" markdown="1">
 1. Why should you bother improving yourself? So you and those around you don't have to suffer.
-2. How do you fix it? Find the problems throughout your life and fix it. One by one. 
+2. How do you go about fixing yourself? Find the problems throughout your life and fix it. One by one. 
 3. What should you fix? Fix the bad habits you do everyday. We tend to ignore the small habits when they are actually the most important to fix.
-4. What if I can't fix it? Ignore it for now and move on to something you can do.
+4. What if you can't fix it? Ignore it for now and move on to something you can do.
 </div>
 </div>
 
+<div class="thi-box" markdown="1">
+<div class="box-content" markdown="1">
 {% 
 include link.html 
 url="youtu.be/ji5_MqicxSo" 
@@ -79,12 +86,6 @@ description="Carnegie Mellon Professor Randy Pausch (Oct. 23, 1960 - July 25, 20
 imageURL="https://img.timeinc.net/time/photoessays/2008/randy_pausch/360_randy_pausch_tout.jpg" 
 %}
 
-
-<div class="thi-box" markdown="1">
-<div class="box-title" markdown="1">
-**Summary**
-</div>
-<div class="box-content" markdown="1">
 Probably my all time favourite presentation. He talks about how important your childhood dreams are and how to go about achieving them when you grow older. How you must take your time to dream. "We cannot change the cards we are dealth, just how we play the hand".
 </div>
 </div>

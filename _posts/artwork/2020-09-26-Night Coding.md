@@ -2,7 +2,10 @@
 title: Animation Project - Night Coding
 categories: [artwork]
 tags: [Art, Animation]
+css: [photo.css]
+js: [photo.js]
 comment: 1
+img: \images\background\programming.jpg
 ---
 
 ## Project Goal
@@ -43,7 +46,11 @@ Here are the steps I took and some examples of the effects I used:
 
 <center> Final Result </center>
 
-<img class="lazy" data-src="../images/posts/nightcoding/nightcoding.gif" width="85%"/>
+{% 
+include photo-overlay.html 
+photoPath="/images/posts/nightcoding/nightcoding.gif"
+photoWidth="85%"
+%}
 
 ### Software
 

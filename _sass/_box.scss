@@ -95,31 +95,39 @@ li >.thi-tip, li>.thi-warning{
 }
 
 // hide/show
-// .collapsible{
-//   padding-left: 0!important;
-//   margin-top: 2rem;
-//   margin-bottom: 2rem;
-//   &> li{
-//     list-style-type: none!important;
-//   }
-// }
-// .collapsible-header{
-//   font-weight: 500;
-//   line-height: inherit!important;
-//   min-height: 0!important;
-//   padding: 0.5rem!important;
-//   &>p{
-//     // margin: 10px 0!important;
-//     margin: 0;
-//   }
-//   i{
-//     line-height: initial!important;
-//     margin-right: 0.5rem!important;
-//   }
-// }
-// .collapsible-body{
-// 	padding: 0 2rem!important;
-// }
+.collapsible.post{
+  padding-left: 0!important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-color: black;
+  &> li{
+    list-style-type: none!important;
+  }
+}
+.collapsible-header.post{
+  font-weight: 500;
+  line-height: inherit!important;
+  min-height: 0!important;
+  padding: 0.5rem!important;
+  background-color: $cg-red-accent-3;
+  border-color: black;
+  &>p{
+    // margin: 10px 0!important;
+    margin: 0;
+  }
+  i{
+    line-height: initial!important;
+    margin-right: 0.5rem!important;
+  }
+}
+.collapsible-body.post{
+  border-bottom: red !important;
+} 
+
+.collapsible-header.post:hover
+{
+  background-color: $cg-red-accent-2;
+}
 
 // p mark
 .p-mark{

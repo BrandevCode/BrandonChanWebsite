@@ -1,5 +1,5 @@
 ---
-title: SIAT - First Year Projects
+title: SIAT Program - First Year Projects
 categories: video
 tags: [SFU, IAT]
 maths: 1

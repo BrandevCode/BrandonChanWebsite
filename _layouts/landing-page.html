@@ -11,8 +11,7 @@ js: ["landing-page.js"]
 	{% endif %}
 </header>
 <main>
-	<div id="loading"></div>	
-	<div id="page">
+	<div id="page"></div>
 
     <div class="parallax-container">
 
@@ -29,20 +28,19 @@ js: ["landing-page.js"]
 	</div>
 
 	<div class="container">
-		<div class="row" id="bg">
+		<div class="row">
 			{{ content }}
 			{% if site.disqus_shortname and page.comment %}
 			  {% include disqus.html %}
 			{% endif %}
 		</div>
+		<div id="bg"></div>
 	</div>
-
-
 
 	<!--
     <div class="parallax-container">
 		<div class="parallax"><img src="images/background/01.jpg"></div>
-	</div>		
+	</div>
 
     <div class="parallax-container">
 		<div class="parallax"><img src="images/background/02.jpg"></div>

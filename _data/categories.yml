@@ -7,7 +7,7 @@
   image: images/background/artwork.jpg
   gifimage: images/background/artwork.jpg
 - slug: video
-  name: Video Editing
+  name: Videos
   image: images/background/video.jpg
   gifimage: images/background/video.gif
 - slug: life offline

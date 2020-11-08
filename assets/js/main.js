@@ -24,7 +24,7 @@ function setVisible(selector, visible) {
 // });
 
 
-
+//https://codepen.io/zessx/pen/ZGBMXZ
 //SVG triangulation
 var refreshDuration = 5000;
 var refreshTimeout;
@@ -37,8 +37,12 @@ var points;
 function onLoad()
 {
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.setAttribute('width',window.innerWidth);
-    svg.setAttribute('width',window.innerHeight);
+
+    var winWidth = window.innerWidth
+    var winHeight = window.innerHeight +1200
+
+    svg.setAttribute('width',winWidth);
+    svg.setAttribute('height',winHeight);
     //svg.setAttribute('height',document.documentElement.scrollHeight);
 
     var selection = document.querySelector('#bg') !== null;
@@ -47,11 +51,11 @@ function onLoad()
       document.querySelector('#bg').appendChild(svg);
       //document.querySelector('html').style.backgroundImage = svg;
 
-      var unitSize = (window.innerWidth+window.innerHeight)/10;
-      numPointsX = Math.ceil(window.innerWidth/unitSize)+1;
-      numPointsY = Math.ceil(window.innerHeight/unitSize)+1;
-      unitWidth = Math.ceil(window.innerWidth/(numPointsX-1));
-      unitHeight = Math.ceil(window.innerHeight/(numPointsY-1));
+      var unitSize = (winWidth+winHeight)/10;
+      numPointsX = Math.ceil(winWidth/unitSize)+1;
+      numPointsY = Math.ceil(winHeight/unitSize)+1;
+      unitWidth = Math.ceil(winWidth/(numPointsX-1));
+      unitHeight = Math.ceil(winHeight/(numPointsY-1));
 
       points = [];
 
@@ -175,7 +179,7 @@ window.onresize = onResize;
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Programmer", "Web Developer", "BI Developer", "Artist", "Video Editor", "Guitarist", "Snowboarder"];
+const textArray = ["Programmer", "Software Developer", "Business Intelligence Developer", "Artist", "Video Editor", "Guitarist", "Snowboarder", "Web Developer"];
 const typingDelay = 135;
 const erasingDelay = 120;
 const newTextDelay = 2250; // Delay between current and next text

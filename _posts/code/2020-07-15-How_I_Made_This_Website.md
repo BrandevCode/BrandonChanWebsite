@@ -3,15 +3,15 @@ title: How I Made Website This Website
 categories: [code]
 tags: [Website, Design, Javascript, HTML]
 maths: 1
-toc: 1
 snippet: 1
 comment: 1
 date: 2020-07-15
+img: /images/posts/notetheme.jpg
 ---
 
 {% include tip.html content="Keep in mind, this post will not be teaching you how to make a website but will help describe the process and resources I used to make mine." %}
  
-## Jekylling for the first time
+## Jekylling For The First Time
 
 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> is a blog-aware static site generator that has been become popular in the recent years. After being adopted by GitHub and their easy to use website hosting platform <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, I decided to use this as the main tool for this website. This has been immensely useful as I am able to customize all of the components for the HTML, CSS and Javascript rather than being reliant on a third party service.
 
@@ -36,9 +36,11 @@ After deciding to use Jekyll, I found a website called <a href="http://jekyllthe
 
 <img src="images/posts/notetheme.jpg" class="profile z-depth-5"/>
 
-<p class="post-more-info" markdown="1">
+<div class="thi-box" markdown="1">
+<div class="box-content" markdown="1">
 Since my website initially looked like this, I enjoy looking back seeing how much I was able to change.
-</p>
+</div>
+</div>
 
 </div>
 
