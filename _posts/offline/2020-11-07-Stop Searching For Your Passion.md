@@ -1,5 +1,5 @@
 ---
-title: Stop Searching For Your Passion (And Just Go For It)
+title: Stop Searching For Your Passion (And Just Start)
 categories: [life offline]
 tags: [Blog, Motivational, Passion]
 css: [photo.css]
