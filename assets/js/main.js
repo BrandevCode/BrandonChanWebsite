@@ -179,7 +179,7 @@ window.onresize = onResize;
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Programmer", "Software Developer", "Business Intelligence Developer", "Artist", "Video Editor", "Guitarist", "Snowboarder", "Web Developer"];
+const textArray = ["Programmer", "Software Developer", "Artist", "Video Editor", "Guitarist", "Snowboarder", "Web Developer"];
 const typingDelay = 135;
 const erasingDelay = 120;
 const newTextDelay = 2250; // Delay between current and next text

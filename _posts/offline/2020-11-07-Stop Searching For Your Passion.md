@@ -1,5 +1,5 @@
 ---
-title: Stop Searching For Your Passion (And Just Start)
+title: Stop Searching For Your Passion (Just Start)
 categories: [life offline]
 tags: [Blog, Motivational, Passion]
 css: [photo.css]
@@ -8,9 +8,8 @@ comment: 1
 onlineimg: /images/posts/motivation/Passion-Mark Cuban.png
 ---
 
-Life Isn't About Finding Yourself. Life Is About Creating Yourself
-
-\- George Bernard Shaw
+{% include tip.html content="Life isn't about finding yourself. Life is about creating yourself
+\- George Bernard Shaw" %}
 
 ## Start With Your Options
 
@@ -18,7 +17,7 @@ Life Isn't About Finding Yourself. Life Is About Creating Yourself
 
 People have asked me these questions before and I feel like I've failed at giving good advice. Usually my first question back to them is, "what are your interests?". Their response is usually similar to "I enjoy (insert hobby here) but I don't really want to do that as a career". This gives a good step to narrow down which subject or area they would potentially enjoy, but since I usually don't know the different career options that exist, the conversation usually ends there.
 
-I am here to redeem myself! Below are some fields that may help spark your interest.
+I am here to redeem myself. Below are some fields that may help spark your interest.
 ### Found At: <a href="https://www.recruiter.com/careers/" target="_blank">Recruiter.com</a>
 
 1. <a href="www.recruiter.com/careers/agriculture-food-natural-resources.html" target="_blank">Agriculture, Food and Natural Resources</a>
@@ -73,34 +72,25 @@ photoPath="/images/posts/motivation/Passion-Mark Cuban.png"
 photoWidth="80%"
 %}
 
-## Priorities
-
-We all have different priorities. These are things you'll have to ultimately decide for yourself. Here are some cases to help you figure out what works for you.
-
-### It Doesn't Pay Well
-Do you value your passion or your income more? The best way to figure this out is to ask yourself "where do I want to be in 5-10 years?".
-
-### The Education Is Too Expensive
-Here are some steps you can try. 
-
-1. Ask a Financial Advisor. 
-2. Get a student loan. 
-3. Find a job that is not as expensive first, then transition to it.
+## Some Concerns
 
 ### I Don't Want Others To View Me Differently
 As long as your passion doesn't break the law, I think you should still pursue it. Do you value your passion or your social life more?
 
-Here is someone else in a similar situation: <a href="https://www.reddit.com/r/offmychest/comments/4jnbi9/im_so_sick_of_being_ashamed_of_my_job/" target="_blank">www.reddit.com/r/offmychest/comments/4jnbi9/im_so_sick_of_being_ashamed_of_my_job/</a>
+Here is someone else in a similar situation: <a href="https://www.reddit.com/r/offmychest/comments/4jnbi9/im_so_sick_of_being_ashamed_of_my_job/" target="_blank">I'm So Sick Of Being Ashamed Of My Job</a>
 
 
 ### I Don't Like Working With People
-Unfortunately people are everywhere. A possible solution is to try flipping this on its head and learn to enjoy working with people (Just try). You can read some good advice in the top comment here: <a href="https://www.reddit.com/r/careerguidance/comments/jppccl/good_careers_for_someone_who_hates_people/" target="_blank">https://www.reddit.com/r/careerguidance/comments/jppccl/good_careers_for_someone_who_hates_people/</a>
+Unfortunately people are everywhere. A possible solution is to try flipping this situation on its head and learn to enjoy working with people. You can read some good advice in the top comment here: <a href="https://www.reddit.com/r/careerguidance/comments/jppccl/good_careers_for_someone_who_hates_people/" target="_blank">Good Careers For Someone Who Hates People</a>. They mention "We can't get away from people, but that's something to be embraced, not feared".
 
 Otherwise you can try looking for a career that doesn't involve working with a lot of people (such as a nighttime security guard), but that it something you'll have to brainstorm for.
 
-## You WILL Reach The Insecure Canyon
+## You Will Reach The Insecure Canyon
 
-I have experienced this a lot. This happens when you start something new and have so much enthusiasm and awe, only to end up realizing that there is so much to learn that it becomes overwhelming. Remember that even the smartest people in the world were once in the canyon. Break the tasks down and take it slow. You'll get out of there eventually.
+I have experienced this a lot. This happens when you start something new and have so much enthusiasm and awe, only to end up realizing that there is so much to learn that it becomes overwhelming. Remember that even the smartest people in the world were once in the canyon (and they may still feel that way). At this point you have two options:
+
+1. Give up. It's okay to, don't force yourself to do something that may be impossible for you.
+2. Keep trying. Continue pushing through, doing research and getting that motivation back.
 
 {% 
 include photo-overlay.html 
@@ -110,17 +100,23 @@ photoWidth="50%"
 
 
 
-
-
-
-
-
 ## Online Resources To Start Your Passion 
 
 It is easier than ever to get started on a new passion on the interwebs. Get yourself familiar with the people in your field with the links I've provided below. You can usually search up "life as a (insert interest here)" in google/youtube to find others in that field if you want to see others experience as well.
 
-* <a href="https://www.skillshare.com/" target="_blank">SkillShare</a>
-* <a href="https://www.linkedin.com/learning/me" target="_blank">Linkedin Learning</a>
-* <a href="www.udemy.com" target="_blank">UDemy</a>
-* <a href="https://www.meetup.com/" target="_blank">Meetup</a>
+<br>
+
 * <a href="https://www.eventbrite.ca/d/online/job-fair/" target="_blank">EventBrite - Job Fair</a>
+- Visit a job fair to get some inspiration.
+
+* <a href="https://www.skillshare.com/" target="_blank">SkillShare</a>
+- Good for starting a new skill as a beginner. I learned a lot of useful cooking techiniques here.  
+
+* <a href="https://www.linkedin.com/learning/me" target="_blank">Linkedin Learning</a>
+- I have yet to try it but it is something I'll definitely be looking into.
+
+* <a href="www.udemy.com" target="_blank">UDemy</a>
+- Unlike skillshare, the courses are bought individually. Never buy a course at full price, there are sales all the time.
+
+* <a href="https://www.meetup.com/" target="_blank">Meetup</a>
+- I did a couple of meetings with a drawing group. I heard it can be very useful in getting a good network though.

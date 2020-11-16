@@ -11,7 +11,7 @@ title: Brandon Chan (Canada)
     <div class="thi-columns z-depth-5">
       {% for post in paginator.posts %}
         <a class="post-title paper-raise" href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}<small class="post-date">{{post.date | date: "%d/%m/%Y"}}</small>
+            {{ post.title }}<small class="post-date">{{post.date | date_to_string}}</small>
         </a>
       {% endfor %}
     </div>
