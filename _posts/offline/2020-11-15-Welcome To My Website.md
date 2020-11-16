@@ -3,6 +3,7 @@ title: Welcome To My Website
 categories: [life offline]
 tags: [Blog]
 comment: 1
+img: /images/background/programming.jpg
 ---
 
 
