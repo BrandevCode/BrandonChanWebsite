@@ -102,7 +102,7 @@ photoWidth="50%"
 
 ## Online Resources To Start Your Passion 
 
-It is easier than ever to get started on a new passion on the interwebs. Get yourself familiar with the people in your field with the links I've provided below. You can usually search up "life as a (insert interest here)" in google/youtube to find others in that field if you want to see others experience as well.
+It is easier than ever to get started on a new passion on the interwebs. Familiarize yourself with the people in your field with the links I've provided below. You can usually search up "life as a (insert interest here)" in google/youtube to find others in that field if you want to see others experience as well.
 
 <br>
 
