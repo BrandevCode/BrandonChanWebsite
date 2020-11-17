@@ -13,9 +13,9 @@ img: /images/background/programming.jpg
 I'm Brandon. I know, isn't it shocking that my name is the exact same as this site! Jokes aside, in the past I believe others would perceive me as the short quiet Asian kid, but I feel like that doesn't fit me anymore. I'm trying my best to change that label to instead be the hardworking, intelligent, and strong Asian kid. 
 
 ## How have you been?
-I've been surviving this difficult year quite well, other than not being able to socialize as much. I changed my mindset to think of this tough year as an opportunity instead of a hindrance. I've been working on a bunch of personal projects like this website and I had a good spree doing morning runs everyday during the beginning of the year. 
+I've been surviving this difficult year quite well, other than not being able to socialize as much. I changed my mindset to think of this tough year as an opportunity instead of a hindrance. I've been working on a bunch of personal projects like this website, I had a good spree doing morning jogs everyday and made a couple of <a href="https://brandonchan.ca/Night-Coding">animations</a>.
 
-## What have you been up to?
+## What have you been up to recently?
 Mainly my time has been spent working at my job as a Business Intelligence Developer at <a href="https://powerex.com/" target="_blank">Powerex</a>. Outside of my job I have been working on this website, binge watching <a href="https://en.wikipedia.org/wiki/Money_Heist" target="_blank">Money Heist</a>, and learning to create some pixel art for a video game I am hoping to develop.
 
 ## What posts will there be on this website?
@@ -61,4 +61,4 @@ You can follow me on these social media platforms:
 - <a href="https://www.youtube.com/channel/UCTFyK4YzP6d2kOb0N-6ehiQ" target="_blank" ><i class="lab la-youtube-square"></i>  Youtube</a> 
 - <a href="https://www.linkedin.com/in/brandon-chan-b77baa11a" target="_blank" ><i class="lab la-linkedin-in"></i>  Linkedin</a>
 
-Otherwise, the best way to support, is by upvoting my posts. It helps me know if my content is good or if I need any improvements. Any critiques are welcome so please let me know what you think of my website so far. Thanks for reading.
+Otherwise, the best way to support, is by upvoting my posts. It helps me know if my content is good or if I need any improvements. Any critiques are welcome so please let me know what you think of my website so far. Thanks for reading and don't be a stranger! Let me know how you have been doing as well.
