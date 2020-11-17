@@ -20,7 +20,7 @@ js: ["morphext.min.js", "about.js"]
         Hey there! My name is Brandon Chan and I am a programmer, web developer, guitarist, snowboarder and various other things. I enjoy following the video game scene like new console/game releases, being active by working out or hiking, and playing board games.
         </p>
         <p>
-        I often feel like I keep quiet in converstations. I am hoping that this website helps me open up more so I can express my views and opinions.
+        I often feel like I keep quiet in conversations. I am hoping that this website helps me open up more so I can express my views and opinions.
         </p>
         <h1 class="header font-nav-title"><span>Experience</span></h1>
         <div class="z-depth-5">
