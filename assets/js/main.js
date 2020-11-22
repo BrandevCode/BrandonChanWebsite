@@ -15,7 +15,8 @@ $(window).load(function() {
 });
 
 function setVisible(selector, visible) {
-  document.querySelector(selector).style.display = visible ? 'block' : 'none';
+  if (document.querySelector(selector))
+    document.querySelector(selector).style.display = visible ? 'block' : 'none';
 }
 
 // onReady(function() {
@@ -231,7 +232,7 @@ $(".collapsible-header").click(function () {
 
   $(this).find(".rotate").toggleClass("down");
 
-  console.log("rotate");
+  //console.log("rotate");
 })
 
 //Fade in on scroll
@@ -274,22 +275,22 @@ var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {},
 
 $checkboxes.on("change", function(){
     $checkboxes.each(function(){
-        console.log(this.id);
-        console.log(this.checked);
+        //console.log(this.id);
+        //console.log(this.checked);
       checkboxValues[this.id] = this.checked;
     });
     
-    console.log(checkboxValues);
+    //console.log(checkboxValues);
 
     localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
 
-    console.log(checkboxValues);
+    //console.log(checkboxValues);
 });
 
 // On page load
 $.each(checkboxValues, function(key, value) {
-    console.log(key);
-    console.log(value);
+    //console.log(key);
+    //console.log(value);
 
   //document.getElementById('toggle').checked = true;
   $("#" + key).prop('checked', value);

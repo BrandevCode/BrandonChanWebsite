@@ -3,7 +3,8 @@ title: 5 Principles Boxing Has Taught Me
 categories: [life offline]
 tags: [Blog, Boxing]
 comment: 1
-img: https://i0.wp.com/theordinarysingaporean.com/wp-content/uploads/2020/03/hajime-no-ippo-soundtrack.jpg
+img: /images/posts/boxing/5 Principles Boxing Has Taught Me.png
+coverimg: /images/posts/boxing/5 Principles Boxing Has Taught Me.png
 ---
 
 Boxing, which many see as a violent sport about knocking the opponent out, has taught me many important ideologies that have aided me in also getting through difficulties in other aspects of my life. I didn't join boxing in order to solve problems by punching them in the face. Boxing is about much more than punches.

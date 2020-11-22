@@ -94,6 +94,9 @@ li >.thi-tip, li>.thi-warning{
   margin-top: 1.5rem;
 }
 
+.collapsible-body{
+  padding: 0px !important;
+}
 // hide/show
 .collapsible.post{
   padding-left: 0!important;
@@ -116,8 +119,9 @@ li >.thi-tip, li>.thi-warning{
     margin: 0;
   }
   i{
-    line-height: initial!important;
-    margin-right: 0.5rem!important;
+    //line-height: initial!important;
+    line-height: 180%;
+    //margin-right: 0.5rem!important;
   }
 }
 .collapsible-body.post{

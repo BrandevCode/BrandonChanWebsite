@@ -146,6 +146,11 @@ hr{
     //border-radius: 6px;
     border: thin solid $raisin-black;
   }
+
+  // .thi-columns{
+  //   margin: 2px !important;
+  //   padding: 2px !important;
+  // }
 }
 
 .post-title:hover{
@@ -287,7 +292,12 @@ table, th, td{
 }
 
 button{
-  color: black;
+  color: black !important;
+}
+
+button .black
+{
+  color: black !important;
 }
 
 input{

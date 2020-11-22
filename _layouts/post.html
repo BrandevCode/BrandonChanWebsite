@@ -16,8 +16,28 @@ js: ["post.js"]
 	<div id="page">
 
   <div class="container" id="bg">
+    {% if page.coverimg %}
+
+    <img class="post-cover" src="{{page.coverimg}}">
+    <span>
+      Posted on
+      <span style="display: initial;" class="cat-class">{{page.date | date: "%d/%m/%Y"}}</span>,
+      in
+      {% for cat in page.categories %}
+        {% for catDat in site.data.categories %}
+          {% if catDat.slug == cat %}
+            {% assign catego = catDat %}
+          {% endif %}
+        {% endfor %}
+        {% if catego %}
+          <a class="cat-class cat-commas" href="{{site.baseurl}}/categories#{{cat | slugify}}">{{ catego.name }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
+        {% endif %}
+      {% endfor %}
+    </span>
+  
+    {% else %}
     <div id="post-info">
-      <h3>{{page.title}}</h3>
+        <h3>{{page.title}}</h3>
       <span>
         Posted on
         <span style="display: initial;" class="cat-class">{{page.date | date: "%d/%m/%Y"}}</span>,
@@ -34,6 +54,7 @@ js: ["post.js"]
         {% endfor %}
       </span>
     </div>
+    {% endif %}
 
     <div class="divider"></div>
     <div class="row thi-post">

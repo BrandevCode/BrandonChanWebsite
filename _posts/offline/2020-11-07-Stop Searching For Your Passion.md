@@ -5,7 +5,8 @@ tags: [Blog, Motivational, Passion]
 css: [photo.css]
 js: [photo.js]
 comment: 1
-onlineimg: /images/posts/motivation/Passion-Mark Cuban.png
+onlineimg: /images/posts/motivation/Passion Cover.png
+coverimg: /images/posts/motivation/Passion Cover.png
 ---
 
 {% include tip.html content="Life isn't about finding yourself. Life is about creating yourself

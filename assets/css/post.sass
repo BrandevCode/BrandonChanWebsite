@@ -68,7 +68,17 @@ main
 
       @include transition(all .3s ease-in-out)
 
+.post-cover
+  max-width: 80%
+  margin-left: auto
+  margin-right: auto
+  display: block
+  text-align: center
+
 @media only screen and (max-width: 992px)
+  .post-cover
+    max-width: 100%
+
   #post-info
     h3
       text-align: center
@@ -102,7 +112,13 @@ html
   html
     font-size: 18px
   .thi-post
-    margin: 0 1rem 0 1rem !important    
+    margin: 0 1rem 0 1rem !important  
+
+    table
+      margin: 0rem auto
+      th, td
+        border: 1px solid #777
+        padding: 0px
 
 .top-nav
   background-color: $raisin-black
