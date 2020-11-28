@@ -44,6 +44,15 @@ Realize that you need to have an open mind and explore your options. Once you ge
 
 {% 
 include link.html 
+url="www.youtube.com/watch?v=bt9VdqvYDSc" 
+title="How To Find Your Passion - 11 Abilities (Which one is for you?)"
+description="If you are someone who wonders about how to find your passions or \"what career should I chose?\", then you've come to the right place..." 
+imageURL="https://i.ytimg.com/vi/bt9VdqvYDSc/maxresdefault.jpg" 
+%}
+
+
+{% 
+include link.html 
 url="youtu.be/FlosFuyuPpk" 
 title="Stop Trying to \"Find Your Passion\" - College Info Geek"
 description="When you're trying to figure out what to do with your life, \"follow your passion\" is pretty bad advice. So what's the alternative? My book \"10 Steps to Earni..." 
