@@ -3,7 +3,7 @@ title: 10 Personal Finance Lessons School Didn't Teach You
 categories: [life offline]
 tags: [Blog, Financing, Investing]
 comment: 1
-img: \images\posts\finance\10 Personal Finance.png
+onlineimg: \images\posts\finance\10 Personal Finance.png
 coverimg: \images\posts\finance\10 Personal Finance.png
 ---
 
