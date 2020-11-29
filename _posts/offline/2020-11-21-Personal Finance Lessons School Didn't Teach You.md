@@ -50,19 +50,33 @@ Financial goals are savings, investment or spending targets you hope to achieve 
 ### Why You Should Set Financial Goals
 Without a goal it is like you are planning to fail. Who knows what’s ahead in 30 years? For that matter, who knows what’s ahead next week? So, the smartest, best-prepared people make the best guesses possible. It’s establishing good habits. If you adhere to consistent saving patterns, you’ve set yourself up for success.
 
-<a href="https://www.incharge.org/financial-literacy/budgeting-saving/how-to-set-financial-goals/" target="_blank">How To Set Financial Goals</a>
+### How To Achieve Your Financial Goal
+The best way to reach your financial goals is by making a plan that prioritizes your goals.
 
-### How To Get A Job With Good Enough Income
+When you examine your own goals, you’ll discover that some are broad and far-reaching, while others are narrow in scope. Your goals can be separated into three categories of time:
 
-1. You need to find what you are passionate about.
-{% 
+1. Short-term financial goals take under one year to achieve. Examples may include taking a vacation, buying a new refrigerator or paying off a specific debt.
+2. Mid-term financial goals can’t be achieved right away but shouldn’t take too many years to accomplish. Examples may include purchasing a car, finishing a degree or certification, or paying off your debts.
+3. Long-term financial goals (over five years) may take several years to accomplish and, as a result, require longer commitments and often more money. Examples might include buying a home, saving for a child’s college education, or a comfortable retirement.
+
+**Develop A Goal Chart**
+
+Developing a financial goals chart is a good way to begin this process. Here are the five steps you should follow to set up your goal chart:
+
+1. Write down one personal financial goal. It should be specific, measurable, action-oriented, realistic and have a timeline.
+2. Decide if your goal is short-term, mid-term, or long-term, and create a timeline for that goal. This may change at any time based on your situation.
+3. Determine how much money you need to save to reach your goal and separate that amount by the month and/or year.
+4. Think of all ways you can reach that goal. Include saving, cutting expenses, earning extra money, or finding additional resources.
+5. Decide which is the best combination of ways to reach your goal and write them down.
+6. All of that might sound daunting, but it’s best to set incremental goals. Prioritize, then achieve. After accomplishing some of the easier goals, you gain confidence in your decision making That provides motivation to achieve the more difficult targets that require more time and discipline.
+
+<!-- {% 
 include link.html 
 url="brandonchan.ca/Stop-Searching-For-Your-Passion" 
 title="	Stop Searching For Your Passion (Just Start)"
 description="Life isn’t about finding yourself. Life is about creating yourself - George Bernard Shaw" 
 imageURL="https://brandonchan.ca/images/posts/motivation/Passion Cover.png" 
-%}
-2. Check the salary you would get online. <a href="www.glassdoor.ca">Glassdoor</a>
+%} -->
 
 ## Budgeting
 
