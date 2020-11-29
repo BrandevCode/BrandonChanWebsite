@@ -7,28 +7,6 @@ onlineimg: \images\posts\finance\10 Personal Finance.png
 coverimg: \images\posts\finance\10 Personal Finance.png
 ---
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
-<script src="https://www.moneymage.net/mm.min.js"></script>
-
-<script>
-moneymage.ready(() => {
-    moneymage.displayCompoundCalculator();
-});
-moneymage.setLocaleCurrency("en-US", "USD");
-moneymage.setColors([], "red", "green");
-</script> -->
-
-<!-- ### My General Rule Of Thumb for Money Management
-
-1. Have low expenses. This means purchasing less items that aren't living expenses. 
-2. When allocating income, remember to first use it for living expenses, then put it in saving and if savings have enough to reach your emergency fund goal, then put the rest into investments.
-3. Purchases that help improve your abilities do not count as an expense and instead count as an investment. Howevever this should not be abused, such as by buying the most expensive computer to create illustrations.
-4. Have financial goals in mind. Currently my financial goal is to purchase a condo and to save enough for my future family. This helps me reflect on my purchases in order to keep my on track to obtain them.
- -->
-
 {% include tip.html content="Keep in mind that a lot of content written in this post were taken from various sources. Please click into the links to dive deeper into each topic." %}
 
 ### Introduction
@@ -525,3 +503,27 @@ imageURL="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2017/10/iSto
 - <a href="https://www.vanguardcanada.ca/individual/about-vanguard/about-vanguard.htm" target="_blank">Vanguard</a>
 - <a href="https://en.wikipedia.org/wiki/The_Wealthy_Barber" target="_blank">The Wealthy Barber</a>
 - <a href="https://www.canada.ca/en/financial-consumer-agency/services/financial-toolkit.html" target="_blank">Canada.ca Financial Toolkit</a>
+
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
+<script src="https://www.moneymage.net/mm.min.js"></script>
+
+<script>
+moneymage.ready(() => {
+    moneymage.displayCompoundCalculator();
+});
+moneymage.setLocaleCurrency("en-US", "USD");
+moneymage.setColors([], "red", "green");
+</script> -->
+
+<!-- ### My General Rule Of Thumb for Money Management
+
+1. Have low expenses. This means purchasing less items that aren't living expenses. 
+2. When allocating income, remember to first use it for living expenses, then put it in saving and if savings have enough to reach your emergency fund goal, then put the rest into investments.
+3. Purchases that help improve your abilities do not count as an expense and instead count as an investment. Howevever this should not be abused, such as by buying the most expensive computer to create illustrations.
+4. Have financial goals in mind. Currently my financial goal is to purchase a condo and to save enough for my future family. This helps me reflect on my purchases in order to keep my on track to obtain them.
+ -->
