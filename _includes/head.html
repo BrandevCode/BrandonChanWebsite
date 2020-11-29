@@ -22,17 +22,17 @@
   <!-- page's cover -->
   {% if page.onlineimg %}
     <meta property="og:image" content="{{ page.onlineimg }}" />
-    <meta property="og:image:width" content="1234">
-    <meta property="og:image:height" content="592">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
   {% elsif page.img %}
     <meta property="og:image" content="{{site.url}}{{site.baseurl}}{{ page.img }}" />
-    <meta property="og:image:width" content="1234">
-    <meta property="og:image:height" content="592"> 
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627"> 
   {% else %}
     <meta property="og:image" content="{{site.url}}{{site.baseurl}}/images/defaultCoverPost.jpg" />
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="1234">
-    <meta property="og:image:height" content="592">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
   {% endif %}
 
   {% if page.maths or page.math %}
