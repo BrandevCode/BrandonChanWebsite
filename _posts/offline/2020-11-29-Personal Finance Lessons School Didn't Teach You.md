@@ -100,7 +100,8 @@ The question of “Should I buy that?” and “Can I afford this?” can be a s
 Tracking “every penny” isn’t as hard as many might think - apps like <a href="https://www.youneedabudget.com/" target="_blank">YNAB</a> (You-Need-A-Budget) or <a href="https://www.mint.com/" target="_blank">mint</a> (by Intuit) can make the process of importing, tracking, and comparing to a budget very easy to do. However, the tedium of categorizing these transactions is not exciting and it requires a continuous attention (at least monthly, and every month)
 
 
-Budgeting Apps:
+**Budgeting Apps**
+
 - <a href="https://fortunecityapp.com/en/" target="_blank">Fortune City App</a> - Fortune City is a game that combines accounting with city simulation.
 - <a href="https://www.youneedabudget.com/" target="_blank">YNAB</a> - You Need a Budget combines easy software with Four Simple Rules to help you quickly gain control of your money, get out of debt, and save more money faster.
 - <a href="https://www.mint.com/" target="_blank">Mint</a> - Helps you
