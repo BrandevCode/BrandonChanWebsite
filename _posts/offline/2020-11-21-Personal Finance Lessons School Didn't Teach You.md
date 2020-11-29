@@ -7,7 +7,7 @@ onlineimg: \images\posts\finance\10 Personal Finance.png
 coverimg: \images\posts\finance\10 Personal Finance.png
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
@@ -19,7 +19,7 @@ moneymage.ready(() => {
 });
 moneymage.setLocaleCurrency("en-US", "USD");
 moneymage.setColors([], "red", "green");
-</script>
+</script> -->
 
 <!-- ### My General Rule Of Thumb for Money Management
 
