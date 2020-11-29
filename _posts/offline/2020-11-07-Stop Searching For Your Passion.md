@@ -75,12 +75,33 @@ description="What are you passionate about? You’re told these five words hold 
 imageURL="https://i.ytimg.com/vi/6MBaFL7sCb8/maxresdefault.jpg" 
 %}
 
+{% 
+include link.html 
+url="www.youtube.com/watch?v=G2SqqjRn_c0" 
+title="How To Find And Do Work That You Love (Ikigai)"
+description="How can I find a job that I love and has meaning? Is it possible to do what you love and make money? Try the Ikigai exercise as Chris demonstrates to the tea..." 
+imageURL="https://i.ytimg.com/vi/G2SqqjRn_c0/hqdefault.jpg" 
+%}
 
 {% 
 include photo-overlay.html 
 photoPath="/images/posts/motivation/Passion-Mark Cuban.png"
 photoWidth="80%"
 %}
+
+## Ikigai
+
+Ikigai is a Japanese concept that means "a reason for being". The word refers to having a meaningful direction or purpose in life, constituting the sense of one's life being made worthwhile, with actions taken towards achieving one's ikigai resulting in satisfaction and a sense of meaning to life.
+
+It is a claim by most Japanese people that this is the reason why they have such long lifespans. They find their Ikigai. 
+
+<img src="images/posts/finance/ikigai.png">
+
+Ikigai is an overlap of all four areas – what you love, what you’re good at, what you can be paid for, and what the world needs. If you can find that, then you’ve found something fulfilling and sustainable.
+
+### Source
+
+<a href="https://www.thesimpledollar.com/financial-wellness/using-the-concept-of-ikigai-to-find-financial-personal-and-professional-fulfillment/" target="_blank">Using The Concept Of Ikigai To Find Financial Personal and Professional Fulfillment</a>
 
 ## Some Concerns
 
