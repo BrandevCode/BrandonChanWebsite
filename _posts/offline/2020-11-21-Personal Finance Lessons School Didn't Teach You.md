@@ -236,7 +236,7 @@ ETFs are a collection of stocks, bonds or other investments that you can buy and
 
 When you purchase a stock, you're buying a microscopic stake in the company. It's yours and you get to share in the growth and also in the loss.
 
-### Guaranteed Investment Certificate (GIC)"
+### Guaranteed Investment Certificate (GIC)
 
 <a href="www.investopedia.com/terms/g/gic.asp" target="_blank">Guaranteed Investment Certificate (GIC) - Investopedia</a>
 
