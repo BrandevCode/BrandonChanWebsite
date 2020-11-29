@@ -384,7 +384,7 @@ Insurance companies, landlords and employers may also look at your credit report
 4. New Credit (10%)
 5. Types of Credit in Use (10%)
 
-Source: <a href="https://www.canadadrives.ca/blog/credit/5-factors-that-impact-your-credit-score-in-canada">5 Factors That Impact Your Credit Score In Canada</a>
+Source: <a href="https://www.canadadrives.ca/blog/credit/5-factors-that-impact-your-credit-score-in-canada" target="_blank">5 Factors That Impact Your Credit Score In Canada</a>
 
 ### How do I find my Credit Score?
 
@@ -466,7 +466,7 @@ The <a href="https://www.investopedia.com/ask/answers/102714/who-eligible-canada
 
 > ### <a href="https://www.canada.ca/en/financial-consumer-agency/services/savings-investments/choose-financial-advisor.html">Choosing A Financial Advisor - Canada.ca</a>
 
-<a href="https://www.wealthsimple.com/en-ca/learn/financial-advisors">Financial Advisors: How To Choose & The Cost - WealthSimple</a>
+<a href="https://www.wealthsimple.com/en-ca/learn/financial-advisors" target="_blank">Financial Advisors: How To Choose & The Cost - WealthSimple</a>
 
 ### Why Do I Need A Financial Advisor
 
@@ -485,11 +485,11 @@ An advisor can create a detailed financial plan, which involves:
 
 When speaking with a prospective advisor, don’t discount the importance of personality. You probably intend to work with this person over a long period of time, so ensure you like their style of communication.
 
-<a href="https://www.napfa.org/">National Association of Personal Financial Planners</a>
+<a href="https://www.napfa.org/" target="_blank">National Association of Personal Financial Planners</a>
 
 ### Prepare your questions
 
-1. Ask if they are a <a href="https://www.investopedia.com/terms/f/fiduciary.asp">fiduciary</a>. Being a fiduciary requires being bound both legally and ethically to act in the other's best interests.
+1. Ask if they are a <a href="https://www.investopedia.com/terms/f/fiduciary.asp" target="_blank">fiduciary</a>. Being a fiduciary requires being bound both legally and ethically to act in the other's best interests.
 2. How do you get paid? Advisors can use a variety of fee structures. To keep it simple and avoid conflicts of interest, focus on fee-only advisors.
 3. What are my all-in costs? In addition to paying the advisor, you’ll face other fees — and you'll want to know what they are.
 4. How will our relationship work? You want to know how often you’ll meet and whether she's available for phone calls or emails outside of scheduled appointments. 
