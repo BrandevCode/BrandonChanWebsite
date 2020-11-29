@@ -3,6 +3,7 @@ title: 10 Personal Finance Lessons School Didn't Teach You
 categories: [life offline]
 tags: [Blog, Financing, Investing]
 comment: 1
+onlineimg: \images\posts\finance\10 Personal Finance.png
 coverimg: \images\posts\finance\10 Personal Finance.png
 ---
 
@@ -27,6 +28,8 @@ moneymage.setColors([], "red", "green");
 3. Purchases that help improve your abilities do not count as an expense and instead count as an investment. Howevever this should not be abused, such as by buying the most expensive computer to create illustrations.
 4. Have financial goals in mind. Currently my financial goal is to purchase a condo and to save enough for my future family. This helps me reflect on my purchases in order to keep my on track to obtain them.
  -->
+
+{% include tip.html content="Keep in mind that a lot of content written in this post were taken from various sources. Please click into the links to dive deeper into each topic." %}
 
 ### Introduction
 
@@ -94,7 +97,7 @@ The term “Budgeting” usually encompasses two separate actions:
 2. Tracking your progress towards these goals
 
 ### Why Budget?
-You’d think I just explained that already - it’s to set goals and achieve them. Achieve your dreams! But honestly, it’s not all about just achieving goals. It’s about avoiding financial traps, living paycheque-to-paycheque, getting the best value out of your money, and feeling comfortable with your financial situation. 
+You’d think I just explained that already - it’s to set goals and achieve them. Achieve your dreams! But honestly, it’s not all about just achieving goals. It’s about avoiding financial traps, avoiding living paycheque-to-paycheque, getting the best value out of your money, and feeling comfortable with your financial situation. 
 
 The question of “Should I buy that?” and “Can I afford this?” can be a source of stress and worry, and more often - regret.
 
@@ -231,9 +234,9 @@ ETFs are a collection of stocks, bonds or other investments that you can buy and
 
 ### Bonds
 
-<a href="https://www.investopedia.com/financial-edge/0312/the-basics-of-bonds.aspx" target="_blank">The Basics of Bonds - Investopedia</a>
+<a href="https://www.investopedia.com/terms/b/bond.asp" target="_blank">The Basics of Bonds - Investopedia</a>
 
-When you purchase a stock, you're buying a microscopic stake in the company. It's yours and you get to share in the growth and also in the loss.
+A bond is a fixed income instrument that represents a loan made by an investor to a borrower (typically corporate or governmental). A bond could be thought of as an I.O.U. between the lender and borrower that includes the details of the loan and its payments.
 
 ### Guaranteed Investment Certificate (GIC)
 
