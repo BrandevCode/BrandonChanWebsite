@@ -147,7 +147,7 @@ As a first time investor, you should determine what type of account to open, eve
 
 Is an account in which contributions, interest earned, dividends, and capital gains are not taxed, and can be withdrawn tax-free.
 
-As an example, let's take two savers, Joe and Jane. At the beginning of the year, Joe puts C$6,000 in an investment account earning 7% per year; Jane does the same but within a TFSA. They will each have C$6,420 at the end of the year, but Jane will be able to withdraw all C$6,420 with no tax penalty, whereas Joe would be taxed on the C$420 he earned in capital gain.
+As an example, let's take two savers, Joe and Jane. At the beginning of the year, Joe puts $6,000 in an investment account earning 7% per year; Jane does the same but within a TFSA. They will each have $6,420 at the end of the year, but Jane will be able to withdraw all $6,420 with no tax penalty, whereas Joe would be taxed on the $420 he earned in capital gain.
 
 **TFSA Contributions**
 
@@ -157,7 +157,7 @@ The amount that you're allowed to deposit into a TFSA is called your "contributi
 
 Any withdrawal amount is added back to your contribution room at the beginning of the following year.
 
-For example, if Jane contributes C$5,500 for the tax year 2020 (with the contribution limit being C$6,000) and withdraws C$2,000, she cannot replace the entire withdrawal amount within the same year because her available contribution room is only C$500. In this case, Jane can replace C$500 and wait until the beginning of 2021, when her withdrawal amount is added to her contribution room, to re-contribute the remaining C$1,500.
+For example, if Jane contributes $5,500 for the tax year 2020 (with the contribution limit being $6,000) and withdraws $2,000, she cannot replace the entire withdrawal amount within the same year because her available contribution room is only $500. In this case, Jane can replace $500 and wait until the beginning of 2021, when her withdrawal amount is added to her contribution room, to re-contribute the remaining $1,500.
 
 {% 
 include link.html 
@@ -497,7 +497,7 @@ description="Before hiring a financial advisor, ask these 10 questions as you in
 imageURL="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2017/10/iStock_000055032034_Small-1.jpg" 
 %}
 
-### Be Careful
+### Be Cautious
 
 <a href="https://onproperty.com.au/7-reasons-you-should-be-careful-when-speaking-to-a-financial-planner/" target="_blank">7 reasons you should be careful when speaking to a financial planner</a>
 
@@ -511,6 +511,7 @@ imageURL="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2017/10/iSto
 
 ### Additional Resources
 
+- <a href="https://www.investopedia.com/" target="_blank">Investopedia</a>
 - <a href="https://canadiancouchpotato.com/getting-started/" target="_blank">Canadian Couch Potato</a>
 - <a href="www.wealthsimple.com" target="_blank">WealthSimple</a>
 - <a href="https://www.questrade.com/about-us/why-questrade" target="_blank">QuestTrade</a>
