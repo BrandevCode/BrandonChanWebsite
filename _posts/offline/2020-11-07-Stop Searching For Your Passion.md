@@ -84,6 +84,15 @@ imageURL="https://i.ytimg.com/vi/G2SqqjRn_c0/hqdefault.jpg"
 %}
 
 {% 
+include link.html 
+url="www.youtube.com/watch?v=xjBYRiKtucQ" 
+title="Watch This If You Feel \"Lost In Life\""
+description="It's very common for us to feel lost in life, especially in the earlier stages of our lives. Today I want to give you my thoughts on this subject." 
+imageURL="https://i.ytimg.com/vi/xjBYRiKtucQ/maxresdefault.jpg" 
+%}
+
+
+{% 
 include photo-overlay.html 
 photoPath="/images/posts/motivation/Passion-Mark Cuban.png"
 photoWidth="80%"
