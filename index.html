@@ -89,8 +89,8 @@ title: Brandon Chan (Canada)
                   <div class="card-image waves-effect waves-block" id="hover{{ forloop.index }}">
                     <a href="{{ site.baseurl }}/#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">		
                     <span class="card-title"><div class="card-div">{{ catego.name }}</div></span>
-                    <img src="../{{ catego.image }}" id="pic-hover{{ forloop.index }}">
-                    <img src="../{{ catego.gifimage }}" id="gif-hover{{ forloop.index }}">
+                    <img alt="cat-{{ catego.image }}" src="../{{ catego.image }}" id="pic-hover{{ forloop.index }}">
+                    <img alt="cat-{{ catego.gifimage }}" src="../{{ catego.gifimage }}" id="gif-hover{{ forloop.index }}">
                     </a>
                   </div>
                 </div>

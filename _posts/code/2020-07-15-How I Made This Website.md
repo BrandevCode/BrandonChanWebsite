@@ -34,7 +34,7 @@ After deciding to use Jekyll, I found a website called <a href="http://jekyllthe
 
 <div class="col s12 l6" markdown="1">
 
-<img src="images/posts/notetheme.jpg" class="profile z-depth-5"/>
+<img alt="notetheme" src="images/posts/notetheme.jpg" class="profile z-depth-5"/>
 
 <div class="thi-box" markdown="1">
 <div class="box-content" markdown="1">

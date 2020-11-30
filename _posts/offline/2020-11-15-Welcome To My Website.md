@@ -7,7 +7,7 @@ img: /images/background/programming.jpg
 ---
 
 
-<img src="/images/posts/pixelart/brandon_introduction.gif" class="right-align z-depth-2" style="background:rgba(255, 255, 255, 0.1); border: 2px solid rgba(0, 0, 0, 0.2);">
+<img alt="brandon-introduction" src="/images/posts/pixelart/brandon_introduction.gif" class="right-align z-depth-2" style="background:rgba(255, 255, 255, 0.1); border: 2px solid rgba(0, 0, 0, 0.2);">
 
 ## Who are you?
 I'm Brandon. I know, isn't it shocking that my name is the exact same as this site! Jokes aside, in the past I believe others would perceive me as the short quiet Asian kid, but I feel like that doesn't fit me anymore. I'm trying my best to change that label to instead be the hardworking, intelligent, and strong Asian kid. 

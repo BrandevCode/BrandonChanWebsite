@@ -31,7 +31,7 @@ Kinetic typography—the technical name for "moving text"—is an animation tech
 Made to learn object-oriented game development using processing. Our task was to create a game using the software called <a href="https://processing.org/" target="_blank">processing</a>. Learned that all games are made out of an update method to create the continous flow, a way to detect collision and proper organization of classes to reuse already implemented methods.
 
 
-<img class="lazy" data-src="../images/posts/iat/geometrywars.gif" width="70%"/>
+<img alt="geometry-wars" class="lazy" data-src="../images/posts/iat/geometrywars.gif" width="70%"/>
 
 ### Links
 * <a href="https://processing.org/" target="_blank">Processing Software</a>

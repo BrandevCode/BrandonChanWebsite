@@ -14,24 +14,24 @@ The main reason I wanted to make this animation was to show others that I can an
 ## Reference Video
 It has been a while since I have drawn anything. So to speed up the process, I filmed myself in order to get the angle and key poses for my movements.
 
-<img class="lazy" data-src="../images/posts/nightcoding/nightcodingvid.gif" width="70%" style="filter: brightness(2.5) contrast(0.8);"/>
+<img alt="night-coding-vid" class="lazy" data-src="../images/posts/nightcoding/nightcodingvid.gif" width="70%" style="filter: brightness(2.5) contrast(0.8);"/>
 
 ## Sketch
 This is where I sketched the poses for the animation based on the video above. You'll notice that I only drew the "key" poses which are the parts where the animation begins/ends so I can later add more in-between frames if needed.
 
-<img class="lazy" data-src="../images/posts/nightcoding/nightcodingsketch.gif" width="70%"/>
+<img alt="night-coding-sketch" class="lazy" data-src="../images/posts/nightcoding/nightcodingsketch.gif" width="70%"/>
 
 ## Linework
 Once the sketches were done, I added in the actual lineart. One fault that I noticed during this part, was that I did not have an actual character design in mind. So you'll notice that his appearance changes throughout the animation. Lesson learned, make sure to have a design to reference before doing the line art.
 
-<img class="lazy" data-src="../images/posts/nightcoding/nightcodingline.gif" width="70%"/>
+<img alt="night-coding-line" class="lazy" data-src="../images/posts/nightcoding/nightcodingline.gif" width="70%"/>
 
 ## Colouring
 This was the most time consuming part. Every new frame had to be colored and shaded. Next time, I will refer to this colouring tutorial by Nicca Ch:
 
 <a href="https://youtu.be/CAgOngMU1k4" target="_blank" >Coloring without AntiAliasing with ClipStudioPaint for Illustration and Animation</a>
 
-<img class="lazy" data-src="../images/posts/nightcoding/nightcodingcolor.gif" width="70%"/>
+<img alt="night-coding-color" class="lazy" data-src="../images/posts/nightcoding/nightcodingcolor.gif" width="70%"/>
 
 ## Compositing
 I am surprised how easy it was to composite the animation. Though I believe this was because of my previous experience using video editors. I was going to reference this video <a href="https://youtu.be/R0Xfbzgyj30">How to Make Your Fake Anime Real</a> but ended up just playing around with the many default effects in Adobe After Effects. 

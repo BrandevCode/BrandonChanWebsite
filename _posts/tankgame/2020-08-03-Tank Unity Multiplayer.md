@@ -19,14 +19,14 @@ As a person who knows how to code in C#, I feel like Unity is an ideal game engi
 6. Game Managers
 7. Audio Mixing for Tanks
 
-<img src="../images/posts/tanks/unityeditor.JPG" class="inline_img_right z-depth-5" width="680px"/>
+<img alt="unity-editor" src="../images/posts/tanks/unityeditor.JPG" class="inline_img_right z-depth-5" width="680px"/>
 What made me excited the most about this project was that it had local multiplayer which means it could be played on one computer using one keyboard. They mentioned in the first tutorial that they had a version of the game with online multiplayer, this was later taken down due to their <a href="https://support.unity3d.com/hc/en-us/articles/360001252086-UNet-Deprecation-FAQ" target="_blank">UNET</a> legacy multiplayer solution being deprecated. 
 
 ## Adding Online To A Local Multiplayer Game
 
 To prove my understanding of the tank tutorials and also learn something interesting, I made it a goal to add online multiplayer to the tank tutorial game. This involved me learning heavily from Alex Hicks in his <a href="https://youtu.be/J0udhTJwR88" target="_blank">Unity Multiplayer Tutorial</a> series using NodeJS and Socket.IO. Since Unity currently only allows one project to be opened by one editor at a time, he also made a tutorial on how to work around it <a href="https://youtu.be/w7Wvt5cf_-o" target="_blank">here</a>. This is important because it allows the developer to test out the game with multiple players connected. 
 
-<img src="../images/posts/tanks/clientserver.JPG" class="inline_img_left z-depth-5" width="680px"/>
+<img alt="client-server" src="../images/posts/tanks/clientserver.JPG" class="inline_img_left z-depth-5" width="680px"/>
 
 ## Heroku Deployment
 

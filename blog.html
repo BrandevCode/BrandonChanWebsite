@@ -26,8 +26,8 @@ background: ../images/background/01.jpg
 						<div class="card cat-card hoverable z-depth-4">
 							<div class="card-image waves-effect waves-block" id="hover{{ forloop.index }}">
 								<a href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">		
-									<img src="../{{ catego.image }}" id="pic-hover{{ forloop.index }}">
-									<img src="../{{ catego.gifimage }}" id="gif-hover{{ forloop.index }}">
+									<img alt="cat-{{ catego.image }}" src="../{{ catego.image }}" id="pic-hover{{ forloop.index }}">
+									<img alt="cat-{{ catego.gifimage }}" src="../{{ catego.gifimage }}" id="gif-hover{{ forloop.index }}">
 								<span class="card-title"><div class="card-div">{{ catego.name }}</div></span>
 								</a>
 							</div>

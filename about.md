@@ -14,7 +14,7 @@ js: ["morphext.min.js", "about.js"]
         <p>
         Ever since I've been in computer science, I have been inspired by so many intelligent people who create amazing projects and share them to the world. The main purpose of this website is to give back and share my projects to the world in the hopes that I can inspire someone out there. Keep in mind, I am no expert and I only wish to give you the tools and motivation that will hopefully benefit your life in some way.
         </p>
-        <img src="../images/page/01.jpg" class="profile z-depth-5"/>
+        <img alt="profile-picture" src="../images/page/01.jpg" class="profile z-depth-5"/>
         <h1 class="header font-nav-title"><span>Who am I?</span></h1>
         <p>
         Hey there! My name is Brandon Chan and I am a programmer, web developer, guitarist, snowboarder and various other things. I enjoy following the video game scene like new console/game releases, being active by working out or hiking, and playing board games.

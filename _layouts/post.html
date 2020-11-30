@@ -18,7 +18,7 @@ js: ["post.js"]
   <div class="container" id="bg">
     {% if page.coverimg %}
 
-    <img class="post-cover" src="{{page.coverimg}}">
+    <img alt="coverimg" class="post-cover" src="{{page.coverimg}}">
     <span style="padding:15px">
       Posted on
       <span style="display: initial;" class="cat-class">{{page.date | date_to_string}}</span>,
