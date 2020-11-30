@@ -418,7 +418,7 @@ Personal income tax returns, except for those of individuals with self-employmen
 
 <a href="https://www.wealthsimple.com/en-ca/learn/what-do-i-need-to-file-my-return-checklist" target="_blank">Your Checklist for Your Canadian Tax Return - WealthSimple</a>
 
-<a href="https://www.hrblock.ca/uploads/checklists/tax-return-document-checklist.pdf" target="_blank">>Tax Return Document Checklist - H&R Block</a>
+<a href="https://www.hrblock.ca/uploads/checklists/tax-return-document-checklist.pdf" target="_blank">Tax Return Document Checklist - H&R Block</a>
 
 ### Get The Means To Do Your Income Tax
 

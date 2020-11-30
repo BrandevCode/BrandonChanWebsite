@@ -24,7 +24,7 @@ js: ["morphext.min.js", "about.js"]
         </p>
         <h1 class="header font-nav-title"><span>Experience</span></h1>
         <div class="z-depth-5">
-        <ul class="timeline fadein">
+        <ul class="timeline slide-top-delayed">
             <li class="event" data-date="2019-Present">
             <h3>Business Intelligence Developer | Powerex         </h3>
             <p>
