@@ -91,6 +91,13 @@ description="It's very common for us to feel lost in life, especially in the ear
 imageURL="https://i.ytimg.com/vi/xjBYRiKtucQ/maxresdefault.jpg" 
 %}
 
+{% 
+include link.html 
+url="www.youtube.com/watch?v=-RRC4fnooXw" 
+title="How Do You Know If You've Found Your Passion? - True vs False Callings"
+description="How to distinguish between the \"idea\" of loving a craft and the actualities of mastering the craft itself." 
+imageURL="https://i.ytimg.com/vi/-RRC4fnooXw/maxresdefault.jpg" 
+%}
 
 {% 
 include photo-overlay.html 
