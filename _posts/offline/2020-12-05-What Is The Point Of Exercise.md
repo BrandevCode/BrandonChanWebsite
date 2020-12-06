@@ -42,7 +42,7 @@ Overall, this research has shown me that I should not only focus on the benefits
 
 ## Conclusion
 
-After getting my motivation back I started looking into different <a href="https://thefitness.wiki/getting-started-with-fitness/">websites</a> and apps that would help inspire me to get back into working out. I even found an article explaining that exercise can <a href="www.huffingtonpost.ca/dr-james-aw/benefits-of-exercise_b_7796360.html" target="_blank">help us save money</a>. In the end, we all know that exercise is important. Letting myself know the reasons why has helped me get back on track and I hope that you will as well.
+I have so much ambition to learn new things. Realizing now that exercise is not a waste of time and can change our mindset/mood to aid in learning more effectively has gotten my motivation back. I started looking into different <a href="https://thefitness.wiki/getting-started-with-fitness/" target="_blank">websites</a> and apps that would help inspire me to get back into working out. I even found an article explaining that exercise can even <a href="www.huffingtonpost.ca/dr-james-aw/benefits-of-exercise_b_7796360.html" target="_blank">help us save money</a>. In the end, we all know that exercise is important. Reaffirming that knowledge has helped me get back on track to become the best I can be.
 
 ## References
 
