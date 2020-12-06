@@ -111,7 +111,7 @@ Ikigai is a Japanese concept that means "a reason for being". The word refers to
 
 It is a claim by most Japanese people that this is the reason why they have such long lifespans. They find their Ikigai. 
 
-<img alt="ikigai" src="images/posts/finance/ikigai.png">
+<img alt="ikigai" src="/images/posts/finance/ikigai.png">
 
 Ikigai is an overlap of all four areas – what you love, what you’re good at, what you can be paid for, and what the world needs. If you can find that, then you’ve found something fulfilling and sustainable.
 
