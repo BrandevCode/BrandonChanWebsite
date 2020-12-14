@@ -13,11 +13,11 @@ I love cooking. It not only gives me satisfaction to cook something delicious bu
 
 Okay, let's get this straight; times are changing and we can see a shift in our foods being advertised as healthier. It is important that we still need to keep in our minds that these are corporations who are looking for a profit do not always have our health as their top priority. Companies aim at giving us:
 
-**Craveable** foods that end up making us want to buy their foods even more.
+Craveable foods that end up making us want to buy their foods even more.
 
-**Processed foods** with cheap ingredients like salt, fat and sugar.
+Processed foods with cheap ingredients like salt, fat and sugar.
 
-**Convenience** to eat snacks/desserts that are usually difficult to make by hand.
+Convenience to eat snacks/desserts that are usually difficult to make by hand.
 
 This eventually makes occasional unhealthy foods to become everyday foods. This is why home cooking was advocated a lot for those who had problems with obesity.
 
