@@ -32,12 +32,12 @@ Eat a healthier amount and easier to control our weight.
 Budget our spending, buying food on sale or in bulk, cook extra for another meal. Able to freeze/pickle foods to extend their shelf life.
 
 **Save Time**:
-Some meals that can be quicker to prepare than the time it would take to travel to/from a restaurant.
+Some home cooked meals can be quick to prepare and can even be faster than driving to a restaurant. I recommend looking through the reddit page called <a href="https://www.reddit.com/r/EatCheapAndHealthy/" target="_blank">Eating Healthy On A Cheap Budget</a> as there are many easy meals to make there.
 
 **Quality of Ingredients**:
 Pick ingredients that help us to look and feel healthier, boost our energy, stabilize our weight and mood, and improve our sleep and resilience to stress. Diet is very important for our <a href="https://thefitness.wiki/improving-your-diet/" target="_blank">fitness</a> so we need to make sure we get the best ingredients for our bodies.
 
-**Source of Ingredients**: Is the fish sustainably caught? How far did the coffee and wine travel to get here, and did the farmers get paid a fair wage? In most cases outside of home cooking, we won't know the source of the ingredients. With home cooking, we get to pick the source of our ingredients.
+**Source of Ingredients**: Get to pick the source of our ingredients. Is the fish sustainably caught? How far did the coffee and wine travel to get here, and did the farmers get paid a fair wage? In most cases outside of home cooking, we won't know the source of the ingredients.
 
 **Food Safety**: Able to control hygiene. We can also ensure you wash your hands carefully before preparing and serving meals. 4 million Canadian get <a href="https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-related-illnesses.html" target="_blank">food poisoning</a> each year.
 
