@@ -3,7 +3,6 @@ function getHash(input){
     for (var i = 0; i < len; i++) {
       //hash  = ((hash << 5) - hash) + input.charCodeAt(i);
       //hash  = hash + input.charCodeAt(i);
-      console.log(hash);
         if (input.charCodeAt(i) > 110)
         {
             hash = hash + 0.12
@@ -57,8 +56,6 @@ firebase.auth().signInAnonymously()
       // User is signed in, see docs for a list of available properties
       // https://firebase.google.com/docs/reference/js/firebase.User
       uid = user.uid;
-
-      console.log(uid);
       // ...
     } else {
       // User is signed out
@@ -82,7 +79,9 @@ window.addEventListener("click", () => {
         dot.className = "dot swing-" + Math.floor((Math.random() * 4) + 1);
         dot.style.left = event.pageX + "px";
         dot.style.top = event.pageY + "px";
-        document.body.appendChild(dot);
+
+        //document.body.appendChild(dot);
+        document.getElementById("page").appendChild(dot);
 
         // Add snowflake
         snowflake = document.createElement('canvas');
@@ -176,16 +175,13 @@ window.addEventListener("click", () => {
             dot.style.top = childData.LOCATION_Y + "px";
             dot.style.filter = `hue-rotate(${getHash(childData.USER_ID)*360}deg)`;
 
-            document.body.appendChild(dot);
+            //document.body.appendChild(dot);
+            document.getElementById("page").appendChild(dot);
 
             // Add snowflake
             snowflake = document.createElement('canvas');
             snowflake.id = "snowflake";
             dot.appendChild(snowflake);
-
-            console.log(getHash(childData.USER_ID));
-
-            console.log(childData.USER_ID);
             });
             // var changedPost = snapshot.val();
             // for (var key in changedPost) {
