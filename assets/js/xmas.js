@@ -174,7 +174,7 @@ window.addEventListener("click", () => {
             dot.className = "dot swing-" + Math.floor((Math.random() * 4) + 1);
             dot.style.left = childData.LOCATION_X + "px";
             dot.style.top = childData.LOCATION_Y + "px";
-            dot.style.filter = `hue-rotate(${getHash(childData.USER_ID)*19}deg)`;
+            dot.style.filter = `hue-rotate(${getHash(childData.USER_ID)*360}deg)`;
 
             document.body.appendChild(dot);
 
