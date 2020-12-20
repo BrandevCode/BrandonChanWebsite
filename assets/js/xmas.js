@@ -1,20 +1,20 @@
 function getHash(input){
     var hash = 0, len = input.length;
     for (var i = 0; i < len; i++) {
-      //hash  = ((hash << 5) - hash) + input.charCodeAt(i);
-      //hash  = hash + input.charCodeAt(i);
-        if (input.charCodeAt(i) > 110)
-        {
-            hash = hash + 0.12
-        }
-        else if (input.charCodeAt(i) > 40 && input.charCodeAt(i) < 110)
-        {
-            hash = hash + 1            
-        }
-        else
-        {
-            has = hash + 0
-        }
+      hash  = ((hash << 5) - hash) + input.charCodeAt(i);
+      hash  = hash + input.charCodeAt(i);
+        // if (input.charCodeAt(i) > 110)
+        // {
+        //     hash = hash + 0.12
+        // }
+        // else if (input.charCodeAt(i) > 40 && input.charCodeAt(i) < 110)
+        // {
+        //     hash = hash + 1            
+        // }
+        // else
+        // {
+        //     has = hash + 0
+        // }
       //hash |= 0; // to 32bit integer
     }
     return hash;
@@ -173,7 +173,7 @@ window.addEventListener("click", () => {
             dot.className = "dot swing-" + Math.floor((Math.random() * 4) + 1);
             dot.style.left = childData.LOCATION_X + "px";
             dot.style.top = childData.LOCATION_Y + "px";
-            dot.style.filter = `hue-rotate(${getHash(childData.USER_ID)*360}deg)`;
+            dot.style.filter = `hue-rotate(${getHash(childData.USER_ID)}deg)`;
 
             //document.body.appendChild(dot);
             document.getElementById("page").appendChild(dot);
