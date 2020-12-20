@@ -2,7 +2,9 @@
 title: What Is The Point Of Home Cooking
 categories: [life offline]
 tags: [Blog, Cooking]
+js: [triangulate.js]
 comment: 1
+related: 1
 img: /images/posts/cooking/What Is The Point Of Home Cooking.png
 coverimg: /images/posts/cooking/What Is The Point Of Home Cooking.png
 ---

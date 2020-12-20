@@ -2,7 +2,9 @@
 title: 5 Principles Boxing Has Taught Me
 categories: [life offline]
 tags: [Blog, Boxing]
+js: [triangulate.js]
 comment: 1
+related: 1
 img: /images/posts/boxing/5 Principles Boxing Has Taught Me.png
 coverimg: /images/posts/boxing/5 Principles Boxing Has Taught Me.png
 ---

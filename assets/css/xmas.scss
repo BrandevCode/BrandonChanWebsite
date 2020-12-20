@@ -1,0 +1,207 @@
+---
+---
+
+.dot {
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    position: fixed;
+    z-index: 1;
+    content:url(/images/posts/xmas/ornament.png);
+    transform-origin: top;
+}
+
+@media (max-width: 768px) {
+  .dot
+  {
+    position: fixed;
+  }
+}
+
+body {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAT/GdHE/gP5jMiCYAGQIpggXAAmiCIAEgQAAE4FBbECyZcAAAAASUVORK5CYII=) #222;
+}
+
+@keyframes swing1{
+  from {
+    transform: rotate((random(5)) - 30 + deg);      
+    opacity: 0.25;
+  }
+  20% {
+    transform: rotate(random(5) + 45 + deg);           
+  }
+  40% {
+    transform: rotate((random(5)) - 35 + deg);
+  }
+  60% {
+    transform: rotate(random(5) + 20 + deg);     
+  }
+  80% {
+    transform: rotate((random(5)) - 5 + deg);     
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+
+@keyframes swing2{
+  from {
+    transform: rotate(random(5) - 30 + deg);      
+    opacity: 0.25;
+  }
+  20% {
+    transform: rotate(random(5) + 45 + deg);           
+  }
+  40% {
+    transform: rotate(random(5) - 35 + deg);
+  }
+  60% {
+    transform: rotate(random(5) + 20 + deg);     
+  }
+  80% {
+    transform: rotate(random(5) - 5 + deg);     
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+
+@keyframes swing3{
+  from {
+    transform: rotate(random(5) + 30 + deg);      
+    opacity: 0.25;
+  }
+  20% {
+    transform: rotate(random(5) - 45 + deg);           
+  }
+  40% {
+    transform: rotate(random(5) + 35 + deg);
+  }
+  60% {
+    transform: rotate(random(5) - 20 + deg);     
+  }
+  80% {
+    transform: rotate(random(5) + 5 + deg);     
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes swing4{
+  from {
+    transform: rotate(random(5) + 30 + deg);      
+    opacity: 0.25;
+  }
+  20% {
+    transform: rotate(random(5) - 45 + deg);           
+  }
+  40% {
+    transform: rotate(random(5) + 35 + deg);
+  }
+  60% {
+    transform: rotate(random(5) - 20 + deg);     
+  }
+  80% {
+    transform: rotate(random(5) + 5 + deg);     
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.swing-1 {
+  animation-name: swing1;
+  animation-duration: random(2) + 0.5 + s;
+}
+
+.swing-2 {
+  animation-name: swing2;
+  animation-duration: random(2) + 0.5 + s;
+}
+
+.swing-3 {
+  animation-name: swing3;
+  animation-duration: random(2) + 0.5 + s;
+}
+
+.swing-4 {
+  animation-name: swing4;
+  animation-duration: random(2) + 0.5 + s;
+}
+
+
+
+//Christmas Tree
+
+@import 'palette';
+
+body {
+  background-color: $cg-red-accent-2;
+  cursor: url(/images/posts/xmas/ornament_cursor.png),auto;
+}
+
+// #xmas-tree, #xmas-tree:before, #xmas-tree:after {
+//    position: relative;
+//    margin: auto;         
+// } 
+// #xmas-tree:before, #xmas-tree:after {
+//    content: '';
+//    display: block;         
+// } 
+
+// #xmas-tree:after {
+//   content:'';
+//   display: block;
+//   width: 145px;
+// 	height: 122px;
+//   top: -226px;
+//   left: 0px;
+//   background: 
+//     linear-gradient(60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
+//     linear-gradient(-60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2);
+//   background-color: #38b449;
+// }
+
+// #xmas-tree:before {   
+//    width: 195px;
+//    height: 165px;              
+//    top: -32px;
+//    left: 0px; 
+//    background:  
+//     linear-gradient(60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
+//     linear-gradient(-60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
+//     linear-gradient(35deg, transparent 25%, #067f40 25%);
+//    background-color: #009344;
+// }
+
+// #xmas-tree {   
+//    margin-top: 20%;
+//    width: 243px;
+//    height: 205px;  
+//    box-shadow: 0 110px  0 -90px #643415;
+//   background:   
+//     linear-gradient(60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),    
+//     linear-gradient(-60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
+//     linear-gradient(35deg, transparent 25%, #035930 25%); 
+//   background-color: #006738;  
+// }
+
+.container{
+  background-color: $black-olive-accent-2;
+}
+
+.sky {
+  height: 100%;
+  background: none repeat scroll 0 0 #34283F;
+  color: #FFF;
+  padding: 12px;
+  font-family: Helvetica;
+  display: block;
+}

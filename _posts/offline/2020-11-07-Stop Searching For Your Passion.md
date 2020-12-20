@@ -3,8 +3,9 @@ title: Stop Searching For Your Passion (Just Start)
 categories: [life offline]
 tags: [Blog, Motivational, Passion]
 css: [photo.css]
-js: [photo.js]
+js: [photo.js, triangulate.js]
 comment: 1
+related: 1
 onlineimg: /images/posts/motivation/Passion Cover.png
 coverimg: /images/posts/motivation/Passion Cover.png
 ---

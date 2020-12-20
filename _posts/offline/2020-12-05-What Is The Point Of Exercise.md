@@ -2,7 +2,9 @@
 title: What Is The Point Of Exercise?
 categories: [life offline]
 tags: [Blog, Exercise, Motivation]
+js: [triangulate.js]
 comment: 1
+related: 1
 img: /images/posts/motivation/What Is The Point Of Exercise.png
 coverimg: /images/posts/motivation/What Is The Point Of Exercise.png
 ---

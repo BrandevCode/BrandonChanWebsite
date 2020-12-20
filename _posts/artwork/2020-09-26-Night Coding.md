@@ -3,8 +3,9 @@ title: Animation Project - Night Coding
 categories: [artwork]
 tags: [Art, Animation]
 css: [photo.css]
-js: [photo.js]
+js: [photo.js, triangulate.js]
 comment: 1
+related: 1
 img: \images\background\programming.jpg
 ---
 

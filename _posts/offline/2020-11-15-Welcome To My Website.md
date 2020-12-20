@@ -2,7 +2,9 @@
 title: Welcome To My Website
 categories: [life offline]
 tags: [Blog]
+js: [triangulate.js]
 comment: 1
+related: 1
 img: /images/background/programming.jpg
 ---
 

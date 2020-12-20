@@ -2,9 +2,11 @@
 title: How I Made Website This Website
 categories: [code]
 tags: [Website, Design, Javascript, HTML]
+js: [triangulate.js]
 maths: 1
 snippet: 1
 comment: 1
+related: 1
 date: 2020-07-15
 img: /images/posts/notetheme.jpg
 ---

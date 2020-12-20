@@ -1,6 +1,6 @@
 ---
 layout: default
-css: ["post.css"]
+css: ["post.css", "toasts.css"]
 js: ["post.js"]
 ---
 
@@ -30,7 +30,7 @@ js: ["post.js"]
           {% endif %}
         {% endfor %}
         {% if catego %}
-          <a class="cat-class cat-commas" href="{{site.baseurl}}/categories#{{cat | slugify}}">{{ catego.name }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
+          <a class="cat-class cat-commas" href="{{site.baseurl}}/blog#{{cat | slugify}}">{{ catego.name }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
         {% endif %}
       {% endfor %}
     </span>
@@ -49,7 +49,7 @@ js: ["post.js"]
             {% endif %}
           {% endfor %}
           {% if catego %}
-            <a class="cat-class cat-commas" href="{{site.baseurl}}/categories#{{cat | slugify}}">{{ catego.name }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
+            <a class="cat-class cat-commas" href="{{site.baseurl}}/blog#{{cat | slugify}}">{{ catego.name }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
           {% endif %}
         {% endfor %}
       </span>
@@ -70,7 +70,9 @@ js: ["post.js"]
       <a class="tag-chip" href="{{site.baseurl}}/tags#{{tag | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{tag}}</div></a>
       {% endfor %}
     </div>
-    {% include related-posts.html %}
+    {% if page.related %}
+      {% include related-posts.html %}
+    {% endif %}
 
     {% if site.disqus_shortname and page.comment %}
       {% include disqus.html %}
