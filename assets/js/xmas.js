@@ -374,7 +374,7 @@ var gui = new dat.GUI();
 gui.add(window, 'particleCount').min(1).max(particleMax).step(1).name('Particles count').onFinishChange(function() {
   requestAnimFrame(update);
 });
-
+gui.close();
 
 
 
