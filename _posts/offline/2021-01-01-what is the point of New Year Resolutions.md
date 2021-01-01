@@ -1,5 +1,5 @@
 ---
-title: what is the point of.. New Year Resolutions?
+title: what is the point of... New Year Resolutions?
 categories: [life offline]
 tags: [OKR]
 js: [triangulate.js]
