@@ -88,7 +88,7 @@ imageURL="https://i.ytimg.com/vi/WKV0xrfH8yY/maxresdefault.jpg"
 ## **Most Common New Year Resolutions - How To Get Started**
 I've compiled a list of resolutions that most people make and a link that will hopefully get you started.
 
-1. **Lose weight**:
+1. **Lose Weight**:
 {% 
 include link.html 
 url="thefitness.wiki/weight-loss-101/" 
@@ -106,7 +106,7 @@ description="The PersonalFinanceCanada community on Reddit. Reddit gives you the
 imageURL="https://www.redditstatic.com/new-icon.png" 
 %}
 
-3. **Lose a bad habit or an addiction**:
+3. **Lose A Bad Habit or An Addiction**:
 {% 
 include link.html 
 url="www.youtube.com/watch?v=PY9DcIMGxMs" 
