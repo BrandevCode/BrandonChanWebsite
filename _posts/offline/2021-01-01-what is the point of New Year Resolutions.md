@@ -14,16 +14,16 @@ Is there a reason to create new year resolutions? It's just a way for us to make
 
 ## The Problem With New Year Resolutions
 
-1. They're just a want, a wish, a vague idea.
-2. Created during an arbitrary moment in time where we decide that we need to make a big change. In actuality, we can make these goals at any time of the year.
-3. When we don't achieve our goals, we will wait a whole year to reflect on them again. We don't reflect on these resolutions enough. 
-4. A reset button for the things we've done wrong in the past. A new year does not magically make us a new and better person. We cannot truly be a better person until we redeem ourselves of our mistakes.
-5. Motivation comes and goes. We are creatures of habit, meaning if we don't create a routine we will fall back into our bad habits.
+1. They're just a _want, a wish, a vague idea_.
+2. Created during an _arbitrary moment in time_ where we decide that we need to make a big change. In actuality, we can make these goals at any time of the year.
+3. When we don't achieve our goals, we will _wait a whole year to reflect on them_ again. We don't reflect on these resolutions enough. 
+4. A reset button for the things we've done wrong in the past. A new year does not magically make us a new and better person. We cannot truly be a better person until _we redeem ourselves of our mistakes_.
+5. Motivation comes and goes. We are _creatures of habit_, meaning if we don't create a routine we will fall back into our bad habits.
 
 
 ## Do We Need New Year Resolutions?
 
-We don't necessarily need a new year resolution. However, making resolutions and reflecting on oneself is important. Resolutions give us something to look forward to and keep working towards. Even if we make mistakes and don't reach our resolution, making it shows our resolve to change and become a better person.
+We don't necessarily need a new year resolution. However, making resolutions and reflecting on oneself is important. Resolutions give us _something to look forward to_ and _keep working towards_. Even if we make mistakes and don't reach our resolution, making it _shows our resolve to change_ and _become a better person_.
 
 ## How To Keep Your New Years Resolution
 
@@ -47,6 +47,8 @@ imageURL="https://qulture.rocks/wp-content/uploads/2019/01/journey.png"
 2. How are you going to measure success?
 3. What are you going to do to make progress?
 
+<br>
+
 **Example of an OKR**:
 
 **Objective**:
@@ -63,6 +65,8 @@ No fast food for a month
 
 **Key Result 4**:
 Learn to cook a healthy meal on the weekends
+
+<br>
 
 **Things to keep in mind:**
 
