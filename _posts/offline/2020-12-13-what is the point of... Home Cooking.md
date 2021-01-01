@@ -1,5 +1,5 @@
 ---
-title: What Is The Point Of Home Cooking
+title: what is the point of... Home Cooking?
 categories: [life offline]
 tags: [Blog, Cooking]
 js: [triangulate.js]

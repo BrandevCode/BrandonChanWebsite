@@ -1,5 +1,5 @@
 ---
-title: What Is The Point Of Exercise?
+title: what is the point of... Exercise?
 categories: [life offline]
 tags: [Blog, Exercise, Motivation]
 js: [triangulate.js]
