@@ -49,19 +49,19 @@ imageURL="https://qulture.rocks/wp-content/uploads/2019/01/journey.png"
 
 **Example of an OKR**:
 
-1. **Objective**:
+**Objective**:
 Lose 10lbs By June 1st
 
-2. **Key Result**:
+**Key Result 1**:
 Go to gym twice a week
 
-3. **Key Result**:
+**Key Result 2**:
 Run 10k every week
 
-4. **Key Result**:
+**Key Result 3**:
 No fast food for a month
 
-5. **Key Result**:
+**Key Result 4**:
 Learn to cook a healthy meal on the weekends
 
 **Things to keep in mind:**
