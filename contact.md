@@ -29,7 +29,7 @@ background: ../images/background/02.jpg
         <br>
 
         <center>
-        You can also follow me on these social platforms: <a href="https://www.instagram.com/brandonchan10/" target="_blank"><i class="lab la-instagram"></i></a> <a href="https://www.youtube.com/channel/UCTFyK4YzP6d2kOb0N-6ehiQ" target="_blank"><i class="lab la-youtube"></i></a>
+        You can also follow me on these social platforms: <a href="https://www.instagram.com/brandonchanca/" target="_blank"><i class="lab la-instagram"></i></a> <a href="https://www.youtube.com/channel/UCTFyK4YzP6d2kOb0N-6ehiQ" target="_blank"><i class="lab la-youtube"></i></a>
         <a href="https://www.linkedin.com/in/brandon-chan-b77baa11a" target="_blank" ><i class="lab la-linkedin" style="color:red"></i></a>
         </center>
        
