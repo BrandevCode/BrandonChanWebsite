@@ -59,7 +59,7 @@ imageURL="https://brandonchan.ca/images/posts/motivation/Passion-Mark Cuban.png"
 
 You can follow me on these social media platforms:
 
-- <a href="https://www.instagram.com/brandonchanca/" target="_blank" ><i class="lab la-instagram"></i> Instagram</a>
+- <a href="https://www.instagram.com/brandonchan.ca/" target="_blank" ><i class="lab la-instagram"></i> Instagram</a>
 - <a href="https://www.youtube.com/channel/UCTFyK4YzP6d2kOb0N-6ehiQ" target="_blank" ><i class="lab la-youtube-square"></i>  Youtube</a> 
 - <a href="https://www.linkedin.com/in/brandon-chan-b77baa11a" target="_blank" ><i class="lab la-linkedin-in"></i>  Linkedin</a>
 
