@@ -12,15 +12,21 @@ function onLoad()
 {
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
 
-    var winWidth = window.innerWidth
-    var winHeight = window.innerHeight +1200
+    var winWidth = document.body.scrollWidth
+    var winHeight = document.body.scrollHeight 
+
+    if (document.location.pathname === '/' || 
+    document.location.pathname.indexOf('index') >-1 ) 
+    {
+        winHeight = winHeight - 550 //this is for the parallax and header
+    }
 
     svg.setAttribute('width',winWidth);
     svg.setAttribute('height',winHeight);
     //svg.setAttribute('height',document.documentElement.scrollHeight);
 
     var selection = document.querySelector('#bg') !== null;
-    if (selection) {
+    if (selection && winWidth > 668) {
 
       document.querySelector('#bg').appendChild(svg);
       //document.querySelector('html').style.backgroundImage = svg;

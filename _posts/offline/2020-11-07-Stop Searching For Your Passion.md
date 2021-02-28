@@ -6,8 +6,9 @@ css: [photo.css]
 js: [photo.js, triangulate.js]
 comment: 1
 related: 1
-onlineimg: /images/posts/motivation/Passion Cover.png
+img: /images/posts/motivation/Passion Cover.png
 coverimg: /images/posts/motivation/Passion Cover.png
+highlight: 1
 ---
 
 {% include tip.html content="Life isn't about finding yourself. Life is about creating yourself

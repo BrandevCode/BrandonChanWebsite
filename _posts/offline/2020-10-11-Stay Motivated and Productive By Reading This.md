@@ -8,6 +8,7 @@ comment: 1
 related: 1
 img: /images/posts/motivation/Motivation Resource Cover.png
 coverimg: /images/posts/motivation/Motivation Resource Cover.png
+highlight: 1
 ---
 
 {% include tip.html content="This post contains many helpful tips that I use on a daily basis to stay motivated and productive. If I ever feel like procrastinating I usually refer to these resources to get back on track. I'm hoping this helps you too!" %}

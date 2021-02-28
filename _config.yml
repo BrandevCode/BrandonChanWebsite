@@ -5,7 +5,7 @@ description: Ever since I've been in computer science, I have been inspired by s
 #baseurl: ""
 #url: "brandonchan.ca"
 repository: BrandevCode/BrandonChanWebsite
-paginate: 28
+paginate: 10
 
 banner: "/assets/res/banner.jpg" # site banner (load when someone share your page url)
 favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
@@ -16,7 +16,7 @@ user:
   name: "Brandon Chan"
   #email: "brandonchan@hotmail.com"
   #website: "brandonchan.ca"
-  avatar: "/assets/res/user.png"
+  avatar: "/assets/res/user2.jpg"
   github: "brandevcode"
 google_tracking_id: "UA-172634139-1"
 google_site_verification: ""

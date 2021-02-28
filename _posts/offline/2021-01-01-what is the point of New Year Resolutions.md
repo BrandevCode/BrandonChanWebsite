@@ -7,6 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/goals/what is the point of.. New Year Resolutions.png
 coverimg: /images/posts/goals/what is the point of.. New Year Resolutions.png
+highlight: 1
 ---
 
 

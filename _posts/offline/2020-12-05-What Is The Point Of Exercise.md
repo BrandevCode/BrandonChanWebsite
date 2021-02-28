@@ -7,6 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/motivation/What Is The Point Of Exercise.png
 coverimg: /images/posts/motivation/What Is The Point Of Exercise.png
+highlight: 1
 ---
 
 Recently, I lost my motivation to workout. I gave myself excuses, saying I am too busy with other work when in actuality, I just did not want to. I made attempts to work out a couple of times but it ended up being futile. I became less consistent and eventually stopped. I reflected on my situation and there was a burning question that kept popping up in my head, "what is the point?". Why am I doing this in the first place? Without an answer, I went and did some investigation. For the last week or so I have put in the effort to get my motivation and discipline back. I am determined to bring back my inner <a href="https://brandonchan.ca/5-Principles-Boxing-Has-Taught-Me" target="_blank">boxer</a>.

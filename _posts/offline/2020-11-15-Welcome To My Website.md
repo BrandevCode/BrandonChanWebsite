@@ -5,7 +5,7 @@ tags: [Blog]
 js: [triangulate.js]
 comment: 1
 related: 1
-img: /images/background/programming.jpg
+img: /images/background/programming widescreen.jpg
 ---
 
 
