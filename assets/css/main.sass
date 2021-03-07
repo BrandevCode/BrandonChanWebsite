@@ -154,7 +154,7 @@ main
 
 //overflow-y to stop navbar shifting with scrollbar
 html
-  background: radial-gradient(ellipse at center, $light-gray-accent-1 20%, darken($black-olive, 50%) 100%)
+  background: radial-gradient(ellipse at center, darken($light-gray-accent-1,15%) 20%, darken($black-olive, 50%) 100%)
   overflow-x: hidden
 
 .mat-label
@@ -470,3 +470,9 @@ nav i
   border: 1px solid
   border-radius: 4px
   background: $asparagus-accent-3
+
+.anchor-header
+  display: block
+  position: relative
+  top: -250px
+  visibility: hidden

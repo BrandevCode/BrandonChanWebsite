@@ -8,101 +8,107 @@ var unitWidth;
 var unitHeight;
 var points;
 
-function onLoad()
-{
-    var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
 
-    var winWidth = document.body.scrollWidth
-    var winHeight = document.body.scrollHeight 
+//when page is visible
+var targetNode = document.getElementById('page');
+var observer = new MutationObserver(function(){
+    if(targetNode.style.display != 'none'){
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
 
-    if (document.location.pathname === '/' || 
-    document.location.pathname.indexOf('index') >-1 ) 
-    {
-        winHeight = winHeight - 550 //this is for the parallax and header
-    }
+        var winWidth = document.body.scrollWidth
+        var winHeight = document.body.scrollHeight 
+    
+        if (document.location.pathname === '/' || 
+        document.location.pathname.indexOf('index') >-1 ||
+        document.location.pathname.match(/page.*/)) 
+        {
+            winHeight = winHeight - 550 //this is for the parallax and header
+        }
 
-    svg.setAttribute('width',winWidth);
-    svg.setAttribute('height',winHeight);
-    //svg.setAttribute('height',document.documentElement.scrollHeight);
-
-    var selection = document.querySelector('#bg') !== null;
-    if (selection && winWidth > 668) {
-
-      document.querySelector('#bg').appendChild(svg);
-      //document.querySelector('html').style.backgroundImage = svg;
-
-      var unitSize = (winWidth+winHeight)/10;
-      numPointsX = Math.ceil(winWidth/unitSize)+1;
-      numPointsY = Math.ceil(winHeight/unitSize)+1;
-      unitWidth = Math.ceil(winWidth/(numPointsX-1));
-      unitHeight = Math.ceil(winHeight/(numPointsY-1));
-
-      points = [];
-
-      for(var y = 0; y < numPointsY; y++) {
-          for(var x = 0; x < numPointsX; x++) {
-              points.push({x:unitWidth*x, y:unitHeight*y, originX:unitWidth*x, originY:unitHeight*y});
-          }
-      }
-
-      randomize();
-
-      for(var i = 0; i < points.length; i++) {
-          if(points[i].originX != unitWidth*(numPointsX-1) && points[i].originY != unitHeight*(numPointsY-1)) {
-              var topLeftX = points[i].x;
-              var topLeftY = points[i].y;
-              var topRightX = points[i+1].x;
-              var topRightY = points[i+1].y;
-              var bottomLeftX = points[i+numPointsX].x;
-              var bottomLeftY = points[i+numPointsX].y;
-              var bottomRightX = points[i+numPointsX+1].x;
-              var bottomRightY = points[i+numPointsX+1].y;
-
-              var rando = Math.floor(Math.random()*2);
-
-              for(var n = 0; n < 2; n++) {
-                  var polygon = document.createElementNS(svg.namespaceURI, 'polygon');
-
-                  if(rando==0) {
-                      if(n==0) {
-                          polygon.point1 = i;
-                          polygon.point2 = i+numPointsX;
-                          polygon.point3 = i+numPointsX+1;
-                          polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+bottomRightX+','+bottomRightY);
-                      } else if(n==1) {
-                          polygon.point1 = i;
-                          polygon.point2 = i+1;
-                          polygon.point3 = i+numPointsX+1;
-                          polygon.setAttribute('points',topLeftX+','+topLeftY+' '+topRightX+','+topRightY+' '+bottomRightX+','+bottomRightY);
-                      }
-                  } else if(rando==1) {
-                      if(n==0) {
-                          polygon.point1 = i;
-                          polygon.point2 = i+numPointsX;
-                          polygon.point3 = i+1;
-                          polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+topRightX+','+topRightY);
-                      } else if(n==1) {
-                          polygon.point1 = i+numPointsX;
-                          polygon.point2 = i+1;
-                          polygon.point3 = i+numPointsX+1;
-                          polygon.setAttribute('points',bottomLeftX+','+bottomLeftY+' '+topRightX+','+topRightY+' '+bottomRightX+','+bottomRightY);
-                      }
-                  }
-                  polygon.setAttribute('fill','rgba(0,0,0,'+(Math.random()/3)+')');
-                  var animate = document.createElementNS('http://www.w3.org/2000/svg','animate');
-                  animate.setAttribute('fill','freeze');
-                  animate.setAttribute('attributeName','points');
-                  animate.setAttribute('dur',refreshDuration+'ms');
-                  animate.setAttribute('calcMode','linear');
-                  polygon.appendChild(animate);
-                  svg.appendChild(polygon);
+        svg.setAttribute('width',winWidth);
+        svg.setAttribute('height',winHeight);
+        //svg.setAttribute('height',document.documentElement.scrollHeight);
+    
+        var selection = document.querySelector('#bg') !== null;
+        if (selection && winWidth > 668) {
+    
+          document.querySelector('#bg').appendChild(svg);
+          //document.querySelector('html').style.backgroundImage = svg;
+    
+          var unitSize = (winWidth+winHeight)/10;
+          numPointsX = Math.ceil(winWidth/unitSize)+1;
+          numPointsY = Math.ceil(winHeight/unitSize)+1;
+          unitWidth = Math.ceil(winWidth/(numPointsX-1));
+          unitHeight = Math.ceil(winHeight/(numPointsY-1));
+    
+          points = [];
+    
+          for(var y = 0; y < numPointsY; y++) {
+              for(var x = 0; x < numPointsX; x++) {
+                  points.push({x:unitWidth*x, y:unitHeight*y, originX:unitWidth*x, originY:unitHeight*y});
               }
           }
-      }
-
-      refresh();
+    
+          randomize();
+    
+          for(var i = 0; i < points.length; i++) {
+              if(points[i].originX != unitWidth*(numPointsX-1) && points[i].originY != unitHeight*(numPointsY-1)) {
+                  var topLeftX = points[i].x;
+                  var topLeftY = points[i].y;
+                  var topRightX = points[i+1].x;
+                  var topRightY = points[i+1].y;
+                  var bottomLeftX = points[i+numPointsX].x;
+                  var bottomLeftY = points[i+numPointsX].y;
+                  var bottomRightX = points[i+numPointsX+1].x;
+                  var bottomRightY = points[i+numPointsX+1].y;
+    
+                  var rando = Math.floor(Math.random()*2);
+    
+                  for(var n = 0; n < 2; n++) {
+                      var polygon = document.createElementNS(svg.namespaceURI, 'polygon');
+    
+                      if(rando==0) {
+                          if(n==0) {
+                              polygon.point1 = i;
+                              polygon.point2 = i+numPointsX;
+                              polygon.point3 = i+numPointsX+1;
+                              polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+bottomRightX+','+bottomRightY);
+                          } else if(n==1) {
+                              polygon.point1 = i;
+                              polygon.point2 = i+1;
+                              polygon.point3 = i+numPointsX+1;
+                              polygon.setAttribute('points',topLeftX+','+topLeftY+' '+topRightX+','+topRightY+' '+bottomRightX+','+bottomRightY);
+                          }
+                      } else if(rando==1) {
+                          if(n==0) {
+                              polygon.point1 = i;
+                              polygon.point2 = i+numPointsX;
+                              polygon.point3 = i+1;
+                              polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+topRightX+','+topRightY);
+                          } else if(n==1) {
+                              polygon.point1 = i+numPointsX;
+                              polygon.point2 = i+1;
+                              polygon.point3 = i+numPointsX+1;
+                              polygon.setAttribute('points',bottomLeftX+','+bottomLeftY+' '+topRightX+','+topRightY+' '+bottomRightX+','+bottomRightY);
+                          }
+                      }
+                      polygon.setAttribute('fill','rgba(0,0,0,'+(Math.random()/3)+')');
+                      var animate = document.createElementNS('http://www.w3.org/2000/svg','animate');
+                      animate.setAttribute('fill','freeze');
+                      animate.setAttribute('attributeName','points');
+                      animate.setAttribute('dur',refreshDuration+'ms');
+                      animate.setAttribute('calcMode','linear');
+                      polygon.appendChild(animate);
+                      svg.appendChild(polygon);
+                  }
+              }
+          }
+    
+          refresh();
+        }
     }
-}
+});
+observer.observe(targetNode, { attributes: true, childList: true });
 
 function randomize() {
     for(var i = 0; i < points.length; i++) {
@@ -138,5 +144,4 @@ function onResize() {
   }
 }
 
-window.onload = onLoad;
 window.onresize = onResize;
