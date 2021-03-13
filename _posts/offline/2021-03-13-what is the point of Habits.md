@@ -16,7 +16,7 @@ Lately, I have been very excited about my newly created habits. I read a book ca
 
 ## Default To Least Amount Of Effort
 
-We do whatever is more efficient. Another way of phrasing this is that we do whatever takes the **least amount of effort**. It is human nature to be lazy and do whatever is convenient. When we aim to climb a mountain we aren't ecstatic about the climb itself; rather, we are driven by the outcome of reaching the top. We then need to reflect on our habits to make sure they are **easy to accomplish**. Otherwise, our human nature will tell us not to do them. When we do a task **consistently and automatically** is when it turns into a habit.   
+We do whatever is more efficient. Another way of phrasing this is that we do whatever takes the **least amount of effort**. It is human nature to be lazy and do whatever is convenient. When we aim to climb a mountain we aren't ecstatic about the climb itself; rather, we are driven by the outcome of reaching the top. We then need to reflect on our habits to make sure they are **easy to accomplish**. Otherwise, our human nature will tell us not to do them. When we do a task **consistently and automatically**, that is when it turns into a habit.   
 
 
 ## We Are What We Repeatedly Do
