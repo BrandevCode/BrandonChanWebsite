@@ -124,8 +124,20 @@ html
 .top-nav
   background-color: $raisin-black
 
+.image-bg
+  background: rgba(255, 255, 255, 0.1) 
+
 .left-align
-  list-style-type: circle !important
+  float: left
+  Height: 100% 
+  Width: 270px 
+  //Display: inline-block 
+  margin: 7px 5px 5px 13px
+
+  &.pixelart
+    image-rendering: pixelated
+    image-rendering: -moz-crisp-edges
+    image-rendering: crisp-edges
 
 .right-align
   float: right
@@ -134,8 +146,15 @@ html
   //Display: inline-block 
   margin: 7px 5px 5px 13px
 
+  &.pixelart
+    image-rendering: pixelated
+    image-rendering: -moz-crisp-edges
+    image-rendering: crisp-edges
+
 @media (max-width: 480px) 
   .right-align
+    float: none !important
+  .left-align
     float: none !important
 
 .table-of-contents a.active

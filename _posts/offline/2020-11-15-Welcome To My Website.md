@@ -15,7 +15,7 @@ img: /images/background/programming widescreen.jpg
 I'm Brandon. I know, isn't it shocking that my name is the exact same as this site! Jokes aside, in the past I believe others would perceive me as the short quiet Asian kid, but I feel like that doesn't fit me anymore. I'm trying my best to change that label to instead be the hardworking, intelligent, and strong Asian kid. 
 
 ## How have you been?
-I've been surviving this difficult year quite well, other than not being able to socialize as much. I changed my mindset to think of this tough year as an opportunity instead of a hindrance. I've been working on a bunch of personal projects like this website, I had a good spree doing morning jogs everyday and made a couple of <a href="https://brandonchan.ca/Night-Coding">animations</a>.
+I've been surviving this difficult year quite well, other than not being able to socialize as much. I changed my mindset to think of this tough year as an opportunity instead of a hindrance. I've been working on a bunch of personal projects like this website, I had a good spree doing morning jogs everyday and made a couple of <a href="https://brandonchan.ca/Night-Coding" target="_blank">animations</a>.
 
 ## What have you been up to recently?
 Mainly my time has been spent working at my job as a Business Intelligence Developer at <a href="https://powerex.com/" target="_blank">Powerex</a>. Outside of my job I have been working on this website, binge watching <a href="https://en.wikipedia.org/wiki/Money_Heist" target="_blank">Money Heist</a>, and learning to create some pixel art for a video game I am hoping to develop.
