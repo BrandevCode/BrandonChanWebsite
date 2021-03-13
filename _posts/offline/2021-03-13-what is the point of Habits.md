@@ -27,7 +27,7 @@ We do whatever is more efficient. Another way of phrasing this is that we do wha
 
 Taking the effort to reflect on my habits daily has been a great way of leading me to become the person I want to be. It is what I do most often that determines who I am. If I draw every day I am an artist, if I play guitar every day I am a guitarist. Therefore, for us to become who we desire to be, it is best to **stay consistent with our daily (or weekly) habits and routines**.  
 
-## Why are good habits so difficult to create?
+## Why Are Good Habits So Difficult To Create?
 
 When we think about creating a habit, we tend to be **too fixated on the outcome**. This is a problem for a variety of reasons: 
 
