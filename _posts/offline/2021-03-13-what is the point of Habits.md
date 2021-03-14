@@ -31,11 +31,11 @@ Taking the effort to reflect on my habits daily has been a great way of leading 
 
 When we think about creating a habit, we tend to be **too fixated on the outcome**. This is a problem for a variety of reasons: 
 
-***Winners and losers have the same goals***
+1. ***Winners and losers have the same goals***
     - This is a good example of survivorship bias. When we hear an Olympic gold medalist talking about how they made it their goal to win, their goal really isn't different than their competition or any of us; *we all have a goal to be winners*. Therefore, we cannot assume that winners win by creating goals.
-***Achieving a goal is only a momentary change***
+2. ***Achieving a goal is only a momentary change***
     - Often times one goal is not enough. We need to **create many small goals (or tasks) that lead us to reach our main goal**. When we are able to complete a task, it allows us to feel more compelled to continue. This is why one main goal is not what we should be focusing on since we don't get that satisfaction sooner.
-***Goals restrict our happiness***
+3. ***Goals restrict our happiness***
     - "Once I reach my goal, then I'll be happy". *Why can't we be happy regardless?* **When we fall in love with the process rather than the product, we don't have to wait to permit ourselves to be content.** Commitment to the *process* will determine our *progress.*
 
 ## How To Create Good Habits (And Lose Bad Ones)
