@@ -16,7 +16,7 @@ Lately, I have been very excited about my newly created habits. I read a book ca
 
 ## Default To Least Amount Of Effort
 
-We do whatever is more efficient. Another way of phrasing this is that we do whatever takes the **least amount of effort**. It is human nature to be lazy and do whatever is convenient. When we aim to climb a mountain we aren't ecstatic about the climb itself; rather, we are driven by the outcome of reaching the top. We then need to reflect on our habits to make sure they are **easy to accomplish**. Otherwise, our human nature will tell us not to do them. When we do a task **consistently and automatically**, that is when it turns into a habit.   
+We do whatever is more efficient. Another way of phrasing this is that we do whatever takes the **least amount of effort**. It is human nature to be lazy and do whatever is convenient. When we aim to climb a mountain we aren't ecstatic about the climb itself; rather, we are driven by the outcome of reaching the top. We then need to reflect on our habits to make sure they are **easy to accomplish**. Otherwise, our human nature will tell us not to do them. When we do a task **consistently** and **automatically**, that is when it turns into a habit.   
 
 
 ## We Are What We Repeatedly Do
@@ -31,11 +31,11 @@ Taking the effort to reflect on my habits daily has been a great way of leading 
 
 When we think about creating a habit, we tend to be **too fixated on the outcome**. This is a problem for a variety of reasons: 
 
-1. ***Winners and losers have the same goals***
+***Winners and losers have the same goals***
     - This is a good example of survivorship bias. When we hear an Olympic gold medalist talking about how they made it their goal to win, their goal really isn't different than their competition or any of us; *we all have a goal to be winners*. Therefore, we cannot assume that winners win by creating goals.
-2. ***Achieving a goal is only a momentary change***
+***Achieving a goal is only a momentary change***
     - Often times one goal is not enough. We need to **create many small goals (or tasks) that lead us to reach our main goal**. When we are able to complete a task, it allows us to feel more compelled to continue. This is why one main goal is not what we should be focusing on since we don't get that satisfaction sooner.
-3. ***Goals restrict our happiness***
+***Goals restrict our happiness***
     - "Once I reach my goal, then I'll be happy". *Why can't we be happy regardless?* **When we fall in love with the process rather than the product, we don't have to wait to permit ourselves to be content.** Commitment to the *process* will determine our *progress.*
 
 ## How To Create Good Habits (And Lose Bad Ones)
@@ -49,21 +49,29 @@ To fix our habits let's first understand how habits work. Habits have **4 stages
 
 Therefore we can make steps to address each of these stages:
 
-### 4 Steps To Make A Good Habit
+<center>
+<h3> 4 Steps To Make A Good Habit </h3>
+</center>
 
-1. Make It Obvious
-2. Make It Attractive
-3. Make It Easy
-4. Make It Satisfying
+<p align="center">
+1. Make It <b>Obvious</b> <br>
+2. Make It <b>Attractive</b> <br>
+3. Make It <b>Easy</b> <br>
+4. Make It <b>Satisfying</b> <br>
+</p>
 
-### 4 Steps To Get Rid Of A Bad Habit (Inverse)
+<center>
+<h3> 4 Steps To Get Rid Of A Bad Habit (Inverse) </h3>
+</center>
 
-1. Make It Invisible
-2. Make it Unattractive
-3. Make It Difficult
-4. Make It Unsatisfying
+<p align="center">
+1. Make It <b>Invisible</b> <br>
+2. Make it <b>Unattractive</b> <br>
+3. Make It <b>Difficult</b> <br>
+4. Make It <b>Unsatisfying</b> <br>
+</p>
 
-In the next section, I will give a few examples that have helped me through my experiences. Keep in mind that I am not you, we all are built differently so don't create friction by doing something you can't achieve. **It is best to work with our strengths than our weaknesses.**
+In the next section, I will give a few examples that have helped me through my experiences. Keep in mind that I am not you, we all are built differently so don't create friction by doing something you can't achieve. It is best to **work with our strengths** than our weaknesses.
 
 ## The Most Powerful Habits
 
@@ -89,7 +97,7 @@ ___
 
 <img alt="pixel-art-meditation" src="/images/posts/habits/Pixel Me Meditation.gif" class="right-align pixelart">
 
-I never imagined sitting without doing anything for 10 mins would be so hard. With social media rotting our brains to get used to the constant stream of content, we have lost our ability to relax and focus. Meditation has helped me recover, by keeping my mind sharp and maintaining a peaceful mood. It has also helped me reflect on my ambitions and principles.
+I never imagined sitting without doing anything for 10 mins would be so hard. With social media rotting our brains to get used to the constant stream of content, we have lost our ability to **relax** and **focus**. Meditation has helped me recover, by **keeping my mind sharp** and **maintaining a peaceful mood**. It has also helped me reflect on my ambitions and principles.
 
 **Cue**: Waking up.
 
@@ -105,7 +113,7 @@ ___
 
 <img alt="pixel-art-writing" src="/images/posts/habits/Pixel Me Writing.gif" class="right-align pixelart">
 
-Keeping track of my to-do lists, bookmarks, and reminders have made me so much more productive. I never enjoyed taking notes in high-school or college. I later realized that I did not enjoy taking notes because of a couple of reasons; Such as I did not like looking at my bad penmanship and I was slow at writing. Now that I take notes on my computer, it has made my note-taking faster and way more organized.
+Keeping track of my **to-do lists, bookmarks,** and **reminders** have made me so much more productive. I never enjoyed taking notes in high-school or college. I later realized that I did not enjoy taking notes because of a couple of reasons; Such as I did not like looking at my bad penmanship and I was slow at writing. Now that I take notes on my computer, it has made my note-taking faster and way more organized.
 
 **Cue**: I received new information that I need to remember.
 
@@ -137,7 +145,7 @@ ___
 
 <img alt="pixel-art-sleeping" src="/images/posts/habits/Pixel Me Sleeping.gif" class="right-align pixelart">
 
-Sleep is something we have all had trouble with. Without a good night's sleep, we aren't able to function properly and complete any work effectively. This is why creating a schedule for your sleep is so important. Having a schedule allows our bodies to get used to our circadian rhythm (also known as your internal clock).
+Sleep is something we have all had trouble with. Without a good night's sleep, we aren't able to function properly and complete any work effectively. This is why creating a schedule for your sleep is so important. Having a schedule allows our bodies to get used to our **circadian rhythm** (also known as your internal clock).
 
 ***Falling Asleep***:
 
@@ -163,6 +171,6 @@ Sleep is something we have all had trouble with. Without a good night's sleep, w
 
 ## Conclusion
 
-No system is perfect. Even if you can get into the mindset of what a healthy, productive, or fit individual's lifestyle is and replicate it, you may burn yourself out. Remember to take breaks and forgive your past self if/when you can't keep up with your routine. If you need more time to relax then do so. Changing yourself will require a lot of work and effort so don't forget that it does not start with a goal to change your character; it starts with changing our routines and systems.
+No system is perfect. Even if you can get into the mindset of what a healthy, productive, or fit individual's lifestyle is and replicate it, you may burn yourself out. Remember to take breaks and **forgive your past self** if/when you can't keep up with your routine. If you need more time to relax then do so. Changing yourself will require a lot of work and effort so don't forget that it does not start with a goal to change your character; it starts with changing our **routines** and **systems**.
 
 **What habit(s) would the person you strive to be have?**
