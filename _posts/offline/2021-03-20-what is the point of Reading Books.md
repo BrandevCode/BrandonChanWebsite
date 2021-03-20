@@ -36,7 +36,7 @@ Stories take us on a journey away from our problems. They help us learn from the
 
 <img alt="pixel-art-reading" src="/images/posts/reading/Pixel Me Rocket.gif" class="left-align pixelart">
 
-Elon Musk was once asked how he got into rocketry after being the CEO of his company at SpaceX, he replied **"I just started reading books"**. We should all aim to do this. Research using long-form content like books rather than relying on a quick google search or a short youtube video. If we think of life as a video game, we can think of books as the strategy guides from players who previously played the game. We are able to learn from their mistakes and improve upon them. I highly encourage everyone to pick up a non-fiction book ever once in a while as it seems very underrated compared to how useful they really are.
+Elon Musk was once asked how he got into rocketry after being the CEO of his company at SpaceX, he replied **"I just started reading books"**. We should all aim to do this. Research using long-form content like books rather than relying on a quick google search or a short youtube video. If we think of life as a video game, we can think of books as the strategy guides from players who previously played the game. We are able to learn from their mistakes and improve upon them. I highly encourage everyone to pick up a non-fiction book every once in a while as it seems very underrated compared to how useful they really are.
 
 ## Reading Is Difficult To Get In The Habit Of
 
