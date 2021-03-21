@@ -71,4 +71,4 @@ There are so many books out there that it can be overwhelming. In psychology, th
 With the vast knowledge available on the internet, I believed that with a quick search I could learn about anything. However, I now know that I was limiting myself. As Stephan Hawking said, 
 > The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge. 
 
-- I have come to the realization that there is still so much I can learn and that excites me every day to open up a new book.
+- I have come to understand that there is still so much I can learn and with help from the many brilliant authors out there, I will be able to be closer to achieve my goals and ambitions.
