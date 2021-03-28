@@ -16,7 +16,7 @@ As you may have noticed by now I read a lot about productivity. During my resear
 
 <img alt="pixel-art-meditation" src="/images/posts/meditation/Pixel Me Aang.gif" class="right-align pixelart">
 
-It will sadly not give you psychic powers and meet spiritual beings, that is not the purpose of meditation. We can meditate for a variety of reasons:
+It will sadly not give you psychic powers and meet spiritual beings, that is not the purpose of meditation. The goal is to be mindful and aware. By doing so, we can get a variety of benefits to our well-being: 
 
 1. Improves our **happiness** by decreasing our **stress, anxiety and depression.**
 2. Improves our **self control** by being able to **regulate our emotion and introspect on ourselves.**
