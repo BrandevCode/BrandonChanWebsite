@@ -52,7 +52,7 @@ We are biological creatures. Just like any animal we need sleep. Researchers hav
 - Some types of drugs such as antidepressants can cause less REM sleep.
 
 **Smoking**
-- Often causes them to sleep lightly and have less REM sleep. They may wake up after a few hours because they experience nicotine withdrawal.
+- Often causes us to sleep lightly and have less REM sleep. They may wake up after a few hours because they experience nicotine withdrawal.
 
 ### Sleep Debt
 
@@ -102,10 +102,10 @@ It depends on our age but. If we feel tired throughout the day try adjusting how
 - **(1) Make sleep a routine:** Having a sleeping routine maintains the timing of your body's **circadian rhythm** (internal clock) and can help you fall asleep and wake up more easily. This includes keeping the routine on weekends and vacations.
 - **(2) Clear your mind:** Our beds tend to be a magnet for our worries as we reflect on the next day. A way to approach this is by creating a to-do list or [meditating](https://brandonchan.ca/what-is-the-point-of-Meditation) before you go to bed so you can be better prepared.
 - **(3) Create a comfy environment:** Beds and pillows are supposed to make you comfortable when you sleep; you need to make sure they are doing the right job. Also, avoid bright lights and loud sounds. Make sure the room is at a comfortable temperature. Around **18.3°C (65°F)**
-- **(4) Get exercise:** [Exercise](https://brandonchan.ca/What-Is-The-Point-Of-Exercise) has been found to decrease sleep complaints and insomnia in people. Though try to avoid exercise a couple of hours before sleeping.
+- **(4) Get exercise:** [Exercise](https://brandonchan.ca/What-Is-The-Point-Of-Exercise) has been found to decrease sleep complaints and insomnia in people. Try to avoid exercise a couple of hours before sleeping.
 - **(5) Relax:** Make a winding down routine by doing a relaxing activity to release all that built-up cortisol. Try taking a warm bath, [reading](https://brandonchan.ca/what-is-the-point-of-Reading-Books),  [meditating](https://brandonchan.ca/what-is-the-point-of-Meditation), or listening to relaxing music/sounds.
 - **(6) Avoid artificial light:** This means not using your phone or computer directly before bed. Try using blue light filters on your devices or wearing eye masks.
-- **(7) Don't Lie In Bed Awake**
+- **(7) Don't lie in bed awake**
 If your mind is active while laying in bed, try to get out of bed and find a soothing activity to do. Reading a book or writing in a journal are some light activities that may help. 
 - **(8) See your family doctor:**  If you've tried everything and nothing is helping please contact your doctor. You may have a sleeping disorder and need to get it under control using a different solution.
 
