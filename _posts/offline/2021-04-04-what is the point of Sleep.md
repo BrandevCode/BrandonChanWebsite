@@ -158,11 +158,11 @@ Sleep is essential for our mental and physical being. Many of us are focused on 
 
 ### Resources
 
-- [https://my.clevelandclinic.org/health/articles/12148-sleep-basics](https://my.clevelandclinic.org/health/articles/12148-sleep-basics)
-- [https://www.sleep.org/do-all-animals-sleep/](https://www.sleep.org/do-all-animals-sleep/)
-- [insomnia](https://my.clevelandclinic.org/health/diseases/12119-insomnia)
-- [https://www.healthline.com/health/daytime-sleepiness/reasons-youre-tired#diet](https://www.healthline.com/health/daytime-sleepiness/reasons-youre-tired#diet)
-- [antidepressants](https://my.clevelandclinic.org/health/treatments/9301-depression-medicines)
-- [https://www.sleepfoundation.org/sleep-hygiene/why-are-all-nighters-harmful](https://www.sleepfoundation.org/sleep-hygiene/why-are-all-nighters-harmful)
-- [https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/napping/art-20048319](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/napping/art-20048319)
-- [https://www.noisli.com/](https://www.noisli.com/)
+- [clevelandclinic - sleep basics](https://my.clevelandclinic.org/health/articles/12148-sleep-basics)
+- [sleep.org - do all animals sleep](https://www.sleep.org/do-all-animals-sleep/)
+- [clevelandclinic - insomnia](https://my.clevelandclinic.org/health/diseases/12119-insomnia)
+- [healthline - reasons-you're-tired](https://www.healthline.com/health/daytime-sleepiness/reasons-youre-tired#diet)
+- [depression - medicines](https://my.clevelandclinic.org/health/treatments/9301-depression-medicines)
+- [sleepfoundation.org - why are all nighters harmful](https://www.sleepfoundation.org/sleep-hygiene/why-are-all-nighters-harmful)
+- [mayoclinic- adult health](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/napping/art-20048319)
+- [noisli - sound environment](https://www.noisli.com/)
