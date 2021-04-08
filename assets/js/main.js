@@ -10,6 +10,7 @@
 
 $(window).load(function() {
   setVisible('#page', true);
+  setVisible('.top-nav', true);
   $('.parallax').parallax();
   setVisible('#loading', false);
 });
