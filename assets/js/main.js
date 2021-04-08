@@ -11,6 +11,7 @@
 $(window).load(function() {
   setVisible('#page', true);
   setVisible('.top-nav', true);
+  setVisible('.page-footer', true);
   $('.parallax').parallax();
   setVisible('#loading', false);
 });
