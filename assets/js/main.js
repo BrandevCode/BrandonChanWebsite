@@ -13,7 +13,11 @@ $(window).load(function() {
   setVisible('.top-nav', true);
   setVisible('.page-footer', true);
   $('.parallax').parallax();
-  setVisible('#loading', false);
+
+  var element = document.getElementById("loading");
+  element.classList.add("fade-out");
+
+  // setVisible('#loading', false);
 });
 
 function setVisible(selector, visible) {

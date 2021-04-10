@@ -467,6 +467,51 @@ nav i
   background-repeat: no-repeat
   background-position: center
 
+.fade-out
+  animation: fadeOut ease 0.4s
+  -webkit-animation: fadeOut ease 0.4s
+  -moz-animation: fadeOut ease 0.4s
+  -o-animation: fadeOut ease 0.4s
+  -ms-animation: fadeOut ease 0.4s
+  -webkit-animation-fill-mode: forwards
+  background: $raisin-black
+
+@keyframes fadeOut
+  0% 
+    opacity: 1
+  100% 
+    opacity: 0
+    visibility: hidden
+  
+
+@-moz-keyframes fadeOut
+  0%
+    opacity: 1
+  100% 
+    opacity: 0
+    visibility: hidden
+
+@-webkit-keyframes fadeOut 
+  0% 
+    opacity: 1
+  100% 
+    opacity: 0
+    visibility: hidden
+
+@-o-keyframes fadeOut
+  0%
+    opacity: 1
+  100% 
+    opacity: 0
+    visibility: hidden
+
+@-ms-keyframes fadeOut 
+  0% 
+    opacity: 1
+  100% 
+    opacity: 0
+    visibility: hidden
+
 .logo_header
   max-width: 42px
   max-height: 42px
