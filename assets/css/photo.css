@@ -17,6 +17,10 @@
   text-align: center;
   display: block;
 }
+
+#photo-gallery li {
+  list-style-type: none;
+}
   
   #overlay {
     content: " ";
