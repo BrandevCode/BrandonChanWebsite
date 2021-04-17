@@ -45,7 +45,7 @@ Letting ourselves be lazy and procrastinate once in a while is healthy. We are h
 Piers Steel's book called [The Procrastination Equation](https://www.goodreads.com/book/show/9514605-the-procrastination-equation) gives a great visualization of how we can feed our motivation.
 
 
-<img class="lazy" data-src="../images/posts/habits/Procrastination Equation.png" width="60%"/>
+<img class="lazy" data-src="../images/posts/habits/procrastination equation.png" width="60%"/>
 
 ### Variable Definitions
 
