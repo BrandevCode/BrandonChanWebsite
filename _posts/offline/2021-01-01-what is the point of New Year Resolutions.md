@@ -1,7 +1,7 @@
 ---
 title: what is the point of... New Year Resolutions?
 categories: [life offline]
-tags: [OKR]
+tags: [Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1

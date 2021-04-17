@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Reading Books?
 categories: [life offline]
-tags: [Blog, Habits]
+tags: [Blog, Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1

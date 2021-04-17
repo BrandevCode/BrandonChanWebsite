@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Habits?
 categories: [life offline]
-tags: [Blog, Habits]
+tags: [Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1

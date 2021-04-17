@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Home Cooking?
 categories: [life offline]
-tags: [Blog, Cooking]
+tags: [Cooking]
 js: [triangulate.js]
 comment: 1
 related: 1

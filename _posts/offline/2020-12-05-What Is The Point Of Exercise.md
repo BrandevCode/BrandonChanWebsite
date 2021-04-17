@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Exercise?
 categories: [life offline]
-tags: [Blog, Exercise, Motivation]
+tags: [Exercise, Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1
