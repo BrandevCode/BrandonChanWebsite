@@ -49,7 +49,7 @@ Piers Steel's book called [The Procrastination Equation](https://www.goodreads.c
 
 ### Variable Definitions
 
-- **Expectancy**: The higher we expect the outcome will succeed. The more willing we are to do the work.
+- **Expectancy**: The higher we expect the outcome will succeed.
 - **Value**: The more value the reward has, the more importance we will put into doing the work.
 - **Impulsiveness**: The higher impulsivity leads us to seek out instant gratification.
 - **Delay**: The time it takes to receive the anticipated reward.
