@@ -89,7 +89,7 @@ We need to have our own version of a "carrot on a stick" to keep us motivated.
 
 ### Decrease Impulses:
 
-- Creating **productive environment** where you are able to focus on the work.
+- Creating a **productive environment** where you are able to focus on the work.
 - **Writing down** what is distracting us and deciding whether they are important or not
 - Using social media blockers like:
     - [Habit Lab](https://habitlab.stanford.edu/)
