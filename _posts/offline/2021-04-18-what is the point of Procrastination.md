@@ -100,3 +100,8 @@ We need to have our own version of a "carrot on a stick" to keep us motivated.
 Procrastination affects all of us and it always pains me to see when others waste their potential by having a mundane life. I use to let my procrastination monkey take control of my wheel and it led me to play video games all the time and ignore the projects I actually wanted to work on. The way I overcame it, was by slowly staying **consistent with my habits**, **reevaluating who I want to be** and **always reminding myself that life is short**. 
 
 > “If you live each day as if it were your last, someday you'll be right. Every morning I looked in the mirror and asked myself: If today were the last day of my life, would I want to do what I do today?” - Steve Jobs
+
+### Resources
+- [Inside the mind of a master procrastinator : Tim Urban](https://www.youtube.com/watch?v=arj7oStGLkU)
+- [How To Stop Procrastinating : Mark Manson](https://www.youtube.com/watch?v=7FxQqLAm2uI)
+- [Procrastination: Crash Course Study Skills #6](https://www.youtube.com/watch?v=x2y_SLOvOvw)
