@@ -11,7 +11,7 @@ highlight: 1
 ---
 I am introverted and you are too. Introversion and extroversion, which were popularized by the psychologist Carl Jung, are the parts of us that either craves social interaction or solitude. Although we may tend to lean to either side of the spectrum, Carl Jung suggests that no one is purely introverted or extroverted. People may define themselves as introverted because they often need time alone to regain their energy, especially if they just came from a social event. 
 
-**I always saw my introverted personality as a weakness**; being introverted makes it harder for us to socialize and network to meet new people. We also can't share our opinions easily so aren't we horrible leaders as well? Shouldn't we all be striving to become extroverts? Definitely not, **there are many benefits to being introverted**.
+**I always saw my introverted personality as a weakness**. Being introverted made it harder for me to socialize and network to meet new people. As introverts, we also can't share our opinions easily. Doesn't that make us horrible leaders as well? Shouldn't we all be striving to become extroverts? Nope, **there are many benefits to being introverted**.
 
 ## Misconceptions
 
