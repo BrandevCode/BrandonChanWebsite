@@ -15,6 +15,8 @@ I am introverted and you are too. Introversion and extroversion, which were popu
 
 ## Misconceptions
 
+<img alt="Pixel Me Introverted" loading="lazy" src="/images/posts/habits/Pixel Me Introverted.gif" class="right-align pixelart">
+
 ### Being Introverted Means You Are Shy
 
 I was called shy many times while growing up; maybe I was, but I always had a feeling that this was not quite right since I enjoyed meeting new people and did not fear other's opinions on me. I did not fear social judgement as the definition told me I should be. Many people have this misconception; being shy, a loner or a misanthropist is not the same as being introverted. We tend to be sensitive to a social environment where there are many noises and sights that makes listening and focusing much more difficult.  
@@ -43,9 +45,7 @@ Our personality is based on the inherent traits that we are born with. If you we
 
 This shows that we do not need to change our personality, we only need to put on different "hats" for when the necessary situation arises.
 
-## The Power and Flaws of Being Introverted
-
-### Strengths
+## The Power of Being Introverted
 
 **Listening and Observation**
 
@@ -68,7 +68,7 @@ This shows that we do not need to change our personality, we only need to put on
 - Able to **self-govern** their actions
 - Can live without relying on others
 
-### Weaknesses
+## Problems Introverts May Need To Consider
 
 **High Sensitivity**
 
@@ -92,7 +92,7 @@ This shows that we do not need to change our personality, we only need to put on
 
 ## Understand Who You Are
 
-It's important for us to know who we are. That way we can make better decisions that align with our core values and beliefs. Understanding that I am introverted and that there are many strengths from having **better observation**, **better listening** and **more compassion** towards others have been very eye-opening. However, we still need to recognize our flaws with being **sensitive to our environment** and **being misunderstood**. I've been trying to open up by writing these blog posts so I can remove the anxiety that comes from sharing my opinions. As wonderful as it is to live in our own world, we need to remember to face reality sometimes and **let others know what we have learned and experienced during our isolation**.
+It's important for us to know who we are. That way we can make better decisions that align with our core values and beliefs. Understanding that I am introverted and that there are many strengths from having **better observation**, **better listening** and **more compassion** towards others have been very eye-opening. However, we still need to recognize our weaknesses with being **sensitive to our environment** and **being misunderstood**. I've been trying to open up by writing these blog posts so I can remove the anxiety that comes from sharing my opinions. As wonderful as it is to live in our own world, we need to remember to face reality sometimes and **let others know what we have learned and experienced during our isolation**.
 
 ### Resources
 - [The power of introverts - Susan Cain](https://www.youtube.com/watch?v=c0KYU2j0TM4)
