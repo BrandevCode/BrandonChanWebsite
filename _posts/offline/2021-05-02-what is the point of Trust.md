@@ -85,6 +85,8 @@ Trust is a difficult topic, we need to trust each other but the more we do the m
 1. **Realize we live in a modern, borderless world**. We cannot avoid interacting with others, therefore we need to learn to live with one another.
 2. **Accept that we should default to truth**. By doing so we can be aware of our actions and judgements of others to make more rational decisions.
 3. **Do not blame yourself or others for defaulting to truth**. When we are lied to, we often blame the liar for their actions, but we can also put blame ourselves for not recognizing the lie. It is best to learn from these mistakes instead of pointing fingers at each other.
+4. **Realize that we are horrible at determining a person's character.** Never judge a book by a cover is a very cliché statement but is very true. We don't know each other, we can't read into each other's minds clairvoyantly. This is why it's so important to communicate our thoughts clearly with one another.
+5. **Understand that we decide how trust evolves.** It is up to us to decide whether we need to be more trusting of others or not. Forgiveness is not easy and learning to be more trusting of others can be tough. However, the more trust we give others, the more trust we breed as well.
 
 ### Resources
 - [The psychology of trust - Anne Böckler-Raettig](https://www.youtube.com/watch?v=wc3VhvgUtB8)
