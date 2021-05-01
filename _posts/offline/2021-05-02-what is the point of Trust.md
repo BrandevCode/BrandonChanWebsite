@@ -22,7 +22,7 @@ There are examples of trust everywhere:
 
 The difficult part of trust is that we don't know who is trustworthy. How do we know for sure that the other drivers won't hit us, teammates won't betray us or the engineers haven't made mistakes on their machines? Is there a way we can determine truths from lies?   
 
-## It Is ALMOST Impossible To Tell Truths From Lies
+## It Is Almost Impossible To Tell Truths From Lies
 
 <img alt="among us" loading="lazy" src="/images/posts/habits/Among Us.gif" class="right-align pixelart">
 
