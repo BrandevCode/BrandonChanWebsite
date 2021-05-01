@@ -16,8 +16,8 @@ We are social animals which means our success arises from our collaboration with
 
 There are examples of trust everywhere:
 
-- When driving we need to trust other drivers when we change lanes
-- When working in a team we need to trust our teammates to win
+- When driving we need to trust other drivers when we change lanes.
+- When working in a team we need to trust our teammates to win.
 - When commuting to work we need to trust the engineers to make sure the elevators and escalators are working.
 
 The difficult part of trust is that we don't know who is trustworthy. How do we know for sure that the other drivers won't hit us, teammates won't betray us or the engineers haven't made mistakes on their machines? Is there a way we can determine truths from lies?   
@@ -32,11 +32,11 @@ This quote is from the book Talking to Strangers and has enlightened me about ou
 
 When we do come across a situation where we need to attempt to detect a lie, we often go after their appearances and actions. However, it has been shown that our clothing, culture, emotions and even facial expressions are bad indicators of whether we are lying or not. Even the lie detector, known as the polygraph, that can track our blood pressure, pulse and respiration are known to be **unreliable** and **biased**. We think we are good at reading others and making conclusions on their character when really, we are terrible at it. Even the most intelligent people who read others for a living like crime investigators or poker players have never been 100% accurate.  
 
-We may think we default to truth because of our poor ability to judge one another but, we actually do so because:
+The downsides of not defaulting to truth is that it:
 
-- We don't want to increase our stress and anxiety
-- We don't want to be shunned by others. We see people who can't trust others as untrustworthy
-- We know that trusting others is better in keeping our relationships
+- Increases our stress and anxiety.
+- Keep us separated from our group. We see people who can't trust others as untrustworthy.
+- Increases the chances of us acting upon revenge. 
 
 ## Evolution Of Trust
 
