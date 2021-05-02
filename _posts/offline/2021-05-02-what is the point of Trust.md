@@ -30,19 +30,13 @@ The difficult part of trust is that we don't know who is trustworthy. How do we 
 
 This quote is from the book Talking to Strangers and has enlightened me about our **default to truth** when interacting with one another. When we go to a grocery store, our default is to trust that the cashier will charge us the correct amount. People who do not default to truth are usually more stressed and anxious. Living in a world where we cannot trust each other would be very horrible.
 
-When we do come across a situation where we need to attempt to detect a lie, we often go after their appearances and actions. However, it has been shown that our clothing, culture, emotions and even facial expressions are bad indicators of whether we are lying or not. Even the lie detector, known as the polygraph, that can track our blood pressure, pulse and respiration are known to be **unreliable** and **biased**. We think we are good at reading others and making conclusions on their character when really, we are terrible at it. Even the most intelligent people who read others for a living like crime investigators or poker players have never been 100% accurate.  
-
-The downsides of not defaulting to truth is that it:
-
-- Increases our stress and anxiety.
-- Keep us separated from our group. We see people who can't trust others as untrustworthy.
-- Increases the chances of us acting upon revenge. 
+When we do come across a situation where we need to asses if someone is trustworthy, we often use their appearances and actions as a guide. However, it has been shown that our clothing, culture, emotions and even facial expressions are bad indicators of whether we are lying or not. Even the lie detector, known as the polygraph, that can track our blood pressure, pulse and respiration are known to be **unreliable** and **biased**. We think we are good at reading others and making conclusions on their character when really, we are terrible at it. Even the most intelligent people who read others for a living like crime investigators or poker players have never been 100% accurate.  
 
 ## Evolution Of Trust
 
 <img class="lazy" data-src="../images/posts/habits/ncasetrust.png" width="60%"/>
 
-I highly recommend you check out this interactive website demonstrating trust in a unique way [https://ncase.me/trust/](https://ncase.me/trust/). I'll go over the main themes below. 
+I highly recommend you check out this interactive website demonstrating trust in a unique way [ncase.me/trust](https://ncase.me/trust/). I'll go over the main themes below. 
 
 ### Prisoners Dilemma
 
@@ -53,7 +47,7 @@ Using game theory which is commonly used in economics to examine the model betwe
 - If one cooperates and one cheats the cheater gets 3 coins and the cooperator loses 1 coin
 - If they both cheat they both get 0 coins
 
-The players find themselves in a situation where they have to either trust that the other person will cooperate with them or if the better choice is to cheat to get an advantage over them. So what were the discoverings made in this experiment?
+The players find themselves in a situation where they have to either trust that the other person will cooperate with them or if the better choice is to cheat to get an advantage over them. So what were the discoveries made in this experiment?
 
 ### Build a Reputation
 
