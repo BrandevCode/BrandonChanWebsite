@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Art?
 categories: [life offline]
-tags: [Productivity]
+tags: [Art]
 js: [triangulate.js]
 comment: 1
 related: 1
@@ -83,3 +83,13 @@ The part of artists that inspires me is being able to see their growth over time
 ### Communicate With Storytelling
 
 Language is probably the most powerful tool we use to communicate and yet it has limits. We have to go line by line, word by word to get any message across. Art helps to make our stories stick. It does not even have to be beautiful. As long as it makes us think, it is good enough. Even though we may not like one piece of art, we should always strive to learn why others may enjoy it so we can **learn something new about them**, and **maybe even ourselves**.
+
+### Resources
+- [What is art for? Alain de Botton's animated guide - Art and design](https://www.youtube.com/watch?v=ZVlQOytFCRI)
+- [Why You Should Start Drawing](https://www.youtube.com/watch?v=ASiVYLdeAaA)
+- [What is Art?](https://www.youtube.com/watch?v=QZQyV9BB50E)
+- [How drawing helps you think - Ralph Ammer - TEDxTUM](https://www.youtube.com/watch?v=ZqlTSCvP-Z0)
+- [Why art is important - Katerina Gregos - TEDxGhent](https://www.youtube.com/watch?v=UPk56BR1Cmk)
+- [How to Handle Criticism, Gumball Style](https://www.youtube.com/watch?v=lWURDe4860U)
+- [Art is Hard](https://www.youtube.com/watch?v=a71rha3140k)
+- [The Final Episode of Courage the Cowardly Dog is Perfect](https://www.youtube.com/watch?v=ZGGz4iJp9P0)
