@@ -23,7 +23,7 @@ The definition of what art is depends on the person. For me personally, I believ
 3. Communicates our **story** and **experiences** in a way language is unable to.
 4. Stimulates our **thoughts**, **emotions**, **beliefs**, or **ideas** through our senses.
 
-If you want a more in-depth look. The Wikipedia page is very informative on all aspects of Art. [https://en.wikipedia.org/wiki/Art](https://en.wikipedia.org/wiki/Art)
+If you want a more in-depth look. The [Wikipedia](https://en.wikipedia.org/wiki/Art) page is very informative on all aspects of Art. 
 
 ### Very Brief History of Art
 
