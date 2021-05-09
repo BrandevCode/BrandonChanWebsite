@@ -10,11 +10,13 @@ coverimg: /images/posts/art/what is the point of Art.png
 highlight: 1
 ---
 
-## What Is Art?
+First I would like to preface that defining art is pretty much impossible. Art can be objective or subjective based on our personal preference towards it. 
+
+## My Definition Of Art
 
 <img alt="Starry Night" loading="lazy" src="/images/posts/art/Starry Night.gif" class="right-align pixelart">
 
-First I would like to preface that defining art is pretty much impossible. Art can be objective or subjective based on our personal preference towards it. So what art is, depends on the person. For me personally, I believe these definitions are the closest way that we can describe art.
+The definition of what art is depends on the person. For me personally, I believe these definitions are the closest way that we can describe art.
 
 1. There is no generally agreed definition of what constitutes art.
 2. Art is an **expression** or application of human creative **skill** and **imagination**.
