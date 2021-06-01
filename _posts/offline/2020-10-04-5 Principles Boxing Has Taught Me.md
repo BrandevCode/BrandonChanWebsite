@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/boxing/5 Principles Boxing Has Taught Me.png
 coverimg: /images/posts/boxing/5 Principles Boxing Has Taught Me.png
-highlight: 1
+side-highlight: 1
 ---
 
 Boxing, which many see as a violent sport about knocking the opponent out, has taught me many important ideologies that have aided me in also getting through difficulties in other aspects of my life. I didn't join boxing in order to solve problems by punching them in the face. Boxing is about much more than punches.

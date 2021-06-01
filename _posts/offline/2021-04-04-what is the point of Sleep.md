@@ -1,13 +1,13 @@
 ---
 title: what is the point of... Sleep?
 categories: [life offline]
-tags: [Blog, Habits]
+tags: [Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1
 img: /images/posts/habits/what is the point of Sleep.png
 coverimg: /images/posts/habits/what is the point of Sleep.png
-highlight: 1
+main-highlight: 1
 ---
 
 You probably already know that we all need sleep and that it's important for us to get enough of it, but **what is enough?** Also, **why is it sometimes so hard to fall asleep?** **What are some ways we can improve our sleep hygiene?** We spend about 1/3 of our life sleeping. That is so much time we waste by sleeping. Is it really a waste? In this post, you will find the answers to these questions. Sleeping is probably the most important habit we all have and should be a task we **prioritize** more often then we usually do.

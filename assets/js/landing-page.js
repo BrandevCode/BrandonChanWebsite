@@ -18,3 +18,17 @@ localStorage.setItem("checkboxValues",  JSON.stringify(allCheckboxes));
 
 console.log(JSON.parse(localStorage.getItem('checkboxValues')));
 */
+
+window.onload = choosePic;
+
+var myPix = new Array("/images/posts/habits/Pixel Me Writing.gif"
+,"/images/posts/habits/Pixel Me Meditation.gif"
+,"/images/posts/habits/Pixel Me Sleeping.gif"
+,"/images/posts/habits/Pixel Me Squatting.gif"
+,"/images/posts/habits/Pixel Me Yawn.gif");
+
+
+function choosePic() {
+     var randomNum = Math.floor(Math.random() * myPix.length);
+     document.getElementById("landing-page-pixel-art").src = myPix[randomNum];
+}

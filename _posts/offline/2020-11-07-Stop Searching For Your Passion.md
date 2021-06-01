@@ -8,7 +8,7 @@ comment: 1
 related: 1
 img: /images/posts/motivation/Passion Cover.png
 coverimg: /images/posts/motivation/Passion Cover.png
-highlight: 1
+side-highlight: 1
 ---
 
 {% include tip.html content="Life isn't about finding yourself. Life is about creating yourself

@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/habits/what is the point of Procrastination.png
 coverimg: /images/posts/habits/what is the point of Procrastination.png
-highlight: 1
+main-highlight: 1
 ---
 
 Procrastination, the **antithesis of productivity**. We have all been there, we're trying to get work done when suddenly we're browsing the internet with its endless source of entertainment. Technology is one of the major factors that lead us to forget our work but what is hidden deep within our brains that is causing us to lose track of what is truly important?

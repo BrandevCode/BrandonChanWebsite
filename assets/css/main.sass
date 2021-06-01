@@ -43,6 +43,9 @@ main
   padding-top: 1px
   padding-bottom: 2px
 
+  &.nocolour
+    background-color: transparent
+
 // Header
 // .background backup -webkit-linear-gradient(90deg, #3AA17E 10%, #00537E 90%), linear-gradient(90deg, #3AA17E 10%, #00537E 90%)
 header
@@ -66,7 +69,7 @@ nav
 nav
   .nav-wrapper
     text-align: center
-    background-color: $raisin-black
+    background-color: $spanish-gray-accent-1 //$raisin-black
     //padding-right: -16 !important
 
 //nav ul li
@@ -460,7 +463,7 @@ nav i
   position: fixed
   top: 0
   left: 0
-  //z-index: 100
+  z-index: -1
   width: 100vw
   height: 100vh
   //background-color: $black-olive

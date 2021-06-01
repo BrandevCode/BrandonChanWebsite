@@ -1,13 +1,13 @@
 ---
 title: what is the point of... Meditation?
 categories: [life offline]
-tags: [Blog, Productivity]
+tags: [Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1
 img: /images/posts/meditation/what is the point of Meditation.png
 coverimg: /images/posts/meditation/what is the point of Meditation.png
-highlight: 1
+main-highlight: 1
 ---
 
 As you may have noticed by now I read a lot about productivity. During my research, I have always stumbled upon people who advocate heavily on meditation as their way to stay focused and relaxed. They talk about how life-changing it can be, but I never really thought much about it since I  am already a calm type of person. So why should I learn to meditate? Will I get any interesting psychic powers and meet spiritual beings?  

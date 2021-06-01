@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/habits/what is the point of Note-Taking.png
 coverimg: /images/posts/habits/what is the point of Note-Taking.png
-highlight: 1
+main-highlight: 1
 ---
 
 I feel like everyone can see the benefits of taking notes. It helps us to prioritize our tasks, keep an archive that can be referenced in the future and deepens our understanding of the topics we may be studying. However, it is also tough to remember to keep track of our notes, it may seem like a waste of time if we never refer back to them and its just not enjoyable to write notes down. What makes it so difficult to start note-taking? 

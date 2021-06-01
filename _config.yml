@@ -5,7 +5,7 @@ description: Ever since I've been in computer science, I have been inspired by s
 #baseurl: ""
 #url: "brandonchan.ca"
 repository: BrandevCode/BrandonChanWebsite
-paginate: 10
+paginate: 5
 
 banner: "/assets/res/banner.jpg" # site banner (load when someone share your page url)
 favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)

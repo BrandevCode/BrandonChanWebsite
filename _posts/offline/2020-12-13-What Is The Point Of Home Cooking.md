@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/cooking/What Is The Point Of Home Cooking.png
 coverimg: /images/posts/cooking/What Is The Point Of Home Cooking.png
-highlight: 1
+main-highlight: 1
 ---
 
 I love cooking. It not only gives me satisfaction to cook something delicious but also allows me to make something for others to enjoy. However, it seems that the trend with our meals is becoming driven towards industrialized foods more than ever. We are eating our meals through takeout apps, eating at restaurants or buying microwaveable dinners more often nowadays because it is convenient, fast, and seemingly inexpensive. So is there even a point in cooking for ourselves anymore?

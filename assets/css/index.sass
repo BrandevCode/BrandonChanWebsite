@@ -43,16 +43,6 @@ main
   margin-top: 5px
 
 
-.h2-title
-  color: $white
-  font-size: 1.8rem
-  background-color: $spanish-gray-accent-1-transparent
-  padding: 10px
-  border: 2px solid $light-gray-accent-1
-  border-radius: 8px
-  font-family: 'Maven Pro', sans-serif
-  padding-bottom: 13.5px //this is added because of the maven pro font
-
 //triangulate
 .landing-page-row 
   margin-bottom: 200px
@@ -60,6 +50,31 @@ main
 svg
   position: absolute
   z-index: -2
+
+.overlap-image
+  margin-left: auto
+  margin-right: auto
+  display: block
+  padding: 10px
+  top: 50%
+  Width: 300px
+
+  &.pixelart
+      image-rendering: pixelated
+      image-rendering: -moz-crisp-edges
+      image-rendering: crisp-edges
+
+#main_cap
+  display: none
+
+#main_cap:target
+  display: block
+
+#main_cap:target ~ .more-buttons
+  display: none
+
+.more-buttons
+  padding-left: 10px
 
 @media only screen and (max-width: 992px)
   svg    
@@ -70,9 +85,6 @@ svg
   .container
     //background-color: transparent
     padding: 0.5em
-  .h2-title
-    padding: 7.5px
-    margin: 0
 
   .thi-columns
     margin: 0px !important

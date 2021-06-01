@@ -17,10 +17,10 @@
       <!-- switch to container to make the width of the nav the same as the container-->
       <div class="row">
         <ul id="nav-mobile" class="left">
-          <li><a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="las la-bars la-lg"></i>
+          <!-- <li><a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="las la-bars la-lg"></i>
           </a>
           </li>
-          <li>
+          <li> -->
           <a class="page-title font-title show-on-large" href="{{site.baseurl}}/">
               <img alt="BC-Logo" src="../images/BC Logo.svg " class="logo_header"></img> 
               <!-- <span class="right font-nav-title hide-on-med-and-down">{{ site.title }}</span> -->
@@ -30,15 +30,15 @@
         <ul id="nav-mobile" class="right">
           <!-- Better solution here but too laz: https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar-->
           {% if page.title contains "Blog Topics" %}
-          <li><a href="{{ site.baseurl }}/blog" class="active">
+          <!-- <li><a href="{{ site.baseurl }}/blog" class="active">
             <i class="las la-book la-lg"><span class="left font-nav-title hide-on-med-and-down">Blog</span></i>
           </a>
-          </li>
+          </li> -->
           {% else %}
-          <li><a href="{{ site.baseurl }}/blog">
+          <!-- <li><a href="{{ site.baseurl }}/blog">
             <i class="las la-book la-lg"><span class="left font-nav-title hide-on-med-and-down">Blog</span></i>
           </a>
-          </li>
+          </li> -->
           {% endif %}
 
           {% if page.title contains "About" %}

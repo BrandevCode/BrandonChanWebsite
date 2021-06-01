@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/finance/10 Personal Finance.png
 coverimg: /images/posts/finance/10 Personal Finance.png
-highlight: 1
+side-highlight: 1
 ---
 
 {% include tip.html content="Keep in mind that a lot of content written in this post were taken from various sources. Please click into the links to dive deeper into each topic." %}

@@ -15,20 +15,57 @@ js: ["landing-page.js"]
 	<div id="page">
     <div class="parallax-container">
 
-		<div class="typing-effect-container slide-top">
-				<p>
-					<span class="landing-title-text">
-						<span style="color: rgb(201, 35, 35)"></span>Brandon : <span class="typed-text"></span><span class="cursor">&nbsp;</span>
-					</span>
-				</p>
+		<div class='container nocolour'>
+
+			<!-- <div class='row'>
+				<div class="typing-effect-container slide-top">
+					<p>
+						<span class="landing-title-text">
+							<span style="color: rgb(201, 35, 35)"></span>Brandon : <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+						</span>
+					</p>
+				</div>
+			</div> -->
+
+			<div class='row'>
+
+				<!-- <div class='col l6'>
+					<div class="round-container left-align slide-top">
+						<p>
+							Your resource for productivity, programming and art. 1
+						</p>
+					</div>
+				</div>
+
+				<div class='col l6'>
+					<div class="round-container left-align slide-top">
+						<p>
+							Your resource for productivity, programming and art. 2
+						</p>
+					</div>
+				</div> -->
+
+				<div class='col s12'>
+					<img alt="pixel-art-writing" src="/images/posts/habits/Pixel Me Writing.gif" class="pixelart overlap-image slide-top"
+					id="landing-page-pixel-art">
+				</div>
+
+				<div class='col l4 offset-l4 s12'>
+					<div class="landing-title-bg-colour slide-top-delayed">
+							<h1 class='h1-title'>Hi, I'm <b>Brandon</b></h1>
+					</div>
+				</div>
+
+			</div>
 		</div>
 
 		<div class="parallax"><img alt="parallax-bg" src="../images/background/05.jpg"></div>
 
 	</div>
-
+	
 	<div id="bg"></div>
 	<div class="container">
+
 		<div class="row  landing-page-row">
 			{{ content }}
 			{% if site.disqus_shortname and page.comment %}

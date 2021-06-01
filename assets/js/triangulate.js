@@ -9,6 +9,25 @@ var unitHeight;
 var points;
 
 
+
+// $( document ).ready(function() {      
+//     var is_mobile = false;
+
+//     if( $('#some-element').css('display')=='none') {
+//         is_mobile = true;       
+//     }
+
+//     // now I can use is_mobile to run javascript conditionally
+
+//     if (is_mobile == true) {
+//         //Conditional script here
+//     }
+//  });
+
+
+
+
+
 //when page is visible
 var targetNode = document.getElementById('page');
 var observer = new MutationObserver(function(){

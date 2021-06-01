@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/habits/what is the point of Habits.png
 coverimg: /images/posts/habits/what is the point of Habits.png
-highlight: 1
+main-highlight: 1
 ---
 
 > You do not rise to level of your goals. You fall to the level of your systems. - James Clear

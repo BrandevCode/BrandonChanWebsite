@@ -54,7 +54,7 @@ blockquote{
 }
 
 .row .col{
-	padding: 8px;
+  padding: 8px;
 }
 
 .thi-post .row .col{
@@ -180,9 +180,12 @@ table, th, td{
 
 // column
 .thi-columns{
-  -webkit-columns: 350px 2; /* Chrome, Safari, Opera */
-  -moz-columns: 350px 2; /* Firefox */
-  columns: 350px 2;
+  // -webkit-columns: 350px 2; /* Chrome, Safari, Opera */
+  // -moz-columns: 350px 2; /* Firefox */
+  // columns: 350px 2;
+  -webkit-columns: 350px 1; /* Chrome, Safari, Opera */
+  -moz-columns: 350px 1; /* Firefox */
+  columns: 350px 1;
   background-color: $spanish-gray;
   border-radius: 5px;
   margin: 8px;

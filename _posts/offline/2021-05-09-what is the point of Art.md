@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/art/what is the point of Art.png
 coverimg: /images/posts/art/what is the point of Art.png
-highlight: 1
+main-highlight: 1
 ---
 
 First I would like to preface that defining art is pretty much impossible. Art can be objective or subjective based on our personal preference towards it. 

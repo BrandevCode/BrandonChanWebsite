@@ -1,13 +1,13 @@
 ---
 title: what is the point of... Reading Books?
 categories: [life offline]
-tags: [Blog, Productivity]
+tags: [Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1
 img: /images/posts/reading/what is the point of Reading Books.png
 coverimg: /images/posts/reading/what is the point of Reading Books.png
-highlight: 1
+main-highlight: 1
 ---
 
 We invented books so our knowledge can be carried onto others. One of the reasons why I started this blog is because I realize how important it is to share information with one another. Many authors realize this as well, and have used this medium to spread their views and experiences to everyone. But why should we be reading books when we have access to the internet? Is there any reason for us to read books anymore?

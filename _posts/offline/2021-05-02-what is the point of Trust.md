@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/habits/what is the point of Trust.png
 coverimg: /images/posts/habits/what is the point of Trust.png
-highlight: 1
+main-highlight: 1
 ---
 Trust is everywhere. Our relationship with friends, family and strangers is built upon trust, but should we really be trusting each other so easily? 
 

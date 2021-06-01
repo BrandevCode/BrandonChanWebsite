@@ -7,7 +7,7 @@ comment: 1
 related: 1
 img: /images/posts/habits/what is the point of Introversion.png
 coverimg: /images/posts/habits/what is the point of Introversion.png
-highlight: 1
+main-highlight: 1
 ---
 I am introverted and you are too. Introversion and extroversion, which were popularized by the psychologist Carl Jung, are the parts of us that either craves social interaction or solitude. Although we may tend to lean to either side of the spectrum, Carl Jung suggests that no one is purely introverted or extroverted. People may define themselves as introverted because they often need time alone to regain their energy, especially if they just came from a social event. 
 

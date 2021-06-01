@@ -111,7 +111,7 @@ svg
 
 //Highlight animation
 
-\:target 
+\:target:not(.main_cap)
   animation: dropdown 1s cubic-bezier(0.175, 0.885, 0.182, 1.5) both, highlight 0.75s
 
 @keyframes dropdown
@@ -130,23 +130,31 @@ svg
   100% 
     filter: brightness(1) blur(0px) hue-rotate(0deg)
 
-.tag-index
-  padding: 6px
-
-.tag-sec
-  margin-top: 20px
-
 .h2-title
+  padding: 10px
   color: $white
   font-size: 1.8rem
-  //font-size: 16px
-  background-color: $spanish-gray-accent-1-transparent
-  padding: 10px
-  margin: 20px 8px 0px 8px
-  border: 2px solid $light-gray-accent-1
-  border-radius: 8px
   font-family: 'Maven Pro', sans-serif
-  padding-bottom: 13.5px //this is added because of the maven pro font
+  //padding-bottom: 13.5px //this is added because of the maven pro font
+
+.landing-title-bg-colour
+  background-color: $raisin-black-transparent
+
+.h1-title
+  padding: 10px
+  text-align: center
+
+.round-container
+  border: 2px solid $light-gray-accent-1
+  background-color: $spanish-gray-accent-1-transparent
+  border-radius: 8px
+  padding: 2px
+  margin: 2px
+
+@media only screen and (max-width: 992px)
+  .h2-title
+    padding: 7.5px
+    margin: 0
 
 //3d paper effect
 
@@ -214,17 +222,21 @@ svg
 .post-card
   width: 100%
   max-width: 100%
-  max-height: 237.422px
+  //max-height: 237.422px
   object-fit: scale-down
   filter: grayscale(25%) brightness(100%)
 
 .post-card-div
-  margin-top: 10px
-  margin-bottom: 10px
+  //margin-top: 10px
+  //margin-bottom: 10px
   display: inline-block
   overflow: hidden
   vertical-align: middle
-  max-height: 237.422px
+  
+  //max-height: 237.422px
+
+  //max-height: 350px
+  
   //border-style: solid
   //border-width: 5px
   //border-color: $raisin-black
