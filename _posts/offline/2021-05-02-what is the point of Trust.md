@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Trust?
 categories: [life offline]
-tags: [Productivity]
+tags: [Psychology]
 js: [triangulate.js]
 comment: 1
 related: 1

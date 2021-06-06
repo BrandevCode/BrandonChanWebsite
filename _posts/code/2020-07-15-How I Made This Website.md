@@ -1,7 +1,7 @@
 ---
 title: How I Made Website This Website
 categories: [code]
-tags: [Website, Design, Javascript, HTML]
+tags: [Projects, Code]
 js: [triangulate.js]
 maths: 1
 snippet: 1

@@ -1,7 +1,7 @@
 ---
 title: Welcome To My Website
 categories: [life offline]
-tags: [Blog]
+tags: [Projects]
 js: [triangulate.js]
 comment: 1
 related: 1

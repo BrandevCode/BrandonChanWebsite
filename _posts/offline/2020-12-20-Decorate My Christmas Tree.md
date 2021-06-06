@@ -1,7 +1,7 @@
 ---
 title: Decorate My Christmas Tree
 categories: [life offline]
-tags: [Blog]
+tags: [Project, Code]
 js: [xmas.js]
 css: [xmas.css, "toasts.css"]
 img: /images/posts/xmas/Merry Christmas! Help Decorate My Christmas Tree.png

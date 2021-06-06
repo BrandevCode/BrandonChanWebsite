@@ -1,7 +1,7 @@
 ---
 title: 10 Personal Finance Lessons School Didn't Teach You
 categories: [life offline]
-tags: [Blog, Financing, Investing]
+tags: [Finance]
 js: [triangulate.js]
 comment: 1
 related: 1

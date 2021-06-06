@@ -1,7 +1,7 @@
 ---
 title: SIAT Program - First Year Projects
 categories: video
-tags: [SFU, IAT]
+tags: [Projects, Code]
 maths: 1
 comment: 1
 datacamp: 1

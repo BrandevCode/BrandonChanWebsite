@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Introversion?
 categories: [life offline]
-tags: [Productivity]
+tags: [Psychology, Productivity]
 js: [triangulate.js]
 comment: 1
 related: 1

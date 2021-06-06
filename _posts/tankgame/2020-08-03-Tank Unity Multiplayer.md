@@ -1,7 +1,7 @@
 ---
 title: Unity Engine Project - Multiplayer Tank Game
 categories: code
-tags: [Unity, Game]
+tags: [Projects, Code]
 maths: 1
 comment: 1
 img: /images/share/unityeditor.jpg

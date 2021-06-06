@@ -1,7 +1,7 @@
 ---
 title: Resources I Use To Stay Motivated And Productive
 categories: [life offline]
-tags: [Blog, Motivational, Productivity]
+tags: [Motivational, Productivity]
 css: [photo.css]
 js: [photo.js, triangulate.js]
 comment: 1

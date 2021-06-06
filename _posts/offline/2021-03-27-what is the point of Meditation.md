@@ -1,7 +1,7 @@
 ---
 title: what is the point of... Meditation?
 categories: [life offline]
-tags: [Productivity]
+tags: [Psychology, Productivity, Health]
 js: [triangulate.js]
 comment: 1
 related: 1
