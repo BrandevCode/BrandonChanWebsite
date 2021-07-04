@@ -1,1 +1,1 @@
-# Too Lazy to update
+brandonchan.ca website using github pages
