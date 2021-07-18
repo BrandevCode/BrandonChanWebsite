@@ -23,6 +23,11 @@ h4{
 	font-weight: bold;
 }
 
+.post-main-title{
+    text-decoration-color: $cg-red !important;
+    text-decoration: underline;
+}
+
 .thi-post{
     h1 {
         counter-reset: h2counter;

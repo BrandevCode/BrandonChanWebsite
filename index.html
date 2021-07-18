@@ -17,25 +17,9 @@ title: Brandon Chan | Canada
       <h2 class="h2-title">&#128195; Latest Posts</h2>
       <div class="thi-columns z-depth-5">
         {% for post in paginator.posts %}
-          <a class="post-title paper-raise " href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <div class="post-more">
-              <small class="post-date"> {{post.date | date: "%Y-%m-%d"}}</small>
-              <small class="post-min"> • 
-              {% assign words = post.content | number_of_words %}
-              {% if words < 360 %}
-                1 min read
-                {% else %}
-              {{ words | divided_by:180 }} min read
-              {% endif %}
-              </small>
-            </div>
-          </br>
-            <small class="post-content">{{ post.content | strip_html | truncatewords:25}}</small>
-          </a>
+          {% include post-link.html maxwords="25" %}
         {% endfor %}
       </div>
-
       {% include pagination.html align="left-align" id="latest-posts"%}
 
     </div>
@@ -61,7 +45,7 @@ title: Brandon Chan | Canada
       {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
       {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
       
-      <div class="col s6 m3 fadein blackbg">
+      <div class="col push-s2 s8 m3 fadein blackbg">
         <div class="card cat-card hoverable z-depth-4">
         <div class="card-image waves-effect waves-block" id="hover{{ forloop.index }}">
           <a href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">		
@@ -101,10 +85,7 @@ title: Brandon Chan | Canada
           <!-- <h1 class="cat-tag z-depth-5" class="text-cap">{{ catego.name }}</h1> -->
         <div class="thi-columns z-depth-4">
           {% for post in cat[1] %}
-          <a class="post-title paper-raise" href="{{site.baseurl}}{{post.url}}">
-            {{post.title}}
-            <small class="post-date">{{post.date | date_to_string}}</small>
-          </a>
+            {% include post-link.html maxwords="25" %}
           {% endfor %}
         </div>
       </div>
@@ -190,10 +171,7 @@ title: Brandon Chan | Canada
         </h2>
         <div class="thi-columns z-depth-4">
           {% for post in tag[1] %}
-          <a class="post-title button paper-raise" href="{{site.baseurl}}{{post.url}}">
-            {{post.title}}
-            <small class="post-date">{{post.date | date_to_string}}</small>
-          </a>
+            {% include post-link.html maxwords="12" %}
           {% endfor %}
         </div>
       </div>
@@ -209,9 +187,9 @@ title: Brandon Chan | Canada
       {% else %}
       <div class = 'round-container'>
       {% endif %} 
-          <h2 class="h2-title">🚩 What Is The Point (Season 1)</h2>
+          <h2 class="h2-title">🚩 What is the point of ...</h2>
             {% for cat in site.categories %}
-              {% for post in cat[1] limit: 3 %}
+              {% for post in cat[1] limit: 999 %}
                 {% if post.main-highlight == 1 %}
                 <div class="thi-single-column z-depth-5 blackbg fadein">
                   <div class="post-card-div">
@@ -228,7 +206,7 @@ title: Brandon Chan | Canada
           {% capture testup %}main{% endcapture %}
           <div id="{{ 'main' | slugify}}{% if test == testup %}_cap{% endif %}">
           {% for cat in site.categories %}         
-            {% for post in cat[1] offset: 3 %}
+            {% for post in cat[1] offset: 999 %}
             {% if post.main-highlight == 1 %}
 
               <div class="thi-single-column z-depth-5 blackbg fadein">
@@ -244,13 +222,13 @@ title: Brandon Chan | Canada
           {% endfor %}   
           </div>
 
-        <div class='left-align more-buttons'>
+        <!-- <div class='left-align more-buttons'>
           {% capture test %}main{% endcapture %}
           {% capture testup %}main{% endcapture %}
           <a href="{{ site.baseurl }}/#{{ 'main' | slugify}}{% if test == testup %}_cap{% endif %}">See More 
             <i class="las la-caret-right" style="line-height:0.9 !important"></i>
           </a>
-        </div>       
+        </div>        -->
 
       </div>
     </div>

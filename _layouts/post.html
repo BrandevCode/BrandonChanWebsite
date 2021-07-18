@@ -37,7 +37,6 @@ js: ["post.js"]
   
     {% else %}
     <div id="post-info">
-        <h3>{{page.title}}</h3>
       <span>
         Posted on
         <span style="display: initial;" class="cat-class">{{page.date | date_to_string}}</span>,
@@ -57,6 +56,11 @@ js: ["post.js"]
     {% endif %}
 
     <div class="divider"></div>
+
+    {% if page.showtitle %}
+    <center><h3 class="post-main-title">{{page.title}}</h3></center>
+    {% endif %}
+
     <div class="row thi-post">
       <div class="col s12">
         {{ content }}
