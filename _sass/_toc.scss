@@ -2,7 +2,7 @@
 
 #toc {
     margin: 20px 0 20px 10px;
-    background-color: $spanish-gray-accent-1;
+    background-color: var(--spanish-gray-accent-1);
     box-sizing: border-box;
     border: 0px solid;
     border-radius: 5px;
@@ -19,7 +19,7 @@
 }
 
 .toc-title{
-    background-color: $black-olive;
+    background-color: var(--black-olive);
     padding: 5px;
     border-radius: 5px 5px 0 0;
 }
@@ -62,7 +62,7 @@
                 line-height: inherit;
                 font-weight: normal;
                 font-size: 0.9rem;
-                color: $cg-red;
+                color: var(--cg-red);
                 &:hover{
                     opacity: 0.7;
                     text-decoration: none;

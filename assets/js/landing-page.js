@@ -25,7 +25,8 @@ var myPix = new Array("/images/posts/habits/Pixel Me Writing.gif"
 ,"/images/posts/habits/Pixel Me Meditation.gif"
 ,"/images/posts/habits/Pixel Me Sleeping.gif"
 ,"/images/posts/habits/Pixel Me Squatting.gif"
-,"/images/posts/habits/Pixel Me Yawn.gif");
+,"/images/posts/habits/Pixel Me Yawn.gif"
+,"/images/posts/habits/Pixel Me Jogging.gif");
 
 
 function choosePic() {

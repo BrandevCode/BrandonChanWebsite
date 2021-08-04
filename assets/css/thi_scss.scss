@@ -123,10 +123,10 @@ hr{
 }
 
 .post-title{
-  background-color: $spanish-gray-accent-1;
+  background-color: var(--spanish-gray-accent-1);
   padding-left: 20px;
   display: block;
-  color: $cg-red;
+  color: var(--cg-red);
   line-height: 30px;
   white-space: nowrap;
   font-size: 1.1em;
@@ -139,13 +139,13 @@ hr{
   .post-title{
     white-space: normal !important;
     //border-radius: 6px;
-    border: thin solid $raisin-black;
+    border: thin solid var(--raisin-black);
   }
 }
 
 .post-title:hover{
-  color: $cg-red;
-  background-color: $spanish-gray;
+  color: var(--cg-red);
+  background-color: var(--spanish-gray);
 }
 
 p ~ ul, p ~ ol{
@@ -186,7 +186,7 @@ table, th, td{
   -webkit-columns: 350px 1; /* Chrome, Safari, Opera */
   -moz-columns: 350px 1; /* Firefox */
   columns: 350px 1;
-  background-color: $spanish-gray;
+  background-color: var(--spanish-gray);
   border-radius: 5px;
   margin: 8px;
   padding: 5px;
@@ -197,7 +197,7 @@ table, th, td{
 }
 
 .thi-single-column{
-  background-color: $spanish-gray-accent-1;
+  background-color: var(--spanish-gray-accent-1);
   border-radius: 5px;
   margin: 8px;
   padding: 5px;
@@ -205,9 +205,9 @@ table, th, td{
 
 .cat-tag{
 	font-size: 1.5rem;
-  color: $raisin-black;
+  color: var(--raisin-black);
   padding: 8px;
-  border: 2px solid $black-olive;
+  border: 2px solid var(--black-olive);
   border-radius: 8px;
   font-family: 'Maven Pro', sans-serif;
   padding-bottom: 12px; //this is added because of the maven pro font
@@ -234,11 +234,11 @@ table, th, td{
 
 .thi-more{
 	font-size: 1.05rem;
-	color: $cg-red;
+	color: var(--cg-red);
 	font-weight: 500;
 	margin: 1rem 0;
 	a{
-		color: $cg-red;
+		color: var(--cg-red);
 	}
 	i{
 	margin-left: -10px;

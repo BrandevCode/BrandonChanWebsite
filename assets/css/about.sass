@@ -23,10 +23,10 @@
   display: none
 
 html
-  background-color: $spanish-gray
+  background-color: var(--spanish-gray)
 
 //.top-nav
-//  background-color: $raisin-black
+//  background-color: var(--raisin-black)
 
 p
   text-align: left
@@ -40,25 +40,25 @@ h1.header
   font-size: 50px
   line-height: 70px
   text-decoration: underline
-  text-decoration-color: $cg-red-accent-1
-  color: $white
+  text-decoration-color: var(--cg-red-accent-1)
+  color: var(--white)
   margin-top: 0
   margin-right: auto
 
 h1.header span
-  //background-color: $spanish-gray-transparent
+  //background-color: var(--spanish-gray-transparent)
   padding-left: 10px
   padding-right: 10px
 
 //TIMELINE
 
 .timeline 
-  border-left: 8px solid $cg-red-accent-1
+  border-left: 8px solid var(--cg-red-accent-1)
   border-bottom-right-radius: 2px
   border-top-right-radius: 2px
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
-  color: $light-gray
-  background: $spanish-gray-accent-1
+  color: var(--light-gray)
+  background: var(--spanish-gray-accent-1)
   margin: 50px auto
   letter-spacing: 0.5px
   position: relative
@@ -72,7 +72,7 @@ h1.header span
 .timeline h2,
 .timeline h3 
   font-size: 1.4em
-  color: $white !important
+  color: var(--white) !important
 
 .timeline h3::before
   content: none !important
@@ -101,7 +101,7 @@ h1.header span
 .timeline .event:before 
   padding-left: 25px
   left: -200.5px
-  color: $white
+  color: var(--white)
   content: attr(data-date)
   text-align: right
   /*  font-weight: 100*/
@@ -111,9 +111,9 @@ h1.header span
 
 
 .timeline .event:after 
-  box-shadow: 0 0 0 8px $cg-red-accent-1
+  box-shadow: 0 0 0 8px var(--cg-red-accent-1)
   left: -50px
-  background: $spanish-gray
+  background: var(--spanish-gray)
   border-radius: 50%
   height: 11px
   width: 11px

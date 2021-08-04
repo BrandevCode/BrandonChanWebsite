@@ -1,4 +1,6 @@
-/* SCSS RGB */
+//dark values
+$font-color: rgba(255, 255, 255, 1);
+$font-color-2:rgb(17, 17, 17);
 $white: rgba(255, 255, 255, 1);
 $light-gray: rgb(207, 207, 207);
 $light-gray-accent-1: rgb(129, 127, 127);
@@ -18,6 +20,83 @@ $cg-red: rgba(233, 50, 46, 1);
 $cg-red-accent-1: rgba(165, 21, 18, 1);
 $cg-red-accent-2: rgba(129, 16, 14, 1);
 $cg-red-accent-3: rgb(36, 12, 12);
+$background-color: radial-gradient(ellipse at center, darken($light-gray-accent-1,15%) 20%, darken($black-olive, 50%) 100%);
+$image-filter: saturate(70%) brightness(90%) blur(1.5px);
+
+
+//Light Values
+$font-color-light: rgb(17, 17, 17);
+$font-color-2-light: rgba(255, 255, 255, 1);
+$white-light: rgb(0, 0, 0);
+$light-gray-light: rgb(29, 29, 29);
+$light-gray-accent-1-light: rgb(129, 127, 127);
+$spanish-gray-light: rgb(192, 192, 196);
+$spanish-gray-transparent-light: rgba(218, 218, 219, 0.95);
+$spanish-gray-accent-1-light: rgb(226, 226, 226);
+$spanish-gray-accent-1-transparent-light: rgba(226, 226, 226, 0.5);
+$black-olive-light: rgb(173, 169, 158);
+$black-olive-accent-1-light: rgb(218, 215, 205);
+$black-olive-accent-2-light: rgb(238, 237, 234);
+$raisin-black-light: rgba(255, 255, 255, 1);
+$raisin-black-transparent-light: rgba(255, 255, 255, 0.8);
+$cg-red-light: rgba(233, 50, 46, 1);
+$cg-red-accent-1-light: rgb(150, 0, 0); 
+$cg-red-accent-2-light: rgb(187, 3, 0);
+$cg-red-accent-3-light: rgb(78, 19, 18);
+$background-color-light: radial-gradient(ellipse at center, darken($raisin-black-light,15%) 20%, darken($raisin-black-light, 50%) 100%);
+$image-filter-light: brightness(1.6) saturate(0.2);
+
+
+
+:root {
+	--font-color-2: #{$font-color-2};
+    --font-color: #{$font-color};
+    --white: #{$white};
+    --light-gray: #{$light-gray};
+    --light-gray-accent-1: #{$light-gray-accent-1};
+    --spanish-gray: #{$spanish-gray};
+    --spanish-gray-transparent: #{$spanish-gray-transparent};
+    --spanish-gray-accent-1: #{$spanish-gray-accent-1};
+    --spanish-gray-accent-1-transparent: #{$spanish-gray-accent-1-transparent};
+    --black-olive: #{$black-olive};
+    --black-olive-accent-1: #{$black-olive-accent-1};
+    --black-olive-accent-2: #{$black-olive-accent-2};
+    --raisin-black: #{$raisin-black};
+    --raisin-black-transparent: #{$raisin-black-transparent};
+    --cg-red: #{$cg-red};
+    --cg-red-accent-1: #{$cg-red-accent-1};
+    --cg-red-accent-2: #{$cg-red-accent-2};
+    --cg-red-accent-3: #{$cg-red-accent-3};
+    --background-color: #{$background-color};
+    --image-filter: #{$image-filter};
+}
+
+[data-theme="light"] {
+	--font-color-2: #{$font-color-2-light};
+    --font-color: #{$font-color-light};
+    --white: #{$white-light};
+    --light-gray: #{$light-gray-light};
+    --light-gray-accent-1: #{$light-gray-accent-1-light};
+    --spanish-gray: #{$spanish-gray-light};
+    --spanish-gray-transparent: #{$spanish-gray-transparent-light};
+    --spanish-gray-accent-1: #{$spanish-gray-accent-1-light};
+    --spanish-gray-accent-1-transparent: #{$spanish-gray-accent-1-transparent-light};
+    --black-olive: #{$black-olive-light};
+    --black-olive-accent-1: #{$black-olive-accent-1-light};
+    --black-olive-accent-2: #{$black-olive-accent-2-light};
+    --raisin-black: #{$raisin-black-light};
+    --raisin-black-transparent: #{$raisin-black-transparent-light};
+    --cg-red: #{$cg-red-light};
+    --cg-red-accent-1: #{$cg-red-accent-1-light};
+    --cg-red-accent-2: #{$cg-red-accent-2-light};
+    --cg-red-accent-3: #{$cg-red-accent-3-light};
+    --background-color: #{$background-color-light};
+    --image-filter: #{$image-filter-light};
+}
+
+
+
+
 
 $background-blue: rgb(107, 121, 158); 
 

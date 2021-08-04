@@ -143,7 +143,7 @@ body {
 @import 'palette';
 
 body {
-  background-color: $cg-red-accent-2;
+  background-color: var(--cg-red-accent-2);
   cursor: url(/images/posts/xmas/ornament_cursor.png),auto;
 }
 
@@ -164,8 +164,8 @@ body {
 //   top: -226px;
 //   left: 0px;
 //   background: 
-//     linear-gradient(60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
-//     linear-gradient(-60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2);
+//     linear-gradient(60deg, transparent 65%, var(--black-olive-accent-2) 65%, var(--black-olive-accent-2)),
+//     linear-gradient(-60deg, transparent 65%, var(--black-olive-accent-2) 65%, var(--black-olive-accent-2));
 //   background-color: #38b449;
 // }
 
@@ -175,8 +175,8 @@ body {
 //    top: -32px;
 //    left: 0px; 
 //    background:  
-//     linear-gradient(60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
-//     linear-gradient(-60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
+//     linear-gradient(60deg, transparent 65%, var(--black-olive-accent-2) 65%, var(--black-olive-accent-2)),
+//     linear-gradient(-60deg, transparent 65%, var(--black-olive-accent-2) 65%, var(--black-olive-accent-2)),
 //     linear-gradient(35deg, transparent 25%, #067f40 25%);
 //    background-color: #009344;
 // }
@@ -187,14 +187,14 @@ body {
 //    height: 205px;  
 //    box-shadow: 0 110px  0 -90px #643415;
 //   background:   
-//     linear-gradient(60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),    
-//     linear-gradient(-60deg, transparent 65%, $black-olive-accent-2 65%, $black-olive-accent-2),
+//     linear-gradient(60deg, transparent 65%, var(--black-olive-accent-2) 65%, var(--black-olive-accent-2)),    
+//     linear-gradient(-60deg, transparent 65%, var(--black-olive-accent-2) 65%, var(--black-olive-accent-2)),
 //     linear-gradient(35deg, transparent 25%, #035930 25%); 
 //   background-color: #006738;  
 // }
 
 .container{
-  background-color: $black-olive-accent-2;
+  background-color: var(--black-olive-accent-2);
 }
 
 .sky {

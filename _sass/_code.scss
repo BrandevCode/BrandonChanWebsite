@@ -31,8 +31,8 @@ li > div.highlighter-rouge{
 }
 
 li code, p code{
-	background-color: $raisin-black;
-	color: $white;
+	background-color: var(--raisin-black);
+	color: var(--white);
 	padding: 1px 4px;
 	border-radius: 4px;
 	font-size: 95%;

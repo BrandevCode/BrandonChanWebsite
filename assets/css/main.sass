@@ -5,6 +5,8 @@
 @import 'palette'
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed')
 
+
+
 // Overall
 @font-face
   font-family: "OpineHeavy"
@@ -20,7 +22,7 @@ body
   min-height: 100vh
   flex-direction: column
   font-family: 'Roboto', sans-serif
-  color: #eee
+  color: var(--font-color)
   overflow: overlay
   overflow-x: hidden
   max-width: 100%
@@ -38,7 +40,7 @@ main
   flex: 1 0 auto
 
 .container
-  background-color: $spanish-gray-transparent
+  background-color: var(--spanish-gray-transparent)
   width: 100%
   padding-top: 1px
   padding-bottom: 2px
@@ -53,7 +55,7 @@ header
     text-decoration: none
 
   .background
-    background: $raisin-black
+    background: var(--raisin-black)
 
 nav 
   .page-title
@@ -69,7 +71,7 @@ nav
 nav
   .nav-wrapper
     text-align: center
-    background-color: $spanish-gray-accent-1 //$raisin-black
+    background-color: var(--spanish-gray-accent-1) //var(--raisin-black)
     //padding-right: -16 !important
 
 //nav ul li
@@ -79,7 +81,7 @@ nav
   height: 50px
 
 .side-nav
-  background-color: $spanish-gray-accent-1
+  background-color: var(--spanish-gray-accent-1)
   overflow: overlay
 
 .side-nav li>a
@@ -89,24 +91,24 @@ nav
   margin: 0 20px 0 0 
 
 .side-nav .collapsible-body, .side-nav.fixed .collapsible-body
-  background-color: $spanish-gray
+  background-color: var(--spanish-gray)
 
 .side-nav .collapsible-body li a, .side-nav.fixed .collapsible-body li a
-  color: $white !important
+  color: var(--white) !important
 
 #nav-bar > ul > li > a > i.las.la-lg::before
   font-size: 24px
 
 a.waves-effect
-  color: $white !important
+  color: var(--white) !important
 
 #nav-bar
-  color: $white !important
+  color: var(--white) !important
 
 // Footer
 footer.page-footer
   margin-top: 10px
-  background: $raisin-black
+  background: var(--raisin-black)
   display: none
 
   .row
@@ -117,7 +119,7 @@ footer.page-footer
 
 // Misc
 blockquote
-  border-left-color: $cg-red
+  border-left-color: var(--cg-red)
 
 main
   ul
@@ -153,26 +155,29 @@ main
       margin-left: -100%
       margin-right: -100%
   .container
-    background-color: $raisin-black-transparent
+    background-color: var(--raisin-black-transparent)
   html
-    background: $black-olive-accent-2 !important
+    background: var(--black-olive-accent-2) !important
 
 //overflow-y to stop navbar shifting with scrollbar
 html
-  background: radial-gradient(ellipse at center, darken($light-gray-accent-1,15%) 20%, darken($black-olive, 50%) 100%)
+  background: var(--background-color)
   overflow-x: hidden
 
 .mat-label
-  color: $white
+  color: var(--white)
 
 .mat-div:after
-  background-color: $white
+  background-color: var(--white)
 
 .mat-div:before
-  background-color: $white
+  background-color: var(--white)
 
 .parallax-container 
   height: 500px
+
+.parallax
+  filter: var(--image-filter)
 
 //this removes parallax on mobile
 //@media only screen and (max-width: 600px)
@@ -199,15 +204,15 @@ nav
   //padding-left: 2.5px
 
 #nav-mobile a:hover
-  box-shadow: 0 3px 0 0 $cg-red-accent-1
+  box-shadow: 0 3px 0 0 var(--cg-red-accent-1)
 
 @media only screen and (min-width: 992px)
   #nav-mobile .active
-    box-shadow: 0 3px 0 0 $cg-red-accent-1
+    box-shadow: 0 3px 0 0 var(--cg-red-accent-1)
 
 
 #nav-mobile .las::before
-  background: $cg-red
+  background: var(--cg-red)
   border-radius: 50%
   padding: 6px
   margin-left: 3px
@@ -224,10 +229,10 @@ nav
   margin: 0px
 
 .circle-icon::before
-  background: $cg-red-accent-1
+  background: var(--cg-red-accent-1)
   border-radius: 50%
   padding: 4px
-  color: $white
+  color: var(--white)
 
 //Typing Effect
 
@@ -246,11 +251,11 @@ nav
 
 .typing-effect-container p span.typed-text
   font-weight: normal
-  color: $cg-red
+  color: var(--cg-red)
 
 .typing-effect-container p span.cursor
   display: inline-block
-  background-color: $cg-red
+  background-color: var(--cg-red)
   margin-left: 0.1rem
   width: 3px
   animation: blink 1s infinite
@@ -260,20 +265,20 @@ nav
 
 .landing-title-text
   padding-left: 0.5rem
-  background-color: $raisin-black-transparent
+  background-color: var(--raisin-black-transparent)
   //font-family: "Helvetica"
 
 @keyframes blink
   0%  
-    background-color: $cg-red
+    background-color: var(--cg-red)
   49% 
-    background-color: $cg-red
+    background-color: var(--cg-red)
   50% 
     background-color: transparent
   99% 
     background-color: transparent
   100% 
-    background-color: $cg-red
+    background-color: var(--cg-red)
 
 //Slide animation
 
@@ -284,7 +289,7 @@ nav
   animation: slide-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
 
 .slide-top-delayed-2
-  animation: slide-top 1.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+  animation: slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
 
 @keyframes slide-top 
   0% 
@@ -298,7 +303,7 @@ nav
 
 i.las.la-caret-down
     font-size: 18px
-    color: $white
+    color: var(--white)
 
 .rotate
   -moz-transition: all .15s linear
@@ -315,43 +320,43 @@ i.las.la-caret-down
 
 .side-nav 
   a:hover
-    background-color: $raisin-black !important
+    background-color: var(--raisin-black) !important
   font-size: 18px !important
 
 .side-nav li.active
-  background-color: $raisin-black !important
+  background-color: var(--raisin-black) !important
 
 //Search box
 
 .input-field input[type=search]
   padding-left: 0
   width: 100%
-  background-color: $spanish-gray
-  color: $white
+  background-color: var(--spanish-gray)
+  color: var(--white)
 
 .input-field input[type=search].placeholder
-  background-color: $spanish-gray
-  color: $white
+  background-color: var(--spanish-gray)
+  color: var(--white)
 
 .input-field input[type=search]:focus
-  border-bottom: 1px solid $cg-red-accent-2 !important
-  box-shadow: 0 1px 0 0 $cg-red-accent-2 !important
-  background-color: $spanish-gray
-  color: $white
+  border-bottom: 1px solid var(--cg-red-accent-2) !important
+  box-shadow: 0 1px 0 0 var(--cg-red-accent-2) !important
+  background-color: var(--spanish-gray)
+  color: var(--white)
 
 .input-field input[type=search].valid 
-  border-bottom: 1px solid $cg-red-accent-2 !important
-  box-shadow: 0 1px 0 0 $cg-red-accent-2 !important
-  background-color: $spanish-gray
-  color: $white
+  border-bottom: 1px solid var(--cg-red-accent-2) !important
+  box-shadow: 0 1px 0 0 var(--cg-red-accent-2) !important
+  background-color: var(--spanish-gray)
+  color: var(--white)
 
 .input-field input[type=search].invalid 
-  border-bottom: 1px solid $cg-red-accent-2 !important
-  box-shadow: 0 1px 0 0 $cg-red-accent-2 !important
-  background-color: $spanish-gray
+  border-bottom: 1px solid var(--cg-red-accent-2) !important
+  box-shadow: 0 1px 0 0 var(--cg-red-accent-2) !important
+  background-color: var(--spanish-gray)
 
 .input-field .prefix.active 
-  color: $white
+  color: var(--white)
 
 //To fix background color in search box
 input:-webkit-autofill,
@@ -364,8 +369,8 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus,
 input:-internal-autofill-selected
-  -webkit-box-shadow: 0 0 0 30px $spanish-gray inset !important
-  color: $white
+  -webkit-box-shadow: 0 0 0 30px var(--spanish-gray) inset !important
+  color: var(--white)
 
 //Custom Scrollbar
 
@@ -380,7 +385,7 @@ input:-internal-autofill-selected
 ::-webkit-scrollbar
     width: 16px
     z-index: 1000
-    background-color: $black-olive
+    background-color: var(--black-olive)
 
 ::-webkit-scrollbar-thumb
     background-clip: padding-box
@@ -394,12 +399,12 @@ input:-internal-autofill-selected
 
 //Header notification
 .notification_container
-  background-color: $cg-red
+  background-color: var(--cg-red)
   margin: 0 auto
   max-width: 1280px
 
 .notifications 
-  background: $cg-red
+  background: var(--cg-red)
   height: 50px
   overflow: hidden
   position: relative
@@ -455,7 +460,7 @@ nav i
   display: none
 
 .top-nav
-  background-color: $raisin-black
+  background-color: var(--raisin-black)
   display: none
 
 #loading 
@@ -466,7 +471,7 @@ nav i
   z-index: -1
   width: 100vw
   height: 100vh
-  //background-color: $black-olive
+  //background-color: var(--black-olive)
   background-image: url("/assets/res/loading.gif")
   background-repeat: no-repeat
   background-position: center
@@ -478,7 +483,7 @@ nav i
   -o-animation: fadeOut ease 0.4s
   -ms-animation: fadeOut ease 0.4s
   -webkit-animation-fill-mode: forwards
-  background: $raisin-black
+  background: var(--raisin-black)
 
 @keyframes fadeOut
   0% 
@@ -530,3 +535,56 @@ nav i
   position: relative
   top: -250px
   visibility: hidden
+
+
+  
+//theme-switch
+.theme-switch-wrapper
+  display: flex
+  align-items: center
+
+  em
+    margin-left: 10px
+    font-size: 1rem
+
+.theme-switch
+  display: inline-block
+  height: 18px
+  position: relative
+  width: 40px
+
+//.theme-switch input
+//  display:none
+
+.slider
+  background-color: #ccc
+  bottom: 0
+  cursor: pointer
+  left: 0
+  position: absolute
+  right: 0
+  top: 0px //to keep it centered on nav
+  transition: .4s
+  height: 100% !important
+
+.slider:before
+  background-color: #fff
+  bottom: 0px
+  content: ""
+  height: 18px
+  left: 2px
+  position: absolute
+  transition: .4s
+  width: 18px
+
+input:checked + .slider
+  background-color: #66bb6a
+
+input:checked + .slider:before
+  transform: translateX(18px)
+
+.slider.round
+  border-radius: 34px
+
+.slider.round:before
+  border-radius: 50%

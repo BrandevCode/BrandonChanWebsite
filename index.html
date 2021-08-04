@@ -4,17 +4,59 @@ css: ["index.css","animate.css"]
 js: ["triangulate.js"]
 title: Brandon Chan | Canada
 ---
+
+<div class="row">
+
+  {% if paginator.page == 1 %}
+  <div class="col s12">
+  {% else %}
+  <div class="col s12">
+  {% endif %}
+    <div class="col m4 s12">
+      <div class="round-container slide-top-delayed">
+        <center>
+          <h2 class="h2-title info">Lifestyle 🏃</h2>   
+          <div class="desc-container">
+            Learn to create effective habits and goals which will improve your productivity and well-being.
+          </div>
+        </center>
+      </div>
+    </div>
+    <div class="col m4 s12">
+      <div class="round-container slide-top-delayed">
+        <center>
+        <h2 class="h2-title info">Code 👨‍💻</h2>   
+        <div class="desc-container">
+          Inspired by everything software related? Join me in becoming a pragmatic programmer.  
+        </div>       
+        </center>
+      </div>
+    </div>
+    <div class="col m4 s12">
+      <div class="round-container slide-top-delayed">
+        <center>
+        <h2 class="h2-title info">Art 🖌️</h2>
+        <div class="desc-container">
+          Learn to express your creativity and show to the world what your story is.
+        </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Latest Posts -->
 <div class="row">
   {% if paginator.page == 1 %}
-  <div class="col s12 slide-top-delayed">
+  <div class="col s12 fadein">
   {% else %}
   <div class="col s12">
   {% endif %}
     <div class="anchor-header" id="latest-posts">
     </div>
     <div class="round-container">
-      <h2 class="h2-title">&#128195; Latest Posts</h2>
+      <h2 class="h2-title info">&#128195; My Latest Posts</h2>
       <div class="thi-columns z-depth-5">
         {% for post in paginator.posts %}
           {% include post-link.html maxwords="25" %}
@@ -81,7 +123,7 @@ title: Brandon Chan | Canada
     <div class="tag-sec" id="{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}">
 
       <div class='round-container'>
-          <h2 class='h2-title'>{{ catego.name }}</h2>
+          <h2 class='h2-title info'>{{ catego.name }}</h2>
           <!-- <h1 class="cat-tag z-depth-5" class="text-cap">{{ catego.name }}</h1> -->
         <div class="thi-columns z-depth-4">
           {% for post in cat[1] %}
@@ -122,10 +164,10 @@ title: Brandon Chan | Canada
 {% if paginator.page == 1 %}
 <div class = 'col l4 push-l8 fadein'>
 {% else %}
-<div class = 'col l4 push-l8'>
+<div class = 'col l4 push-l8 fadein'>
 {% endif %} 
-  <div class="round-container">
-    <h2 class="h2-title">🥊 Life Hacks</h2>
+  <div class="round-container fadein">
+    <h2 class="h2-title info">🥊 Life Hacks</h2>
     {% for cat in site.categories %}
       {% for post in cat[1] %}
         {% if post.side-highlight  == 1 %}
@@ -147,7 +189,7 @@ title: Brandon Chan | Canada
   <div class="col l8 pull-l4 s12 fadein">
     <div class="tag-div">
       <div class="round-container">
-        <h2 class="h2-title">&#128204; Tags</h2>
+        <h2 class="h2-title info">&#128204; Tags</h2>
         <div class="tag-list thi-single-column z-depth-5">
           {% for tag in site.tags %}
             {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
@@ -166,7 +208,7 @@ title: Brandon Chan | Canada
       <div class="tag-sec" id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">
         <div class='round-container'>
         <!-- <h1 class="cat-tag"> -->
-        <h2 class='h2-title'>
+        <h2 class='h2-title info'>
           {{ tag[0] }}
         </h2>
         <div class="thi-columns z-depth-4">
@@ -187,11 +229,11 @@ title: Brandon Chan | Canada
       {% else %}
       <div class = 'round-container'>
       {% endif %} 
-          <h2 class="h2-title">🚩 What is the point of ...</h2>
+          <h2 class="h2-title info">🚩 What is the point of ...</h2>
             {% for cat in site.categories %}
               {% for post in cat[1] limit: 999 %}
                 {% if post.main-highlight == 1 %}
-                <div class="thi-single-column z-depth-5 blackbg fadein">
+                <div class="thi-single-column z-depth-5 blackbg">
                   <div class="post-card-div">
                     <a href="{{ site.baseurl }}{{ post.url }}">
                       <img alt="coverimg" class="post-card" src="{{ post.img }}">
@@ -209,7 +251,7 @@ title: Brandon Chan | Canada
             {% for post in cat[1] offset: 999 %}
             {% if post.main-highlight == 1 %}
 
-              <div class="thi-single-column z-depth-5 blackbg fadein">
+              <div class="thi-single-column z-depth-5 blackbg">
                 <div class="post-card-div">
                   <a href="{{ site.baseurl }}{{ post.url }}">
                     <img alt="coverimg" class="post-card" src="{{ post.img }}">

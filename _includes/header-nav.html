@@ -28,6 +28,19 @@
           </li>
         </ul>
         <ul id="nav-mobile" class="right">
+
+          <li>
+            <div class="theme-switch-wrapper">
+              <span>&nbsp;🌙&nbsp;</span>
+              <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+            </label>
+            <span>&nbsp;☀️&nbsp;</span>
+            <!-- <em>Enable Dark Mode!</em> -->
+            </div>
+          </li>
+
           <!-- Better solution here but too laz: https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar-->
           {% if page.title contains "Blog Topics" %}
           <!-- <li><a href="{{ site.baseurl }}/blog" class="active">

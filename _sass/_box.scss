@@ -41,8 +41,8 @@ li >.thi-tip, li>.thi-warning{
 	margin: 2rem 0;
   overflow: auto;
   .box-title{
-    background-color: $black-olive-accent-1;
-    color: $black-olive;
+    background-color: var(--black-olive-accent-1);
+    color: var(--black-olive);
     padding: 8px 15px;
     border-radius: 5px 5px 0 0;
   }
@@ -50,7 +50,7 @@ li >.thi-tip, li>.thi-warning{
     margin: 0;
   }
   .box-content{
-    border: 1px $black-olive solid;
+    border: 1px var(--black-olive) solid;
     padding: 0 15px;
   }
 }
@@ -61,8 +61,8 @@ li >.thi-tip, li>.thi-warning{
   margin: 10px 0 10px 15px;
   padding: 10px;
   border-radius: 10px;
-  color: $white;
-  background-color: $black-olive; 
+  color: var(--white);
+  background-color: var(--black-olive); 
   font-size: 18px;
   @media only screen and (max-width: 699px){
     margin: 0 0 15px 0;
@@ -112,7 +112,7 @@ li >.thi-tip, li>.thi-warning{
   line-height: inherit!important;
   min-height: 0!important;
   padding: 0.5rem!important;
-  background-color: $cg-red-accent-3;
+  background-color: var(--cg-red-accent-3);
   border-color: black;
   &>p{
     // margin: 10px 0!important;
@@ -130,7 +130,7 @@ li >.thi-tip, li>.thi-warning{
 
 .collapsible-header.post:hover
 {
-  background-color: $cg-red-accent-2;
+  background-color: var(--cg-red-accent-2);
 }
 
 // p mark

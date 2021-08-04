@@ -159,7 +159,14 @@ function onResize() {
   if (selection) {
       document.querySelector('#bg svg').remove();
       clearTimeout(refreshTimeout);
+      try
+      {
       onLoad();
+      }
+      catch
+      { 
+        //do nothing 
+      }
   }
 }
 

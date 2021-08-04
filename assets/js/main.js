@@ -9,9 +9,9 @@
 // }
 
 $(window).load(function() {
-  setVisible('#page', true);
   setVisible('.top-nav', true);
   setVisible('.page-footer', true);
+  setVisible('#page', true);
   $('.parallax').parallax();
 
   var element = document.getElementById("loading");
@@ -118,7 +118,9 @@ $(document).on("scroll", function() {
       $(tag).addClass("visible");
     } 
   }
+
 });
+
 
 //play gif on home screen
 for (let i = 1; i < document.querySelectorAll('.card-image').length+1; i++) {

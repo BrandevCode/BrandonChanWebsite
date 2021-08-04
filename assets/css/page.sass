@@ -10,6 +10,24 @@ main
       margin-top: 10px
       flex-grow : 1
 
+.container:before
+  content: ""
+  position: fixed
+  top: -5%
+  left: -5%
+  right: 0
+  bottom: 0
+  z-index: -1
+  display: flex
+  background-size: cover
+  width: 110%
+  height: 110%
+  -webkit-filter: saturate(70%) brightness(90%) blur(1.5px)
+  -moz-filter: saturate(70%) brightness(90%) blur(1.5px)
+  -o-filter: saturate(70%) brightness(90%) blur(1.5px)
+  -ms-filter: saturate(70%) brightness(90%) blur(1.5px)
+  filter: var(--image-filter)
+
 #page-info
   h3
     font-weight: bold
@@ -25,23 +43,22 @@ main
   opacity: 1
   transform: translate(0, 0)
 
-
 //Card Hover Zoom
 
 .card
   overflow: visible
-  background-color: $raisin-black
+  background-color: var(--raisin-black)
   display: flex
   justify-content: center
   align-items: center
   overflow: hidden
-  border: 2px solid $cg-red
+  border: 2px solid var(--cg-red)
 
 .card.cat-card
   margin: 8px
   overflow: hidden
   position: relative
-  background-color: $raisin-black
+  background-color: var(--raisin-black)
   transform: scale(1)
   transition: 0.3s
   filter: grayscale(50%)
@@ -86,6 +103,7 @@ main
     //border: none !important
 
 .card-title
+  color: var(--white) !important
   position: absolute
   z-index: 100
   //text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
@@ -93,13 +111,13 @@ main
   transition: 0.15s
   -webkit-text-stroke: 0.5px black
   //-webkit-font-smoothing: antialiased
-  //box-shadow: 15px 15px 28px $raisin-black
+  //box-shadow: 15px 15px 28px var(--raisin-black)
 
 .card-div
-  background: $raisin-black-transparent
+  background: var(--raisin-black-transparent)
   //border-radius: 100px
   padding: 2.5px
-  border: 1px solid $cg-red
+  border: 1px solid var(--cg-red)
   font-family: 'Roboto Condensed', sans-serif
   //-webkit-clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%)
   //clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%)
@@ -132,25 +150,68 @@ svg
 
 .h2-title
   padding: 10px
-  color: $white
+  color: var(--white)
   font-size: 1.8rem
   font-family: 'Maven Pro', sans-serif
   //padding-bottom: 13.5px //this is added because of the maven pro font
 
+  &.info
+    left: 0
+    right: 0
+    top: 100%
+    border-bottom: 7px solid var(--cg-red)
+    //text-decoration: underline 
+    //text-decoration-color: var(--cg-red)
+    animation: underline-center 1.6s cubic-bezier(0, 0.250, 0.650, 0.940) both
+
+@keyframes underline-center
+  0%
+    opacity: 0.2
+    margin: 0 110px 0 110px
+  100% 
+    opacity: 1
+    margin: 0 10px 0 10px
+
 .landing-title-bg-colour
-  background-color: $raisin-black-transparent
+  background-color: var(--black-olive)
   border-radius: 30px 
+  border: 2px solid var(--black-olive)
+  bottom: 10px
+
+.bubble-arrow
+  position: absolute
+  width: 0
+  bottom: 42px
+  left: -16px
+  height: 0
+
+.bubble-arrow:after 
+  content: ""
+  position: absolute
+  border: 0 solid transparent
+  border-top: 9px solid var(--black-olive)
+  border-radius: 0 20px 0
+  width: 15px
+  height: 36px
+  transform: rotate(145deg)
 
 .h1-title
   padding: 10px
   text-align: center
 
 .round-container
-  border: 2px solid $light-gray-accent-1
-  background-color: $spanish-gray-accent-1-transparent
+  border: 2px solid var(--light-gray-accent-1)
+  background-color: var(--spanish-gray-accent-1-transparent)
   border-radius: 8px
   padding: 2px
   margin: 2px
+
+.desc-container
+  //padding-left: 20px
+  background-color: var(--black-olive-accent-2)
+  border: solid var(--spanish-gray-accent-1)
+  color: var(--light-gray)
+  margin: 5px
 
 @media only screen and (max-width: 992px)
   .h2-title
@@ -183,7 +244,7 @@ svg
   @include hideTapHighlightColor()
   @include hardwareAccel()
   @include improveAntiAlias()
-  box-shadow: inset 2px 2px 2px black, 0 0 1px rgba(0, 0, 0, 0)
+  box-shadow: inset 2px 2px 2px var(--raisin-black), 0 0 1px rgba(0, 0, 0, 0)
 
   &:before
     pointer-events: none
@@ -207,7 +268,7 @@ svg
   &:hover:before 
     left: (4px)
     transform: scaleX(-1)
-    border-color: transparent $cg-red transparent transparent
+    border-color: transparent var(--cg-red) transparent transparent
   
   &:hover:active
     box-shadow: inset 2px 2px 2px black, 0 0 1px rgba(0, 0, 0, 0)
@@ -240,7 +301,7 @@ svg
   
   //border-style: solid
   //border-width: 5px
-  //border-color: $raisin-black
+  //border-color: var(--raisin-black)
 
 .post-card-div img
   transition: 0.3s
@@ -251,4 +312,4 @@ svg
   color: white
 
 .blackbg
-  background-color: $raisin-black-transparent
+  background-color: var(--raisin-black-transparent)
