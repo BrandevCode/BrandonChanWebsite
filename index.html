@@ -159,12 +159,50 @@ title: Brandon Chan | Canada
   </div>
 </div> -->
 
+  <!-- Tags -->
+<!-- <div class="col l8 pull-l4 s12 fadein"> -->
+  <div class="s12 fadein">
+    <div class="tag-div">
+      <div class="round-container">
+        <h2 class="h2-title info">&#128204; Tags</h2>
+        <div class="tag-list thi-single-column z-depth-5">
+          {% for tag in site.tags %}
+            {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
+            {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
+            <a class="tag-chip" href="{{ site.baseurl }}/#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{tag[0]}}</div></a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=" tag-index s12">
+    {% for tag in site.tags %}
+      {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
+      {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
+      <div class="tag-sec" id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">
+        <div class='round-container'>
+        <!-- <h1 class="cat-tag"> -->
+        <h2 class='h2-title info'>
+          {{ tag[0] }}
+        </h2>
+          <div class="thi-columns z-depth-4">
+            {% for post in tag[1] %}
+              {% include post-link.html maxwords="12" %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 
 <!-- Side Highlight -->
 {% if paginator.page == 1 %}
-<div class = 'col l4 push-l8 fadein'>
+<!-- <div class = 'col l4 push-l8 fadein'> -->
+<div class = 'col l4 fadein'>
 {% else %}
-<div class = 'col l4 push-l8 fadein'>
+<!-- <div class = 'col l4 push-l8 fadein'> -->
+<div class = 'col l4 '>
 {% endif %} 
   <div class="round-container fadein">
     <h2 class="h2-title info">🥊 Life Hacks</h2>
@@ -185,61 +223,44 @@ title: Brandon Chan | Canada
 </div>
 
 
-    <!-- Tags -->
-  <div class="col l8 pull-l4 s12 fadein">
-    <div class="tag-div">
-      <div class="round-container">
-        <h2 class="h2-title info">&#128204; Tags</h2>
-        <div class="tag-list thi-single-column z-depth-5">
-          {% for tag in site.tags %}
-            {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
-            {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
-            <a class="tag-chip" href="{{ site.baseurl }}/#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{tag[0]}}</div></a>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class=" tag-index col l8 pull-l4 s12">
-    {% for tag in site.tags %}
-      {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
-      {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
-      <div class="tag-sec" id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">
-        <div class='round-container'>
-        <!-- <h1 class="cat-tag"> -->
-        <h2 class='h2-title info'>
-          {{ tag[0] }}
-        </h2>
-        <div class="thi-columns z-depth-4">
-          {% for post in tag[1] %}
-            {% include post-link.html maxwords="12" %}
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-
-
     <!-- Main Highlight -->
-    <div class = 'col l8 pull-l4 s12 fadein'>
+    <!-- <div class = 'col l8 pull-l4 s12 fadein'> -->
+    <div class = 'col l8'>
       {% if paginator.page == 1 %}
-      <div class = 'round-container'>
+      <div class = 'round-container fadein'>
       {% else %}
-      <div class = 'round-container'>
+      <div class = 'round-container fadein'>
       {% endif %} 
           <h2 class="h2-title info">🚩 What is the point of ...</h2>
             {% for cat in site.categories %}
               {% for post in cat[1] limit: 999 %}
                 {% if post.main-highlight == 1 %}
-                <div class="thi-single-column z-depth-5 blackbg">
+                <div class="thi-single-column z-depth-5 blackbg fadein">
                   <div class="post-card-div">
                     <a href="{{ site.baseurl }}{{ post.url }}">
                       <img alt="coverimg" class="post-card" src="{{ post.img }}">
                     </a>
                   </div>
                 </div>
+
+
+                <!-- <div class="col s12 m7">
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img alt="coverimg" src="{{ post.img }}">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+
                 {% endif %}
               {% endfor %}
           {% endfor %}

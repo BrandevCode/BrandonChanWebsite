@@ -14,13 +14,10 @@ function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
-
-        console.log("this is hit");
     }
     else {        
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-        console.log("this was hit");
     }    
 }
 
