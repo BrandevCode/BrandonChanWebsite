@@ -5,8 +5,8 @@ tags: [Motivational, Education, Productivity]
 comment: 1
 related: 1
 showtitle: 1
-img: /images/posts/offlinelife/I Joined Toastmasters and there was no toast.png
-coverimg: /images/posts/offlinelife/I Joined Toastmasters and there was no toast.png
+img: /images/posts/offlinelife/I Joined Toastmasters And There Was No Toast.png
+coverimg: /images/posts/offlinelife/I Joined Toastmasters And There Was No Toast.png
 main-highlight: 1
 ---
 
