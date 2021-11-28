@@ -9,7 +9,6 @@ img: /images/posts/offlinelife/I Redefined My Eating Habits.png
 coverimg: /images/posts/offlinelife/I Redefined My Eating Habits.png
 main-highlight: 1
 --- 
-
 People always told me that I like unhealthy food. Everything from pizza, hot dogs, hamburgers, ice cream, and candies to everything deep-fried tastes so good. However, there was one point when I was starting to go to the gym more where something felt wrong. After eating a burger, fries and a bunch of chips, I would get immediate satisfaction, but that feeling quickly dissipated afterwards. I went to the gym hours after and could still feel that oil and lard in my body. I asked myself, why am I eating food that tastes good for a couple of seconds that eventually makes me feel horrible for hours or even days afterward? At this point, I made it a goal to redefine what the definition of feel-good food means to me.
 
 ## Feel-Good Foods
