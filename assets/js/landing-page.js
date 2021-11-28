@@ -43,7 +43,6 @@ var myText = new Array("Welcome To My Website!"
 ,"Less testing. More developing."
 ,"Don’t assume it, prove it."
 ,"Live and learn."
-,"I'm not shy. I'm just a slow thinker"
 ,"Introducing Light Mode!"
 ,"Go beyond the impossible and kick reason to the curb!");
 

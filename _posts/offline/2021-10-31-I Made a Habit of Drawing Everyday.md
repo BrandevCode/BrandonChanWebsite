@@ -50,7 +50,7 @@ Before joining Inktober I thought one of the rules was that you had to draw ever
 
 <center>
   <div class="column">
-    <img alt="trace" class="sketch" src="images/inktober-2021/Tracing.jpg" style="display: block">
+    <img alt="trace" class="sketch" src="images/inktober-2021/Tracing.JPG" style="display: block">
   </div>
 
   <div class="column">
