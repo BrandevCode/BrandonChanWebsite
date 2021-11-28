@@ -161,7 +161,7 @@ title: Brandon Chan | Canada
 
   <!-- Tags -->
 <!-- <div class="col l8 pull-l4 s12 fadein"> -->
-  <div class="s12 fadein">
+  <div class="col s12 fadein">
     <div class="tag-div">
       <div class="round-container">
         <h2 class="h2-title info">&#128204; Tags</h2>
@@ -176,7 +176,7 @@ title: Brandon Chan | Canada
     </div>
   </div>
 
-  <div class=" tag-index s12">
+  <div class="col tag-index s12">
     {% for tag in site.tags %}
       {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
       {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
@@ -196,51 +196,23 @@ title: Brandon Chan | Canada
     {% endfor %}
   </div>
 
-<!-- Side Highlight -->
-{% if paginator.page == 1 %}
-<!-- <div class = 'col l4 push-l8 fadein'> -->
-<div class = 'col l4 fadein'>
-{% else %}
-<!-- <div class = 'col l4 push-l8 fadein'> -->
-<div class = 'col l4 '>
-{% endif %} 
-  <div class="round-container fadein">
-    <h2 class="h2-title info">🥊 Life Hacks</h2>
-    {% for cat in site.categories %}
-      {% for post in cat[1] %}
-        {% if post.side-highlight  == 1 %}
-        <div class="z-depth-5 blackbg fadein thi-single-column">
-          <div class="post-card-div">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              <img alt="coverimg" class="post-card" src="{{ post.img }}">
-            </a>
-          </div>
-        </div>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </div>
-</div>
-
-
-    <!-- Main Highlight -->
-    <!-- <div class = 'col l8 pull-l4 s12 fadein'> -->
+  <!-- Main Highlight -->
+  <!-- <div class = 'col l8 pull-l4 s12 fadein'> -->
     <div class = 'col l8'>
       {% if paginator.page == 1 %}
       <div class = 'round-container fadein'>
       {% else %}
       <div class = 'round-container fadein'>
       {% endif %} 
-          <h2 class="h2-title info">🚩 What is the point of ...</h2>
+          <h2 class="h2-title info">🚩 Highlights</h2>
             {% for cat in site.categories %}
-              {% for post in cat[1] limit: 999 %}
+              {% assign cat_sorted = cat[1] | sort: "date" | reverse %}
+              {% for post in cat_sorted limit: 999 %}
                 {% if post.main-highlight == 1 %}
                 <div class="thi-single-column z-depth-5 blackbg fadein">
-                  <div class="post-card-div">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                      <img alt="coverimg" class="post-card" src="{{ post.img }}">
-                    </a>
-                  </div>
+
+                  {% include highlight-link.html maxwords="12" %}
+
                 </div>
 
 
@@ -295,5 +267,32 @@ title: Brandon Chan | Canada
 
       </div>
     </div>
+
+<!-- Side Highlight -->
+{% if paginator.page == 1 %}
+<!-- <div class = 'col l4 push-l8 fadein'> -->
+<div class = 'col l4 fadein'>
+{% else %}
+<!-- <div class = 'col l4 push-l8 fadein'> -->
+<div class = 'col l4 '>
+{% endif %} 
+  <div class="round-container fadein">
+    <h2 class="h2-title info">🥊 Life Hacks</h2>
+    {% for cat in site.categories %}
+      {% for post in cat[1] %}
+        {% if post.side-highlight  == 1 %}
+        <div class="z-depth-5 blackbg fadein thi-single-column">
+          <div class="post-card-div">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <img alt="coverimg" class="post-card" src="{{ post.img }}">
+            </a>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
 
 </div>

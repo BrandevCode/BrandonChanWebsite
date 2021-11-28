@@ -101,6 +101,8 @@ main
   .card-div
     //background: none !important
     //border: none !important
+  .card
+    display: none
 
 .card-title
   color: var(--white) !important
@@ -196,12 +198,16 @@ svg
   height: 36px
   transform: rotate(145deg)
 
+@font-face
+  font-family: "Silkscreen"
+
 .h1-title
   padding: 10px
   text-align: center
+  font-family: "Silkscreen"
 
 .round-container
-  border: 2px solid var(--light-gray-accent-1)
+  //border: 2px solid var(--light-gray-accent-1)
   background-color: var(--spanish-gray-accent-1-transparent)
   border-radius: 8px
   padding: 2px
@@ -210,7 +216,7 @@ svg
 .desc-container
   //padding-left: 20px
   background-color: var(--black-olive-accent-2)
-  border: solid var(--spanish-gray-accent-1)
+  //border: solid var(--spanish-gray-accent-1)
   color: var(--light-gray)
   margin: 5px
 
@@ -285,7 +291,7 @@ svg
 .post-card
   width: 100%
   max-width: 100%
-  //max-height: 237.422px
+  max-height: 300px
   object-fit: scale-down
   filter: grayscale(25%) brightness(100%)
 

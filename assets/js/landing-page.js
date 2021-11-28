@@ -26,10 +26,32 @@ var myPix = new Array("/images/posts/habits/Pixel Me Writing.gif"
 ,"/images/posts/habits/Pixel Me Sleeping.gif"
 ,"/images/posts/habits/Pixel Me Squatting.gif"
 ,"/images/posts/habits/Pixel Me Yawn.gif"
-,"/images/posts/habits/Pixel Me Jogging.gif");
+,"/images/posts/habits/Pixel Me Jogging.gif"
+,"/images/posts/habits/Pixel Me Reading.gif"
+,"/images/posts/habits/Pixel Me Yes.gif"
+,"/images/posts/habits/Pixel Me Knife.gif");
 
+var myText = new Array("Welcome To My Website!"
+,"Hello World!"
+,"TODO: add landing-page text here."
+,"Landing Page Displayed Successfully."
+,"No Zero Days!"
+,"This is fine."
+,"The best defense is more offense."
+,"Curry is pretty dope."
+,"Don't believe in yourself! Believe in the Brandon that believes in you!"
+,"Less testing. More developing."
+,"Don’t assume it, prove it."
+,"Live and learn."
+,"I'm not shy. I'm just a slow thinker"
+,"I'm not shy. I'm just a slow thinker"
+,"Go beyond the impossible and kick reason to the curb!");
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("landing-page-pixel-art").src = myPix[randomNum];
+
+     //randomized text
+     var randomNum = Math.floor(Math.random() * myText.length);
+     document.getElementById("landing-page-text").innerHTML = myText[randomNum];
 }

@@ -52,3 +52,11 @@
     max-height: 70%;
     border-radius: 5px;
   }
+
+.caption {
+  float: left;
+  display: absolute;
+  margin: 2px;
+  bottom: 8px;
+  left: 16px;
+}

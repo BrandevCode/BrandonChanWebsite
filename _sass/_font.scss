@@ -14,6 +14,11 @@ html{
 	src: URL('/assets/fonts/ufonts.com_opineheavy-regular.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'Silkscreen';
+	src: URL('/assets/fonts/slkscr.ttf');
+}
+
 .font-brand-title{
 	font-family: "OpineHeavy";
 }

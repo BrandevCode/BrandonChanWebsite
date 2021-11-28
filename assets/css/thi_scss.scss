@@ -147,6 +147,27 @@ hr{
   background-color: var(--spanish-gray);
 }
 
+.highlight-title{
+  //background-color: var(--spanish-gray-accent-1);
+  //padding-left: 20px;
+  display: block;
+  //color: var(--cg-red);
+  line-height: 25px;
+  white-space: nowrap;
+  font-size: 1.35em;
+  //box-shadow: 5px 10px;
+  //border-radius: 9px;
+}
+
+@media only screen and (max-width: 662px)
+{
+  .highlight-title{
+    white-space: normal !important;
+    //border-radius: 6px;
+    border: thin solid var(--raisin-black);
+  }
+}
+
 p ~ ul, p ~ ol{
 	//margin-top: -5px;
 }
@@ -165,7 +186,7 @@ table{
 	width: auto;
 }
 table, th, td{
-	border: 1px solid #ddd;
+	//border: 1px solid #ddd;
 }
 
 .container .row{

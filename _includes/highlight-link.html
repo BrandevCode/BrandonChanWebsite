@@ -1,0 +1,27 @@
+<!-- <div>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <img alt="coverimg" class="post-card" src="{{ post.img }}">
+    </a>
+  </div> -->
+
+<a class="highlight-title" href="{{ site.baseurl }}{{ post.url }}">
+<img alt="coverimg" class="post-card" src="{{ post.img }}">    
+</br>    
+<div class="post-more">
+    <small class="post-date"> {{post.date | date: "%Y-%m-%d"}}</small>
+    <small class="post-min"> • 
+    {% assign words = post.content | number_of_words %}
+    {% if words < 360 %}
+    1 min read
+    {% else %}
+    {{ words | divided_by:180 }} min read
+    {% endif %}
+    </small>
+</div>
+</br>
+{{ post.title }}
+</br>
+{% assign maxwords = include.maxwords %}
+{% assign maxwords = maxwords | plus:0 %}
+<small class="post-content">{{ post.content | strip_html | truncatewords:maxwords }}</small>
+</a>

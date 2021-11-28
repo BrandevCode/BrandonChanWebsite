@@ -22,8 +22,9 @@ h4{
 }
 
 .post-main-title{
-    text-decoration-color: var(--cg-red) !important;
-    text-decoration: underline;
+    margin: 2px;
+    //text-decoration-color: var(--cg-red) !important;
+    //text-decoration: underline;
 }
 
 .thi-post{
@@ -31,7 +32,7 @@ h4{
         counter-reset: h2counter;
     }
     h2{
-        counter-reset: h3counter;
+        // counter-reset: h3counter;
         font-size: 1.6rem;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
@@ -43,13 +44,13 @@ h4{
         &:first-of-type{
             margin-top: 1rem!important;
         }
-        &:before {
-            text-align: center;
-            margin: 10px;
-            //content: counter(h2counter) "\0000a0";
-            content: counter(h2counter) ".";
-            counter-increment: h2counter;
-        }
+        // &:before {
+        //     text-align: center;
+        //     margin: 10px;
+        //     //content: counter(h2counter) "\0000a0";
+        //     content: counter(h2counter) ".";
+        //     counter-increment: h2counter;
+        // }
         &~ h3:first-of-type, &+ h3{
             margin-top: 1rem;
         }

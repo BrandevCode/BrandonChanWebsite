@@ -1,5 +1,5 @@
 ---
-title: How I Made Website This Website
+title: How I Made This Website
 categories: [code]
 tags: [Projects, Code]
 js: [triangulate.js]
