@@ -15,6 +15,7 @@ $(window).load(function() {
   $('.parallax').parallax();
 
   var element = document.getElementById("loading");
+  //comment out below to always see loading screen
   element.classList.add("fade-out");
 
   // setVisible('#loading', false);
