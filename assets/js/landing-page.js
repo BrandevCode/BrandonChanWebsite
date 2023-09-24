@@ -25,26 +25,24 @@ var myPix = new Array("/images/posts/habits/Pixel Me Writing.gif"
 ,"/images/posts/habits/Pixel Me Meditation.gif"
 ,"/images/posts/habits/Pixel Me Sleeping.gif"
 ,"/images/posts/habits/Pixel Me Squatting.gif"
-,"/images/posts/habits/Pixel Me Yawn.gif"
+//,"/images/posts/habits/Pixel Me Yawn.gif"
 ,"/images/posts/habits/Pixel Me Jogging.gif"
 ,"/images/posts/habits/Pixel Me Reading.gif"
 ,"/images/posts/habits/Pixel Me Yes.gif"
-,"/images/posts/habits/Pixel Me Knife.gif");
+,"/images/posts/habits/Pixel Me Knife.gif"
+);
 
-var myText = new Array("Welcome To My Website!"
-,"Hello World!"
-,"TODO: add landing-page text here."
-,"Landing Page Displayed Successfully."
-,"No Zero Days!"
+var myText = new Array(
+"No zero days!"
+,"Exercise!"
 ,"This is fine."
-,"The best defense is more offense."
-,"Curry is pretty dope."
-,"Don't believe in yourself! Believe in the Brandon that believes in you!"
-,"Less testing. More developing."
-,"Don’t assume it, prove it."
-,"Live and learn."
-,"Introducing Light Mode!"
-,"Go beyond the impossible and kick reason to the curb!");
+,"Live and learn!"
+,"That kind of thing."
+,"3 is a magic number."
+,"You know what I mean?"
+,"Ordinary is extordinary"
+,"Wake-up. Code. Sleep."
+);
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
