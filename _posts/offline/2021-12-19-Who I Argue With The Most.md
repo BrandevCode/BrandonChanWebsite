@@ -8,6 +8,7 @@ showtitle: 1
 img: /images/posts/offlinelife/The Person I Argue With The Most.png
 coverimg: /images/posts/offlinelife/The Person I Argue With The Most.png
 main-highlight: 0
+published: false
 ---
 <span style="font-size: 21px">*I like to learn from the arguments of others*</span>. Often, when others were arguing, I would be there in the background as a spectator. I would presume that people would take this to mean I didn't want to be involved, but that's not the case. I'm observing; I want to imagine what I would do if I were one of them or how I could prevent the conflict. I used to work as a cashier. And they drilled the mindset that if a person with a weapon is threatening me, do whatever they say and "don't be a superhero." This rule makes sense as my life is not worth the amount of cash the thief would be stealing. However, I ask myself, what if I saw the perfect moment where they put down their weapon next to me, and they got distracted? Should I act upon it and try to take the gun or knife away? Maybe there is a world where I can construct the right words to say to the intruder and calm them, so everyone is safe? I tend to ruminate over these situations as I fear that one day it might happen. And it did. 
 
